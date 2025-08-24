@@ -1,10 +1,4 @@
 # Obsidian
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/workspaces.json
-.obsidian/cache
-.obsidian/plugins/*/data.json
-.trash/
 
 # macOS
 .DS_Store

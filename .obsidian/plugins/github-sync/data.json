@@ -1,0 +1,7 @@
+{
+  "remoteURL": "git@github.com:ivg-design/obsidian_vault.git",
+  "gitLocation": "",
+  "syncinterval": 10,
+  "isSyncOnLoad": true,
+  "checkStatusOnLoad": true
+}
