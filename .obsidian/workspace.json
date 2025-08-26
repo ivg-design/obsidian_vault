@@ -1,24 +1,55 @@
 {
   "main": {
-    "id": "36335f1b184a3d6c",
+    "id": "b170031bcaaacaf8",
     "type": "split",
     "children": [
       {
-        "id": "d2be6a969fefaffb",
+        "id": "42adb625c982de84",
         "type": "tabs",
         "children": [
           {
-            "id": "ffb9987438886b95",
+            "id": "e8589e13b96f5b91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-08-24.md",
+                "file": "My Apps/Ideas/potentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-24"
+              "title": "potentials"
+            }
+          },
+          {
+            "id": "e876e59ef3b69976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "animation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "animation"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "35b4f9646a40658f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef6f24847aa05415",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -27,15 +58,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "eeec1555ba82c91a",
+    "id": "1b4d4f41e2f8c849",
     "type": "split",
     "children": [
       {
-        "id": "932aa3ce8695fe42",
+        "id": "c412a16fcf39c39e",
         "type": "tabs",
         "children": [
           {
-            "id": "17e902c30cadffa0",
+            "id": "39c3148b560eb1f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +79,7 @@
             }
           },
           {
-            "id": "867dc9a0159c99a0",
+            "id": "6fd0e88374c989c6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +96,7 @@
             }
           },
           {
-            "id": "21a722303faf3e51",
+            "id": "936fca0ef2b58bd1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,54 +112,52 @@
     "width": 300
   },
   "right": {
-    "id": "40c1adf5baee5aae",
+    "id": "026ced8eedf809a3",
     "type": "split",
     "children": [
       {
-        "id": "812e149dd0c4c5ce",
+        "id": "3fc8f6b3fa978dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "932db6307b1ac96b",
+            "id": "f8afd114e46d4839",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-08-24.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-08-24"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "85ff8e66970e3f64",
+            "id": "63cb61bc99f4c9b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Apps/thoughts on  fnav+.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from thoughts on  fnav+"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a2f15df847e37598",
+            "id": "ae773df6c6e5b39b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -137,43 +166,52 @@
             }
           },
           {
-            "id": "0186312568fd6f40",
+            "id": "6cc835005914c4e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Apps/thoughts on  fnav+.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of thoughts on  fnav+"
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "github-sync:Sync with Remote": false
+      "bases:Create new base": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "e876e59ef3b69976",
   "lastOpenFiles": [
+    "My Apps/Ideas/potentials.md",
+    "animation.md",
     "AE Script for autoprocessing video with bullettime.md",
-    "2025-08-26.md",
     "2025-08-24.md",
-    "My Apps/thoughts on  fnav+.md"
+    "2025-08-26.md",
+    "My Apps/thoughts on  fnav+.md",
+    "Welcome.md",
+    "oldMBDevPlatform/macOS Clean Install & Lean Developer Environment.md",
+    "oldMBDevPlatform",
+    "My Apps/Timer/todo.md",
+    "My Apps/Timer",
+    "My Apps/Ideas",
+    "My Apps"
   ]
 }
