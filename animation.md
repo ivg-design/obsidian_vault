@@ -8,4 +8,7 @@ stop to play (show pause and stop)
 play to stop (show mic)
 play to pause (show play and stop)
 pause to play (show pause and stop)
-pause to stop (show mic)
+pause to stop (show mic)flowchart LR
+
+
+Entry --> Mic
