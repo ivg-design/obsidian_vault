@@ -10,5 +10,10 @@ play to pause (show play and stop)
 pause to play (show pause and stop)
 pause to stop (show mic)flowchart LR
 
-
-Entry --> Mic
+```mermaid
+graph TD
+Entry --> stop
+AnyState --> play
+AnyState --> stop
+AnyState --> pause
+```

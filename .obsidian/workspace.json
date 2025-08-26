@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "animation.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -179,7 +179,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ffb80a981e552b1b",
+  "active": "e8589e13b96f5b91",
   "lastOpenFiles": [
     "My Apps/Ideas/potentials.md",
     "Untitled.base",
