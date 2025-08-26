@@ -4,4 +4,4 @@
 2.  Extrudalizer v2 - cep/c++ version with improvements such as:
 	- unified space for multiple shapes
 	- variable perspective
-3. 
+3. a simple automation script - pick a bunch of settings for input/output/effects and then a script gets added to a startup folder with watch folders/templates/output/processed folders and so on
