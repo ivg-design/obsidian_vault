@@ -4,6 +4,13 @@
 
 #raycast #claude #changelog #python
 
+## Planned Features
+
+### Stream-JSON Implementation
+- **Status**: Research completed, implementation planned
+- **Benefits**: Real-time streaming, 1-3s first token latency
+- **Details**: See [[STREAM_JSON_IMPLEMENTATION]]
+
 ## Current State
 
 ### Working Implementation

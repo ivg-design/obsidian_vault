@@ -295,3 +295,11 @@ launchctl load ~/Library/LaunchAgents/com.claudecast.provider.plist
 - **Uptime**: Continuous (auto-restarts)
 - **Request Volume**: Active daily usage per logs
 - **Stability**: No crashes in logs
+
+## Future Enhancements
+
+See [[STREAM_JSON_IMPLEMENTATION]] for planned streaming upgrade that will:
+- Reduce first-token latency from 5-15s to 1-3s
+- Enable progressive response rendering
+- Add real-time token usage tracking
+- Support bidirectional streaming

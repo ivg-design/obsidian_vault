@@ -2,7 +2,7 @@
 
 **Date: 2024-12-27**
 
-#raycast #claude #ai-integration #claude-pro #launchd #auto-start
+#raycast #claude #ai-integration #launchd #auto-start
 
 ## What This Actually Is
 
@@ -182,6 +182,10 @@ kill $(lsof -t -i:19385)
 - The service has been running stably since August 23, 2024
 - Logs show active usage with Raycast AI features
 - No API costs - uses Claude Pro subscription
+
+## Future Plans
+
+See [[STREAM_JSON_IMPLEMENTATION]] for planned upgrade to streaming JSON format.
 
 ## License
 
