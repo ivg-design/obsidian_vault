@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d2be6a969fefaffb",
+        "id": "885099a6dae501df",
         "type": "tabs",
         "children": [
           {
-            "id": "ffb9987438886b95",
+            "id": "8a07133e4f16c3fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "setup for blend 4 state button animation.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "setup for blend 4 state button animation"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for setup for blend 4 state button animation"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from setup for blend 4 state button animation"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of setup for blend 4 state button animation"
+              "title": "Outline of Untitled"
             }
           }
         ],
@@ -170,14 +164,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "ffb9987438886b95",
+  "active": "17e902c30cadffa0",
   "lastOpenFiles": [
-    "AE Script for autoprocessing video with bullettime.md",
-    "setup for blend 4 state button animation.md",
     "Untitled.base",
-    "My Apps/Ideas/potentials.md",
-    "My Apps/Ideas/thoughts on  fnav+.md",
-    "2025-08-24.md",
-    "2025-08-26.md"
+    "_daily_notes/2025-08-26.md",
+    "my_apps/timer/timer - todo.md",
+    "_daily_notes/2025-08-24.md",
+    "work/AE Script for autoprocessing video with bullettime.md",
+    "_daily_notes",
+    "work",
+    "work/setup for blend 4 state button animation.md",
+    "my_apps/ideas/potentials.md",
+    "my_apps/ideas/thoughts on  fnav+.md"
   ]
 }
