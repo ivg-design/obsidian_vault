@@ -1,0 +1,43 @@
+/* Hide Obsidian Sync Error Icon in Status Bar */
+/* Created: 2025-08-27 */
+/* Purpose: Remove the sync error icon that appears in the status bar */
+
+/* Hide the sync status icon when it shows error state */
+.status-bar-item .sync-status-icon.mod-error {
+    display: none !important;
+}
+
+/* Alternative: Hide entire sync status item when in error state */
+.status-bar-item:has(.sync-status-icon.mod-error) {
+    display: none !important;
+}
+
+/* If you want to hide all sync status icons regardless of state */
+/*
+.status-bar-item .sync-status-icon {
+    display: none !important;
+}
+*/
+
+/* If you want to hide the entire sync status bar item */
+/*
+.status-bar-item:has(.sync-status-icon) {
+    display: none !important;
+}
+*/
+
+/* Additional option: Make it transparent instead of hiding */
+/*
+.status-bar-item .sync-status-icon.mod-error {
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+*/
+
+/* Option to just change the color to be less noticeable */
+/*
+.status-bar-item .sync-status-icon.mod-error {
+    color: var(--text-muted) !important;
+    opacity: 0.3 !important;
+}
+*/
