@@ -4,7 +4,7 @@
 
 ## Archive Contents
 
-The file `crossnote-parser-config.tar.gz` contains the complete Grid Table Parser v5.0 configuration for Markdown Preview Enhanced.
+The file [[crossnote-parser-config.tar.gz]] contains the complete Grid Table Parser v5.0 configuration for Markdown Preview Enhanced.
 
 ### Files Included
 - **parser.js** (13KB) - Grid table parser implementation
@@ -73,3 +73,9 @@ If the parser stops working after an MPE update:
 - Archive size: 5.1KB (compressed)
 - Original source: ~/.local/state/crossnote/
 - Compatible with MPE v0.8.19+
+
+## Related Documents
+
+- [[SEARCH_WIDGET_FIX]] - Custom search widget implementation
+- [[CHANGELOG]] - Complete modification history
+- [[PARSER_INTEGRATION_ANALYSIS]] - Detailed analysis of parser integration options

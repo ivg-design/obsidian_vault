@@ -1,3 +1,5 @@
 #afte-effects #plugin #cpp 
 
-1. false start 
+ - [x]  false start 
+ - [ ] math operators
+ - [ ] state memory (re-open in last selec)

@@ -151,3 +151,10 @@ echo "✅ MPE v$MPE_VERSION patched successfully"
 - Build output goes to **crossnote/webview/preview.js**
 - Extension directory includes version number - update in scripts when MPE updates
 - Always reload VSCode after deploying changes
+
+## Related Documents
+
+- [[SEARCH_WIDGET_FIX]] - Detailed search widget implementation guide
+- [[PARSER_INTEGRATION_ANALYSIS]] - Analysis of parser integration strategies
+- [[PARSER_ARCHIVE_README]] - Parser configuration backup and restoration
+- [[crossnote-parser-config.tar.gz]] - Compressed backup of parser files (5.1KB)
