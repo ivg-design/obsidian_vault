@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "36335f1b184a3d6c",
+    "id": "b170031bcaaacaf8",
     "type": "split",
     "children": [
       {
-        "id": "cd01d1dbaf31a9fd",
+        "id": "42adb625c982de84",
         "type": "tabs",
         "children": [
           {
-            "id": "f504f44e25d49081",
+            "id": "240c61ff217c077e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "eeec1555ba82c91a",
+    "id": "1b4d4f41e2f8c849",
     "type": "split",
     "children": [
       {
-        "id": "932aa3ce8695fe42",
+        "id": "c412a16fcf39c39e",
         "type": "tabs",
         "children": [
           {
-            "id": "17e902c30cadffa0",
+            "id": "39c3148b560eb1f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "867dc9a0159c99a0",
+            "id": "6fd0e88374c989c6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ndjson",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "21a722303faf3e51",
+            "id": "936fca0ef2b58bd1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,57 +74,55 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "40c1adf5baee5aae",
+    "id": "026ced8eedf809a3",
     "type": "split",
     "children": [
       {
-        "id": "812e149dd0c4c5ce",
+        "id": "3fc8f6b3fa978dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "932db6307b1ac96b",
+            "id": "f8afd114e46d4839",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PROJECT_STATUS"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "85ff8e66970e3f64",
+            "id": "63cb61bc99f4c9b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PROJECT_STATUS"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a2f15df847e37598",
+            "id": "ae773df6c6e5b39b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": false,
+                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -133,30 +131,41 @@
             }
           },
           {
-            "id": "0186312568fd6f40",
+            "id": "6cc835005914c4e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PROJECT_STATUS"
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "5520807855317421",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -164,43 +173,46 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "39c3148b560eb1f7",
   "lastOpenFiles": [
-    "_daily_notes/2025-08-24.md",
+    "Untitled 7.md",
     "my_apps/obsidian/UI_CUSTOMIZATIONS.md",
-    "my_apps/after_effects/fNav+/bugs and todo.md",
-    "my_apps/raycast/rcastgmail/ARCHITECTURE_NOTES.md",
-    "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
     "my_apps/obsidian",
+    "Untitled 6.md",
+    "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
     "my_apps/raycast/rcastgmail/IMPLEMENTATION_GUIDE.md",
+    "my_apps/raycast/rcastgmail/ARCHITECTURE_NOTES.md",
     "my_apps/raycast/rcastgmail",
-    "my_apps/raycast/claudeCast/README.md",
-    "my_apps/raycast/claudeCast/STREAM_JSON_IMPLEMENTATION.md",
-    "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756295896959",
-    "my_apps/raycast/claudecast/TECHNICAL_DETAILS.md.tmp.48563.1756295886990",
-    "my_apps/raycast/claudecast/README.md.tmp.48563.1756295873565",
-    "my_apps/raycast/claudecast/STREAM_JSON_IMPLEMENTATION.md.tmp.48563.1756295863381",
-    "my_apps/raycast/claudeCast/TECHNICAL_DETAILS.md",
-    "my_apps/raycast/claudeCast/CHANGELOG.md",
-    "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756294682886",
-    "my_apps/raycast/claudecast/CURRENT_STATE.md",
-    "my_apps/raycast/claudecast/CURRENT_STATE.md.tmp.48563.1756294361920",
-    "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md.tmp.48563.1756294353228",
-    "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md.tmp.48563.1756294344701",
+    "Untitled 5.md",
+    "my_apps/raycast/claudecast/STREAM_JSON_IMPLEMENTATION.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "my_apps/raycast/claudecast/TECHNICAL_DETAILS.md",
+    "Untitled.md",
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
-    "work/AE Script for autoprocessing video with bullettime.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG.md",
+    "my_apps/raycast/claudecast/CURRENT_STATE.md",
+    "my_apps/raycast/claudecast/README.md",
+    "my_apps/raycast/claudecast/CHANGELOG.md",
+    "my_apps/raycast/claudecast",
+    "my_apps/raycast",
+    "Untitled 2.md",
+    "my_apps/vsc_extensions/markdown_preview_enhanced/crossnote-parser-config.tar.gz",
     "my_apps/vsc_extensions/markdown_preview_enhanced/SEARCH_WIDGET_FIX.md",
     "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_INTEGRATION_ANALYSIS.md",
-    "my_apps/timer/timer - todo.md",
-    "Untitled.md",
-    "_daily_notes/2025-08-26.md",
+    "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md",
+    "my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG.md",
+    "my_apps/vsc_extensions/markdown_preview_enhanced",
+    "my_apps/vsc_extensions",
+    "my_apps/after_effects/fNav+/bugs and todo.md",
+    "my_apps/after_effects/fNav+",
+    "my_apps/after_effects",
+    "Untitled 1.md",
+    "my_apps/fNav+/bugs and todo.md",
+    "my_apps/fNav+",
     "work/setup for blend 4 state button animation.md",
-    "my_apps/ideas/potentials.md",
-    "my_apps/ideas/thoughts on  fnav+.md"
+    "work/AE Script for autoprocessing video with bullettime.md"
   ]
 }
