@@ -5,3 +5,4 @@
 	- unified space for multiple shapes
 	- variable perspective
 3. a simple automation script - pick a bunch of settings for input/output/effects and then a script gets added to a startup folder with watch folders/templates/output/processed folders and so onw
+4. enhance github/dumpStorm - add ability to select mac app packages and scan automatically for all accetable binaries

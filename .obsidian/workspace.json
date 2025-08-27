@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-08-24.md",
+                "file": "setup for blend 4 state button animation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-24"
+              "title": "setup for blend 4 state button animation"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "40c1adf5baee5aae",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-08-24.md",
+                "file": "setup for blend 4 state button animation.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-08-24"
+              "title": "Backlinks for setup for blend 4 state button animation"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "My Apps/thoughts on  fnav+.md",
+                "file": "setup for blend 4 state button animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from thoughts on  fnav+"
+              "title": "Outgoing links from setup for blend 4 state button animation"
             }
           },
           {
@@ -128,7 +128,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -142,20 +142,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "My Apps/thoughts on  fnav+.md",
+                "file": "setup for blend 4 state button animation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of thoughts on  fnav+"
+              "title": "Outline of setup for blend 4 state button animation"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,13 +170,14 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "ffb9987438886b95",
   "lastOpenFiles": [
-    "animation.md",
-    "Untitled.base",
     "AE Script for autoprocessing video with bullettime.md",
-    "2025-08-26.md",
+    "setup for blend 4 state button animation.md",
+    "Untitled.base",
+    "My Apps/Ideas/potentials.md",
+    "My Apps/Ideas/thoughts on  fnav+.md",
     "2025-08-24.md",
-    "My Apps/thoughts on  fnav+.md"
+    "2025-08-26.md"
   ]
 }

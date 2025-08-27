@@ -1,3 +1,4 @@
+#work #scripts #afte-effects #automation
 main comp
 time stretch = 300
 
