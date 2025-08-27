@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "36335f1b184a3d6c",
+    "id": "b170031bcaaacaf8",
     "type": "split",
     "children": [
       {
-        "id": "d2be6a969fefaffb",
+        "id": "42adb625c982de84",
         "type": "tabs",
         "children": [
           {
-            "id": "ffb9987438886b95",
+            "id": "e8589e13b96f5b91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
+                "file": "My Apps/Ideas/potentials.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "setup for blend 4 state button animation"
+              "title": "potentials"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "eeec1555ba82c91a",
+    "id": "1b4d4f41e2f8c849",
     "type": "split",
     "children": [
       {
-        "id": "932aa3ce8695fe42",
+        "id": "c412a16fcf39c39e",
         "type": "tabs",
         "children": [
           {
-            "id": "17e902c30cadffa0",
+            "id": "39c3148b560eb1f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "867dc9a0159c99a0",
+            "id": "6fd0e88374c989c6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "21a722303faf3e51",
+            "id": "936fca0ef2b58bd1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,51 +78,49 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "40c1adf5baee5aae",
+    "id": "026ced8eedf809a3",
     "type": "split",
     "children": [
       {
-        "id": "812e149dd0c4c5ce",
+        "id": "3fc8f6b3fa978dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "932db6307b1ac96b",
+            "id": "f8afd114e46d4839",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for setup for blend 4 state button animation"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "85ff8e66970e3f64",
+            "id": "63cb61bc99f4c9b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from setup for blend 4 state button animation"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a2f15df847e37598",
+            "id": "ae773df6c6e5b39b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,29 +135,40 @@
             }
           },
           {
-            "id": "0186312568fd6f40",
+            "id": "6cc835005914c4e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "setup for blend 4 state button animation.md",
+                "file": "animation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of setup for blend 4 state button animation"
+              "title": "Outline of animation"
+            }
+          },
+          {
+            "id": "5520807855317421",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -167,17 +176,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ffb9987438886b95",
+  "active": "5520807855317421",
   "lastOpenFiles": [
-    "AE Script for autoprocessing video with bullettime.md",
     "setup for blend 4 state button animation.md",
-    "Untitled.base",
-    "My Apps/Ideas/potentials.md",
     "My Apps/Ideas/thoughts on  fnav+.md",
+    "My Apps/Ideas/potentials.md",
+    "Untitled.base",
+    "animation.md",
+    "AE Script for autoprocessing video with bullettime.md",
     "2025-08-24.md",
-    "2025-08-26.md"
+    "2025-08-26.md",
+    "My Apps/thoughts on  fnav+.md",
+    "Welcome.md",
+    "oldMBDevPlatform/macOS Clean Install & Lean Developer Environment.md",
+    "oldMBDevPlatform",
+    "My Apps/Timer/todo.md",
+    "My Apps/Timer",
+    "My Apps/Ideas",
+    "My Apps"
   ]
 }
