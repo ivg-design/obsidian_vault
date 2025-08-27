@@ -214,3 +214,10 @@ Only consider source integration if:
 
 For a power user maintaining their own enhanced setup, external config is the pragmatic choice
 
+## Related Documents
+
+- [[SEARCH_WIDGET_FIX]] - Custom search widget implementation
+- [[CHANGELOG]] - Complete history of all modifications
+- [[PARSER_ARCHIVE_README]] - Backup archive of parser configuration
+- [[crossnote-parser-config.tar.gz]] - Compressed parser files backup (5.1KB)
+

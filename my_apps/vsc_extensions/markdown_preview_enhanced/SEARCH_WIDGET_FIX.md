@@ -506,11 +506,17 @@ echo "Please reload VSCode window"
 ```
 
 ## Testing Checklist
-- [ ] Cmd+F opens search widget
-- [ ] Search icon appears in footer
-- [ ] ESC closes search without toggling TOC
-- [ ] Enter/Shift+Enter navigate matches
-- [ ] Highlights appear and clear properly
-- [ ] window.openSearch() works in console
-- [ ] **All instances of search terms are found (not just first)**
-- [ ] Debug logs show correct number of text nodes and matches
+- [x] Cmd+F opens search widget
+- [x] Search icon appears in footer
+- [x] ESC closes search without toggling TOC
+- [x] Enter/Shift+Enter navigate matches
+- [x] Highlights appear and clear properly
+- [x] window.openSearch() works in console
+- [x] **All instances of search terms are found (not just first)**
+- [x] Debug logs show correct number of text nodes and matches
+
+## Related Documents
+
+- [[CHANGELOG]] - Complete history of all modifications
+- [[PARSER_INTEGRATION_ANALYSIS]] - Analysis of parser integration strategies
+- [[PARSER_ARCHIVE_README]] - Backup archive of parser configuration
