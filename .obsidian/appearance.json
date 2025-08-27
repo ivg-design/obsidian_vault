@@ -1,3 +1,6 @@
 {
-  "cssTheme": "Comfort color dark"
+  "cssTheme": "Comfort color dark",
+  "enabledCssSnippets": [
+    "hide-sync-error-icon"
+  ]
 }
