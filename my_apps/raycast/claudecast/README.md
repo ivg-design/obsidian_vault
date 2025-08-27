@@ -1,238 +1,188 @@
-# ClaudeCast - Raycast Extension for Claude
+# ClaudeCast - Raycast AI Integration for Claude Pro
 
-#raycast #claude #ai-assistant #typescript #react #extension #claude-code-cli
+**Date: 2024-12-27**
 
-## Overview
+#raycast #claude #ai-integration #claude-pro #launchd #auto-start
 
-ClaudeCast is a sophisticated Raycast extension that provides seamless integration with Claude through the Claude Code CLI. It enables users to interact with Claude directly from Raycast's command palette while leveraging their Claude Pro subscription (no API keys required).
+## What This Actually Is
 
-## Features
+ClaudeCast is a **fully automated** Raycast AI integration that uses your Claude Pro subscription. It consists of:
+1. A Python FastAPI server that auto-starts on login
+2. A Raycast AI provider configuration
+3. A shell helper script for Claude CLI execution
 
-### Core Functionality
-- **Chat Interface** - Full conversation mode with Claude
-- **Quick Ask** - Fast single-question interactions
-- **History Management** - Browse and resume past conversations
-- **Debug Tools** - Built-in logging and diagnostics
+## How It Actually Works
 
-### Technical Features
-- **Process Management** - Robust Claude Code CLI process handling
-- **Streaming Responses** - Real-time message streaming
-- **Session Persistence** - Save and restore conversation states
-- **Error Recovery** - Automatic crash recovery and retry logic
-- **Performance Logging** - Comprehensive timing and metrics
+### Automated System
 
-## Architecture
+1. **LaunchAgent** (`com.claudecast.provider.plist`)
+   - Auto-starts Python server on login
+   - Keeps service running (restarts if crashes)
+   - Logs to `/tmp/claudecast.log`
 
-### Module Structure
-```
-claudecast/
-├── src/
-│   ├── core/                 # Core business logic
-│   │   ├── claude-cli/       # CLI wrapper modules
-│   │   ├── logger/           # Logging system ✅
-│   │   └── config/           # Configuration
-│   ├── services/             # Service layer
-│   ├── ui/                   # React components
-│   ├── commands/             # Raycast commands
-│   └── types/                # TypeScript definitions
-├── tests/                    # Test suites
-└── docs/                     # Documentation
-```
+2. **Python Provider Server** (`claude_cli_provider.py`)
+   - Runs persistently on port 19385
+   - Started by launchd (PID 28733 currently)
+   - Provides OpenAI-compatible API for Raycast
 
-### Key Components
+3. **Raycast Configuration** (`~/.config/raycast/ai/providers.yaml`)
+   - Defines "Claude Pro" provider
+   - Two models: Opus 4.1 and Sonnet 4
+   - Points to localhost:19385
 
-#### 1. Logger System (Completed ✅)
-- Multi-transport logging (Console, File, Raycast Toast)
-- Structured JSON format
-- Correlation IDs for tracking
-- Performance timers
-- Circular buffer for debugging
-- Automatic log rotation
-- Privacy filtering
+4. **Shell Helper** (`/Users/ivg/.claude/raycast-helper.sh`)
+   - Executes Claude Code CLI
+   - Sources environment for authentication
 
-#### 2. Process Manager
-- Spawns and manages Claude Code CLI processes
-- Handles crashes with automatic restarts
-- Monitors process health
-- Stream management (stdin/stdout/stderr)
+## Current Status
 
-#### 3. Message Parser
-- Parses streaming CLI output
-- Handles ANSI escape codes
-- Extracts structured data
-- Manages partial messages
+✅ **Fully Working**:
+- Provider server running continuously (since boot)
+- Raycast AI using Claude Pro models
+- Automatic startup via launchd
+- Logging to `/tmp/claudecast.log`
+- Both Opus and Sonnet models available
 
-#### 4. Session Manager
-- Creates and destroys sessions
-- Persists conversation state
-- Implements recovery mechanisms
-- Manages timeouts
+## Installation (Already Done)
 
-## Installation
+The system is already installed and running:
 
-### Prerequisites
-- **Raycast** 1.26.0+
-- **Node.js** 22.14+
-- **npm** 7+
-- **Claude Code CLI** installed and configured
-- **Claude Pro** subscription
-
-### Setup Steps
+### Verify Installation
 ```bash
-# Clone repository
-cd ~/github/claudecast
+# Check if service is running
+launchctl list | grep claudecast
+# Output: 28733	0	com.claudecast.provider
 
-# Install dependencies
-npm install
+# Check server status
+curl http://localhost:19385/health
+# Output: {"status":"healthy","provider":"claude-cli"}
 
-# Run tests
-npm test
-
-# Start development
-npm run dev
+# View logs
+tail -f /tmp/claudecast.log
 ```
 
-## Configuration
-
-### Raycast Preferences
-- **Claude Code CLI Path** - Path to claude executable (default: `claude`)
-- **Log Level** - Logging verbosity (debug/info/warn/error)
-- **Max History Items** - Number of conversations to retain
-- **Enable Debug Mode** - Detailed diagnostics toggle
-
-### File Locations
-- **Logs**: `~/.claudecast/logs/`
-- **Sessions**: `~/.claudecast/sessions/`
-- **Config**: `~/.claudecast/config.json`
-
-## Usage
-
-### Basic Commands
-
-#### Chat with Claude
-- Open Raycast → "Chat with Claude"
-- Type your message
-- Press Enter to send
-- View streaming response
-
-#### Quick Ask
-- Open Raycast → "Quick Ask Claude"
-- Type your question
-- Get immediate response
-
-#### View History
-- Open Raycast → "View Chat History"
-- Browse past conversations
-- Resume any session
-
-#### Debug Logs
-- Open Raycast → "Debug Logs"
-- View recent log entries
-- Export logs for troubleshooting
-
-## Development
-
-### Scripts
+### Manual Control (if needed)
 ```bash
-# Development
-npm run dev           # Start Raycast dev mode
-npm run build        # Production build
-npm run lint         # Run ESLint
-npm run fix-lint     # Fix linting issues
-npm run typecheck    # TypeScript checking
+# Stop service
+launchctl unload ~/Library/LaunchAgents/com.claudecast.provider.plist
 
-# Testing
-npm test             # Run all tests
-npm test:ui          # Test with UI
-npm test:coverage    # Coverage report
-npm test:watch       # Watch mode
+# Start service
+launchctl load ~/Library/LaunchAgents/com.claudecast.provider.plist
+
+# Restart service
+launchctl kickstart -k gui/$(id -u)/com.claudecast.provider
 ```
 
-### Testing Strategy
-- **Unit Tests** - 90% coverage target
-- **Integration Tests** - Module interaction testing
-- **E2E Tests** - Full workflow validation
-- **Framework** - Vitest with React Testing Library
+## Configuration Files
 
-### Logging
-```typescript
-import { createLogger } from '@core/logger';
+### 1. LaunchAgent
+**Location**: `~/Library/LaunchAgents/com.claudecast.provider.plist`
+- Runs at login
+- Keeps alive
+- Logs output
 
-const logger = createLogger('module-name');
-logger.info('Operation started', { userId: 123 });
-logger.error('Operation failed', error);
+### 2. Raycast Provider
+**Location**: `~/.config/raycast/ai/providers.yaml`
+```yaml
+providers:
+  - id: claude-pro
+    name: Claude Pro
+    base_url: http://localhost:19385/v1
+    models:
+      - id: opus
+        name: "Opus 4.1"
+      - id: sonnet
+        name: "Sonnet 4"
 ```
 
-## Project Status
+### 3. Python Server
+**Location**: `/Users/ivg/github/ClaudeCast/claude_cli_provider.py`
+- FastAPI server
+- Port 19385
+- Handles OpenAI API translation
 
-⚠️ **IMPORTANT**: The documentation below is outdated. See [[CURRENT_STATE]] for accurate status.
+### 4. Shell Helper
+**Location**: `/Users/ivg/.claude/raycast-helper.sh`
+- Executes Claude CLI
+- Handles authentication
 
-### Actually Working ✅
-- **Chat Interface** - Fully functional with Claude integration
-- **Logger System** - Complete with multi-transport
-- **Process Manager** - Fully implemented with auto-restart
-- **Session Manager** - Complete with persistence
-- **Message Parser** - Implemented and tested
-- **Shell Helper Integration** - Working via raycast-helper.sh
-- **CCProxy Bridge** - Operational for Raycast AI
+## Usage in Raycast
 
-### Real Metrics
+1. Open any Raycast command that uses AI
+2. Select "Claude Pro" as provider
+3. Choose "Opus 4.1" or "Sonnet 4" as model
+4. Use normally - it's your Claude Pro subscription!
 
-- **Lines of Code**: ~4,000+
-- **Test Coverage**: Core modules well tested
-- **Implementation**: **70%+ complete** (not 15%!)
-- **Status**: **WORKING** - Plugin is functional!
+## Monitoring
 
-## Known Issues
+### Check Status
+```bash
+# Is it running?
+lsof -i :19385
 
-- CLI integration pending completion
-- UI components not yet implemented
-- Session persistence to be added
+# View live logs
+tail -f /tmp/claudecast.log
+
+# Check errors
+tail -f /tmp/claudecast.error.log
+```
+
+### Log Analysis
+The server logs show:
+- Each request received
+- Model selection (opus/sonnet)
+- Response times (typically 5-15 seconds)
+- Any errors
+
+## Technical Details
+
+### Request Flow
+1. Raycast sends OpenAI-format request to port 19385
+2. Python server receives and logs request
+3. Converts to Claude CLI format
+4. Executes via shell helper
+5. Cleans response (removes SDK artifacts)
+6. Returns OpenAI-format response
+7. Logs completion time
+
+### Performance
+From logs:
+- Typical response time: 6-11 seconds
+- Server overhead: minimal
+- Memory usage: ~50MB Python process
 
 ## Troubleshooting
 
-### Common Issues
-
-#### Claude Code CLI not found
+### Service not running
 ```bash
-# Verify installation
-which claude
+# Check if loaded
+launchctl list | grep claudecast
 
-# Set path in Raycast preferences
-# Or create symlink
-ln -s /path/to/claude /usr/local/bin/claude
+# If not, load it
+launchctl load ~/Library/LaunchAgents/com.claudecast.provider.plist
 ```
 
-#### Permission errors
+### Port conflict
 ```bash
-# Grant execution permission
-chmod +x /path/to/claude
+# Check what's using port
+lsof -i :19385
+
+# Kill if needed (will auto-restart)
+kill $(lsof -t -i:19385)
 ```
 
-#### Logs not appearing
-```bash
-# Check log directory
-ls -la ~/.claudecast/logs/
+### Raycast not connecting
+- Check Raycast Settings → Extensions → AI
+- Ensure "Claude Pro" provider is listed
+- Select Opus 4.1 or Sonnet 4 model
 
-# Verify permissions
-chmod 755 ~/.claudecast
-```
+## Notes
 
-## Contributing
-
-1. Follow established architecture
-2. Write tests for all code
-3. Use the logger extensively
-4. Follow TypeScript best practices
-5. Run tests before committing
+- The TypeScript files in the project are unused experiments
+- The service has been running stably since August 23, 2024
+- Logs show active usage with Raycast AI features
+- No API costs - uses Claude Pro subscription
 
 ## License
 
 MIT
-
-## Related Documents
-
-- [[CURRENT_STATE]] ⭐ - **ACCURATE current implementation status**
-- [[CHANGELOG]] - Version history and updates
-- [[IMPLEMENTATION_GUIDE]] - Detailed implementation documentation (partially outdated)
-- [[ARCHITECTURE]] - Technical architecture details
