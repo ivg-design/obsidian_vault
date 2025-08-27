@@ -517,6 +517,6 @@ echo "Please reload VSCode window"
 
 ## Related Documents
 
-- [[CHANGELOG]] - Complete history of all modifications
+- [[my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG]] - Complete history of all modifications
 - [[PARSER_INTEGRATION_ANALYSIS]] - Analysis of parser integration strategies
 - [[PARSER_ARCHIVE_README]] - Backup archive of parser configuration

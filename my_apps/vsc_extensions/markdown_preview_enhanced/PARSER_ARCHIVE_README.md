@@ -77,5 +77,5 @@ If the parser stops working after an MPE update:
 ## Related Documents
 
 - [[SEARCH_WIDGET_FIX]] - Custom search widget implementation
-- [[CHANGELOG]] - Complete modification history
+- [[my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG]] - Complete modification history
 - [[PARSER_INTEGRATION_ANALYSIS]] - Detailed analysis of parser integration options

@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "my_apps/after_effects/fNav+/bugs and todo.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -96,7 +96,7 @@
               "state": {
                 "file": "my_apps/after_effects/fNav+/bugs and todo.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -127,8 +127,8 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
+                "sortOrder": "alphabetical",
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -151,7 +151,8 @@
               "title": "Outline of bugs and todo"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -172,10 +173,15 @@
   },
   "active": "8a07133e4f16c3fb",
   "lastOpenFiles": [
-    "my_apps/raycast/claudecast/TECHNICAL_DETAILS.md",
-    "my_apps/raycast/claudecast/README.md",
-    "my_apps/raycast/claudecast/CHANGELOG.md",
+    "my_apps/raycast/claudeCast/README.md",
+    "my_apps/raycast/claudeCast/STREAM_JSON_IMPLEMENTATION.md",
+    "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756295896959",
+    "my_apps/raycast/claudecast/TECHNICAL_DETAILS.md.tmp.48563.1756295886990",
+    "my_apps/raycast/claudecast/README.md.tmp.48563.1756295873565",
     "my_apps/after_effects/fNav+/bugs and todo.md",
+    "my_apps/raycast/claudecast/STREAM_JSON_IMPLEMENTATION.md.tmp.48563.1756295863381",
+    "my_apps/raycast/claudeCast/TECHNICAL_DETAILS.md",
+    "my_apps/raycast/claudeCast/CHANGELOG.md",
     "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756294682886",
     "my_apps/raycast/claudecast/CURRENT_STATE.md",
     "my_apps/raycast/claudecast/CURRENT_STATE.md.tmp.48563.1756294361920",
@@ -183,10 +189,6 @@
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md.tmp.48563.1756294344701",
     "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756294334514",
     "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756294325010",
-    "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756294317234",
-    "my_apps/raycast/claudecast/CHANGELOG.md.tmp.48563.1756294305458",
-    "my_apps/raycast/claudecast/README.md.tmp.48563.1756294295335",
-    "my_apps/raycast/claudecast/README.md.tmp.48563.1756294284565",
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
     "work/AE Script for autoprocessing video with bullettime.md",
     "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md",
