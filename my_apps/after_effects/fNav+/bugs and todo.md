@@ -2,4 +2,5 @@
 
  - [x]  false start 
  - [ ] math operators
- - [ ] state memory (re-open in last selec)
+	 - [ ]  preview result of math operation before execution
+ - [ ] state memory (re-open in last selected mode)
