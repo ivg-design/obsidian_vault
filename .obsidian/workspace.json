@@ -215,6 +215,7 @@
   },
   "active": "a2b7ca561a40b05a",
   "lastOpenFiles": [
+    "docs/jsx/test-analysis.md",
     "docs/jsx/dependency-analysis.md",
     "docs/jsx/performance-analysis.md",
     "docs/jsx/security-analysis.md",
@@ -250,7 +251,6 @@
     "my_apps/obsidian/UI_CUSTOMIZATIONS.md",
     "my_apps/after_effects/fNav+/bugs and todo.md",
     "my_apps/raycast/rcastgmail/ARCHITECTURE_NOTES.md",
-    "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
-    "my_apps/raycast/rcastgmail/IMPLEMENTATION_GUIDE.md"
+    "my_apps/raycast/rcastgmail/PROJECT_STATUS.md"
   ]
 }
