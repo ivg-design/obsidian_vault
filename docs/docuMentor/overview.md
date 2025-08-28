@@ -1,69 +1,80 @@
-I'll analyze the docuMentor project and generate a comprehensive overview. Let me start by exploring the project structure and understanding its purpose.Now I'll compile the comprehensive project overview:# DocuMentor Project Overview
+I'll analyze the project at /Users/ivg/github/docuMentor to generate a comprehensive overview. Let me start by exploring the project structure and key files.# DocuMentor Project Overview
 
 ## 1. Project Purpose and Goals
 
-**DocuMentor** is an intelligent documentation generator designed to automatically analyze codebases and create comprehensive, Obsidian-compatible documentation. The tool aims to:
+**DocuMentor** is an intelligent documentation generator designed to automate and enhance the documentation process for software projects. Its primary goals are:
 
-- **Automate documentation generation** for various project types
-- **Verify code functionality** to ensure documented features actually work
-- **Integrate seamlessly with Obsidian** for knowledge management
-- **Monitor GitHub repositories** for continuous documentation updates
-- **Provide safety mechanisms** to prevent file corruption during documentation
+- **Automated Documentation Generation**: Analyzes codebases to create comprehensive, structured documentation
+- **Code Verification**: Validates that documented functionality actually works before documenting it
+- **Obsidian Integration**: Generates documentation fully compatible with Obsidian's knowledge management features (backlinks, tags, metadata)
+- **Intelligent Analysis**: Automatically detects project types (monorepo, library, CLI tool, web app) and adapts documentation accordingly
+- **Continuous Monitoring**: Tracks GitHub repositories for changes and maintains up-to-date documentation
 
 ## 2. Key Features and Functionality
 
 ### Core Features
-- **🔍 Intelligent Project Analysis**: Automatically detects project types (monorepo, single-project, multi-tool, library)
-- **✅ Code Verification**: Validates that documented functionality actually works
-- **🏷️ Smart Tag Management**: Reuses existing Obsidian tags and creates cohesive tag hierarchies
-- **🔗 Obsidian Integration**: Generates documentation with backlinks, tags, and metadata
-- **📊 Multi-Format Support**: Handles various project structures and languages
-- **🚫 Smart Exclusions**: Automatically excludes docuMentor itself and obsidian_vault
+- **Smart Project Analysis**: Detects project structure, dependencies, and architecture patterns
+- **Multi-Format Support**: Handles various project types and programming languages
+- **Tag Management**: Intelligent tag hierarchy with reuse of existing Obsidian vault tags
+- **Safety Validation**: Protects against file corruption with automatic backups
+- **Progress Monitoring**: Real-time progress tracking with interrupt capability (Ctrl+C/ESC)
+- **GitHub Integration**: Monitors repositories for commits and pull requests
 
-### Advanced Features (v2.0)
-- **Full Monty Mode**: Comprehensive documentation with quality scores
-- **Progress Monitoring**: Real-time progress tracking with interrupt capability
-- **Safety Validator**: File integrity checks and automatic backups
-- **GitHub Monitor**: Continuous monitoring and documentation of repository changes
-- **Configuration Management**: Auto-generated configuration with templates
+### Advanced Capabilities
+- **Full Monty Mode**: Comprehensive documentation with quality scoring (code quality, test coverage, security)
+- **Code Verification**: Validates entry points, imports/exports, test suites, and API endpoints
+- **Self-Documentation**: Can document itself recursively
+- **Configuration Management**: Auto-generated config with sensible defaults
+- **Exclusion Intelligence**: Automatically excludes itself and output directories from analysis
 
 ## 3. Technology Stack
 
-- **Runtime**: Node.js 16+
-- **Language**: TypeScript 5.0+
-- **AI Integration**: Claude Code SDK (`@anthropic-ai/claude-code`)
-- **CLI Framework**: Commander.js
-- **Build System**: TypeScript Compiler (tsc)
-- **Package Manager**: npm
+### Core Technologies
+- **Language**: TypeScript (v5.0+)
+- **Runtime**: Node.js (v16+)
+- **AI Integration**: Claude Code SDK (@anthropic-ai/claude-code)
+- **CLI Framework**: Commander.js (v11.0.0)
+
+### Build & Development
+- **Compiler**: TypeScript Compiler (tsc)
+- **Development Runner**: ts-node
+- **Target**: ES2020
+- **Module System**: CommonJS
+
+### Key Design Patterns
+- **Modular Architecture**: Separate components for each major functionality
+- **Event-Driven**: Progress monitoring with event emitters
+- **Async/Await**: Modern asynchronous control flow
+- **Configuration-First**: Extensive configuration options with defaults
 
 ## 4. Project Structure
 
 ```
 docuMentor/
 ├── src/                          # Source code
-│   ├── index.ts                  # CLI interface and command definitions
-│   ├── DocumentationAgent.ts     # Main documentation orchestrator
-│   ├── ProjectAnalyzer.ts        # Project type detection and analysis
-│   ├── ObsidianFormatter.ts      # Obsidian-compatible markdown formatting
-│   ├── CodeVerifier.ts           # Code functionality verification
-│   ├── TagManager.ts             # Intelligent tag management
-│   ├── ConfigManager.ts          # Configuration handling
-│   ├── ProgressMonitor.ts        # Real-time progress tracking
-│   ├── SafetyValidator.ts        # File safety and backup management
-│   ├── GitHubMonitor.ts          # GitHub repository monitoring
-│   ├── FullMontyGenerator.ts     # Comprehensive documentation generator
-│   └── claudeCodeClient.ts       # Claude AI SDK integration
-├── dist/                         # Compiled JavaScript output
-├── config/                       # Configuration files
-├── package.json                  # Dependencies and scripts
-├── tsconfig.json                 # TypeScript configuration
-└── README.md                     # Project documentation
+│   ├── index.ts                 # CLI entry point and command definitions
+│   ├── DocumentationAgent.ts    # Core documentation orchestrator
+│   ├── ProjectAnalyzer.ts       # Project type detection and analysis
+│   ├── CodeVerifier.ts          # Code functionality validation
+│   ├── ObsidianFormatter.ts     # Obsidian-compatible markdown generation
+│   ├── TagManager.ts            # Tag hierarchy and management
+│   ├── ConfigManager.ts         # Configuration handling
+│   ├── SafetyValidator.ts       # File safety and backup management
+│   ├── ProgressMonitor.ts       # Real-time progress tracking
+│   ├── GitHubMonitor.ts         # GitHub repository monitoring
+│   ├── FullMontyGenerator.ts    # Comprehensive documentation mode
+│   └── claudeCodeClient.ts      # Claude AI SDK client wrapper
+├── config/                       # Configuration directory (auto-generated)
+├── dist/                        # Compiled JavaScript output
+├── package.json                 # Project metadata and dependencies
+├── tsconfig.json               # TypeScript configuration
+├── README.md                   # User documentation
+└── GITHUB_SETUP.md            # GitHub integration guide
 ```
 
 ## 5. Getting Started Guide
 
 ### Installation
-
 ```bash
 # Clone the repository
 git clone ~/github/docuMentor
@@ -75,12 +86,11 @@ npm install
 # Build the project
 npm run build
 
-# Link globally (optional)
+# Link globally for CLI access
 npm link
 ```
 
 ### Basic Usage
-
 ```bash
 # Document current directory
 documentor generate
@@ -88,54 +98,62 @@ documentor generate
 # Document specific project
 documentor generate ~/projects/my-app
 
-# Skip code verification for faster generation
+# Skip verification for faster generation
 documentor generate ~/projects/my-app --no-verify
 
-# Generate comprehensive documentation
+# Comprehensive documentation
 documentor full-monty ~/projects/my-app
 ```
 
-### Advanced Commands
-
+### Configuration
 ```bash
-# Monitor GitHub repository
-documentor monitor --add owner/repo --start
-
-# Verify code without generating docs
-documentor verify ~/projects/my-app
-
-# Manage configuration
+# View current configuration
 documentor config --show
-documentor config --validate
 
-# Safety checks
-documentor safety --check ~/projects/sensitive
+# Set default target path
+documentor config --set-path ~/projects
+
+# Set Obsidian vault location
+documentor config --set-vault ~/obsidian/docs
+```
+
+### GitHub Monitoring
+```bash
+# Add repository to monitor
+documentor monitor --add owner/repo
+
+# Start monitoring
+documentor monitor --start --interval 5
 ```
 
 ## 6. Key Contributors
 
-*Note: Since this is not a git repository, contributor information from git history is not available. The project appears to be a single-author tool based on the package.json configuration.*
+Since this is not a git repository, contributor information is not available from git history. The project appears to be a standalone development tool without version control tracking at this location.
 
 ## 7. License Information
 
 **License**: MIT
 
-The project is released under the MIT License, allowing for free use, modification, and distribution with attribution.
+The project is distributed under the MIT License, as specified in package.json:22. This allows for:
+- Commercial use
+- Modification
+- Distribution
+- Private use
 
 ## 8. Current Status and Roadmap
 
 ### Current Version
-**v2.0.0** - Major release with comprehensive features
+**v2.0.0** - Major release with significant enhancements
 
 ### Current Capabilities
-- ✅ Automatic project type detection
-- ✅ Code functionality verification
-- ✅ Obsidian-compatible formatting
-- ✅ GitHub repository monitoring
-- ✅ Progress tracking with interrupts
-- ✅ Safety validation and backups
-- ✅ Comprehensive "Full Monty" mode
-- ✅ Self-documentation capability
+✅ Automatic project type detection  
+✅ Code functionality verification  
+✅ Obsidian-compatible formatting  
+✅ GitHub repository monitoring  
+✅ Progress tracking with interrupts  
+✅ Safety validation and backups  
+✅ Comprehensive "Full Monty" mode  
+✅ Self-documentation capability  
 
 ### Future Enhancements (from README)
 - [ ] Watch mode for continuous documentation updates
@@ -146,23 +164,5 @@ The project is released under the MIT License, allowing for free use, modificati
 - [ ] Visual dependency graphs
 - [ ] API testing integration
 
-### Output Structure
-Documentation is saved to `~/github/obsidian_vault/docs/` by default, creating structured markdown files with:
-- Main documentation (README.md)
-- Architecture documentation
-- API references
-- Setup guides
-- Contributing guidelines
-- Tag indices for cross-referencing
-
-### Configuration
-The tool uses a configuration file at `~/.documentor/config.json` with customizable settings for:
-- Obsidian vault path
-- Excluded paths
-- Code verification settings
-- Backlink generation
-- Tag limits
-
----
-
-*DocuMentor represents a sophisticated approach to automated documentation, leveraging AI capabilities through the Claude Code SDK to provide intelligent analysis and comprehensive documentation generation for software projects.*
+### Project Maturity
+The project appears to be in active development with a well-structured codebase, comprehensive feature set, and clear documentation. The v2.0.0 version indicates a mature, production-ready tool with significant real-world usage considerations built in (safety features, progress monitoring, configuration management).
