@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/GITHUB_SETUP.md",
+                "file": "docs/docuMentor/USAGE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GITHUB_SETUP"
+              "title": "USAGE"
             }
           },
           {
@@ -137,9 +137,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/docuMentor/GITHUB_SETUP.md",
+                "file": "docs/docuMentor/USAGE.md",
                 "collapseAll": true,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GITHUB_SETUP"
+              "title": "Backlinks for USAGE"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/docuMentor/GITHUB_SETUP.md",
+                "file": "docs/docuMentor/USAGE.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GITHUB_SETUP"
+              "title": "Outgoing links from USAGE"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docuMentor/GITHUB_SETUP.md",
+                "file": "docs/docuMentor/USAGE.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GITHUB_SETUP"
+              "title": "Outline of USAGE"
             }
           },
           {
@@ -204,7 +204,8 @@
               "title": "Connections"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -226,21 +227,22 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "0a574dfc4181e1b6",
+  "active": "a2f15df847e37598",
   "lastOpenFiles": [
+    "docs/jsx/TAG-REPORT.md",
+    "docs/docuMentor/tag-index.md",
+    "docs/docuMentor/TAG-REPORT.md",
+    "TECHNICAL.md",
+    "docs/docuMentor/README.md",
+    "docs/docuMentor/USAGE.md",
+    "docs/docuMentor/GITHUB_SETUP.md",
     "docs/docuMentor/document-map.md",
     "docs/docuMentor/architecture.md",
     "docs/docuMentor/api-reference.md",
-    "docs/docuMentor/README.md",
     "docs/docuMentor/overview.md",
-    "docs/docuMentor/USAGE.md",
-    "docs/docuMentor/tag-index.md",
-    "docs/docuMentor/TAG-REPORT.md",
-    "docs/docuMentor/GITHUB_SETUP.md",
     "docs/jsx/security-analysis.md",
     "docs/jsx/performance-analysis.md",
     "docs/jsx/test-analysis.md",
-    "docs/jsx/TAG-REPORT.md",
     "Untitled 1.md",
     "docs/jsx/dependency-analysis.md",
     "Untitled.md",
@@ -253,7 +255,6 @@
     "Untitled 7.md",
     "work/AE_Automation_Bullet_Time/README.md",
     "work/AE_Automation_Bullet_Time/README 1.md",
-    "docs/jsx/tag-index.md",
     "docs/jsx",
     "docs/docuMentor/README.md.tmp.58592.1756396142833",
     "docs/docuMentor",
