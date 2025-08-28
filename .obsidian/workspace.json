@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/AE_Automation_Bullet_Time/README.md",
+                "file": "auto_bullet_time_processing/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work/AE_Automation_Bullet_Time/README.md",
+                "file": "auto_bullet_time_processing/README.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/AE_Automation_Bullet_Time/README.md",
+                "file": "auto_bullet_time_processing/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -180,14 +180,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "39c3148b560eb1f7",
+  "active": "240c61ff217c077e",
   "lastOpenFiles": [
+    "work/AE_Automation_Bullet_Time/README.md",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser/symbols.txt",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser",
     "_daily_notes/2025-08-28.md",
     "work/AE_Automation_Bullet_Time",
     "work/AE_Automation_Bullet_Time/AE Script for autoprocessing video with bullettime.md",
-    "work/AE_Automation_Bullet_Time/README.md",
     "auto_bullet_time_processing/README.md",
     "auto_bullet_time_processing/BulletTimeAutomate.jsx",
     "auto_bullet_time_processing/BulletTimeAutomate.json",
@@ -217,7 +217,6 @@
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
     "my_apps/raycast/claudecast/CURRENT_STATE.md",
     "my_apps/raycast/claudecast",
-    "my_apps/raycast",
     "Untitled 2.md"
   ]
 }
