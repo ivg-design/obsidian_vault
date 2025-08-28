@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "auto_bullet_time_processing/README.md",
+                "file": "work/AE_Automation_Bullet_Time/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,77 +22,21 @@
             }
           },
           {
-            "id": "0d3e98f1c388d31d",
+            "id": "d1c98c60694e5231",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 2.md",
+                "file": "Untitled 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 2"
-            }
-          },
-          {
-            "id": "398e9eb62a4483f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 3"
-            }
-          },
-          {
-            "id": "cb36c1fc7bcf4a99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 4"
-            }
-          },
-          {
-            "id": "18d6866049c2c37c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 5"
-            }
-          },
-          {
-            "id": "12d62bb3b4e4d130",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 6.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 6"
+              "title": "Untitled 8"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 6.md",
+                "file": "Untitled 8.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 6"
+              "title": "Backlinks for Untitled 8"
             }
           },
           {
@@ -212,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 6.md",
+                "file": "Untitled 8.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 6"
+              "title": "Outline of Untitled 8"
             }
           },
           {
@@ -251,11 +195,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "12d62bb3b4e4d130",
+  "active": "d1c98c60694e5231",
   "lastOpenFiles": [
+    "docs/jsx/tag-index.md",
+    "docs/jsx/document-map.md",
+    "docs/jsx/TAG-REPORT.md",
+    "docs/docuMentor/tag-index.md",
+    "docs/docuMentor/document-map.md",
+    "docs/docuMentor/TAG-REPORT.md",
+    "Untitled 8.md",
+    "Untitled 6.md",
     "Untitled 7.md",
     "docs/jsx/metrics.md",
-    "Untitled 6.md",
     "Untitled 5.md",
     "docs/jsx/test-analysis.md",
     "docs/jsx/performance-analysis.md",
@@ -273,22 +224,15 @@
     "docs/docuMentor/GITHUB_SETUP.md",
     "auto_bullet_time_processing/README.md",
     "docs/docuMentor/overview.md",
-    "docs/docuMentor/README.md",
     "docs/docuMentor",
     "docs",
-    "Untitled.md",
-    "Untitled 1.md",
     "Untitled.canvas",
-    "work/AE_Automation_Bullet_Time/README.md",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser/symbols.txt",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser",
-    "_daily_notes/2025-08-28.md",
     "work/AE_Automation_Bullet_Time",
-    "work/AE_Automation_Bullet_Time/AE Script for autoprocessing video with bullettime.md",
     "auto_bullet_time_processing/BulletTimeAutomate.jsx",
     "auto_bullet_time_processing/BulletTimeAutomate.json",
     "auto_bullet_time_processing",
-    "auto_bullet_time_processing.zip",
-    "my_apps/after_effects/fNav+/bugs and todo.md"
+    "auto_bullet_time_processing.zip"
   ]
 }
