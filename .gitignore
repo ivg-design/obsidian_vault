@@ -23,3 +23,8 @@
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+
+# Ignore Smart Environment folder
+.smart-env
