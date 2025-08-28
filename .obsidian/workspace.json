@@ -215,6 +215,9 @@
   },
   "active": "a2b7ca561a40b05a",
   "lastOpenFiles": [
+    "docs/jsx/api-reference.md",
+    "docs/docuMentor/api-reference.md",
+    "docs/jsx/architecture.md",
     "docs/docuMentor/overview.md",
     "docs/docuMentor/GITHUB_SETUP.md",
     "docs/docuMentor/architecture.md",
@@ -248,9 +251,6 @@
     "my_apps/raycast/rcastgmail/IMPLEMENTATION_GUIDE.md",
     "my_apps/raycast/claudeCast/README.md",
     "my_apps/raycast/claudeCast/STREAM_JSON_IMPLEMENTATION.md",
-    "my_apps/raycast/claudeCast/TECHNICAL_DETAILS.md",
-    "my_apps/raycast/claudeCast/CHANGELOG.md",
-    "my_apps/raycast/claudecast/CURRENT_STATE.md",
-    "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md"
+    "my_apps/raycast/claudeCast/TECHNICAL_DETAILS.md"
   ]
 }
