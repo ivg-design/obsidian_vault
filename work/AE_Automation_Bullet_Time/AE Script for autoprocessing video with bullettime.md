@@ -1,4 +1,4 @@
-#work #scripts #afte-effects #automation
+#work #scripts #after-effects #automation
 main comp
 time stretch = 300
 
@@ -10,3 +10,8 @@ begin
 	`app.project.item(1).layer("Dark Gray Solid 1").property("ADBE Effect Parade").property("ADBE Bullet Time").property("ADBE Bullet Time-2021")`
 End
 	`app.project.item(1).layer("Dark Gray Solid 1").property("ADBE Effect Parade").property("ADBE Bullet Time").property("ADBE Bullet Time-2022")`
+
+
+
+
+- here is the script, readme and the config file:  ![[auto_bullet_time_processing.zip]]

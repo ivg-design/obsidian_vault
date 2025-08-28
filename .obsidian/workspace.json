@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/AE Script for autoprocessing video with bullettime.md",
+                "file": "work/AE_Automation_Bullet_Time/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AE Script for autoprocessing video with bullettime"
+              "title": "README"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,16 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "work/AE_Automation_Bullet_Time/README.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work/AE Script for autoprocessing video with bullettime.md",
+                "file": "work/AE_Automation_Bullet_Time/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AE Script for autoprocessing video with bullettime"
+              "title": "Outline of README"
             }
           },
           {
@@ -161,7 +161,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -180,8 +180,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6fd0e88374c989c6",
+  "active": "39c3148b560eb1f7",
   "lastOpenFiles": [
+    "work/AE_Automation_Bullet_Time",
+    "work/AE_Automation_Bullet_Time/AE Script for autoprocessing video with bullettime.md",
+    "work/AE_Automation_Bullet_Time/README.md",
+    "auto_bullet_time_processing/README.md",
+    "auto_bullet_time_processing/BulletTimeAutomate.jsx",
+    "auto_bullet_time_processing/BulletTimeAutomate.json",
+    "auto_bullet_time_processing",
+    "auto_bullet_time_processing.zip",
+    "my_apps/after_effects/fNav+/bugs and todo.md",
+    "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
+    "my_apps/raycast/claudecast/STREAM_JSON_IMPLEMENTATION.md",
+    "my_apps/raycast/claudecast/TECHNICAL_DETAILS.md",
+    "my_apps/raycast/claudecast/README.md",
+    "my_apps/raycast/claudecast/CHANGELOG.md",
+    "Untitled.canvas",
     "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md",
     "my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG.md",
     "Untitled.md",
@@ -194,29 +209,15 @@
     "my_apps/raycast/rcastgmail/ARCHITECTURE_NOTES.md",
     "my_apps/raycast/rcastgmail",
     "Untitled 5.md",
-    "my_apps/raycast/claudecast/STREAM_JSON_IMPLEMENTATION.md",
     "Untitled 4.md",
     "Untitled 3.md",
-    "my_apps/raycast/claudecast/TECHNICAL_DETAILS.md",
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
     "my_apps/raycast/claudecast/CURRENT_STATE.md",
-    "my_apps/raycast/claudecast/README.md",
-    "my_apps/raycast/claudecast/CHANGELOG.md",
     "my_apps/raycast/claudecast",
     "my_apps/raycast",
     "Untitled 2.md",
     "my_apps/vsc_extensions/markdown_preview_enhanced/crossnote-parser-config.tar.gz",
     "my_apps/vsc_extensions/markdown_preview_enhanced/SEARCH_WIDGET_FIX.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_INTEGRATION_ANALYSIS.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced",
-    "my_apps/vsc_extensions",
-    "my_apps/after_effects/fNav+/bugs and todo.md",
-    "my_apps/after_effects/fNav+",
-    "my_apps/after_effects",
-    "Untitled 1.md",
-    "my_apps/fNav+/bugs and todo.md",
-    "my_apps/fNav+",
-    "work/setup for blend 4 state button animation.md",
-    "work/AE Script for autoprocessing video with bullettime.md"
+    "my_apps/vsc_extensions/markdown_preview_enhanced"
   ]
 }
