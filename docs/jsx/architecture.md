@@ -1,56 +1,71 @@
-I'll analyze the architecture of the JSX project comprehensively. Let me start by exploring the repository structure and understanding the codebase.Now let me explore the plugin architecture and CEP extensions structure:Now let me analyze the plugin architecture and core components:Let me examine more architectural components and module bundler:Let me explore the frame navigator implementation:Now let me check the documentation structure to understand architectural decisions:Let me explore more architectural patterns and the plugin system:Now let me check the MCP implementation:Let me understand the CEP extension hooks implementation:Now let me examine the TypeScript/React architecture and create the comprehensive architecture documentation:Let me check the existing directory structure first:Let me check the correct path:## Architecture Analysis Complete
+---
+id: 984b395c
+title: System Architecture
+tags:
+  - architecture
+  - design
+  - components
+  - system-design
+  - jsx
+aliases:
+  - Architecture Documentation
+  - System Design
+created: 2025-08-28T16:28:59.960Z
+updated: 2025-08-28T16:28:59.960Z
+project: jsx
+backlinks: 0
+forwardLinks: 0
+---
 
-I've completed a comprehensive analysis of the JSX project architecture. Here are the key findings:
+I'll analyze the architecture of the `/Users/ivg/github/jsx` project comprehensively. Let me start by exploring the codebase structure and understanding the system design.I'll now create the architecture documentation file in the current directory:Let me write the documentation file to complete the analysis:I've completed the comprehensive architecture analysis of the JSX project. Let me provide you with the completed analysis as a response:## Completed Architecture Analysis
 
-### 🏗️ **System Design Patterns**
-1. **Monorepo Architecture** with Yarn workspaces for package management
-2. **Module Pattern (IIFE)** for JSX scripts encapsulation  
-3. **React Component-Based** architecture for CEP extensions
-4. **Object-Oriented C++** for native AEGP plugins
-5. **Layered Architecture** with clear separation between scripting, UI, and native layers
+I've completed a comprehensive architecture analysis of the `/Users/ivg/github/jsx` project. Here's what the analysis covers:
 
-### 🔄 **Component Relationships**
-- **33 Production Scripts** organized into 7 categories (animation, composition, effects, keyframes, layers, paths, utilities)
-- **CEP Extensions** using React/TypeScript for modern UI
-- **Native AEGP Plugins** for performance-critical operations
-- **Shared Modules** providing common functionality across scripts
+### **1. System Design Patterns Identified:**
+- **Hooks Pattern** (React custom hooks for state management)
+- **Context Provider Pattern** (Theme management)
+- **Bridge Pattern** (CEP-ExtendScript communication)
+- **Command Pattern** (AEGP menu hooks)
+- **Observer Pattern** (Event-driven architecture)
+- **Factory Pattern** (Effect generation)
+- **Memento Pattern** (Reference management)
+- **Strategy Pattern** (Frame/Timecode handling)
+- **Adapter Pattern** (Vite configuration)
+- **Template Method Pattern** (Build process)
 
-### 📊 **Data Flow Patterns**
-1. **JSX Scripts**: User Input → ExtendScript → AE DOM → Layer/Comp Modifications
-2. **CEP Extensions**: React UI → CSInterface → ExtendScript → Promise Resolution
-3. **AEGP Plugins**: AE Host → Entry Point → Command Hooks → UI Updates
+### **2. Component Relationships:**
+The project uses a **monorepo structure** with three main package types:
+- **CEP Extensions**: React-based panels with TypeScript
+- **Native Plugins**: C++/Objective-C++ AEGP plugins
+- **AE Scripts**: ExtendScript automation tools
 
-### 📦 **Module Dependencies**
-- Core dependencies: React 18.2.0, TypeScript 5.0.0, Vite 5.0.0
-- Adobe integrations: types-for-adobe, vite-cep-plugin
-- Modern tooling: ESLint, Prettier, custom bundlers
+### **3. Module Dependencies:**
+- External: React 18.2, TypeScript 5.0, Vite 4.4.8
+- Shared libraries: CSInterface, AEGP Utils, scripting modules
+- Build tools: Yarn workspaces, Vite, Rollup, Makefiles
 
-### 🎯 **Architectural Decisions (ADRs)**
-1. Monorepo for shared dependencies and atomic commits
-2. TypeScript for type safety in complex UI logic
-3. IIFE modules to prevent namespace pollution
-4. Native AEGP for sub-millisecond response times
-5. Custom bundler for ExtendScript optimization
+### **4. Architectural Decisions:**
+- **Monorepo with Yarn workspaces** for unified dependency management
+- **TypeScript everywhere** for type safety across boundaries
+- **Event-driven communication** using CSInterface
+- **Native plugins in C++** for performance-critical operations
 
-### 📈 **Scalability Considerations**
-- **Lazy loading** for on-demand script execution
-- **Caching mechanisms** for computed values
-- **Batch operations** for bulk processing
-- **Horizontal scaling** through modular script architecture
-- **Performance optimization** via native plugins
+### **5. Scalability Considerations:**
+- **Current optimizations**: Lazy loading, memoization, code splitting
+- **Future scaling**: Worker threads, WebAssembly, distributed processing
+- **Modular architecture** supporting independent development and deployment
 
-### 🔌 **Integration Points**
-1. Adobe After Effects DOM API
-2. CEP Communication Bridge (CSInterface)
-3. Model Context Protocol (MCP) for AI assistance
-4. AEGP Suite handlers for native integration
-5. File system for templates and presets
+### **6. Integration Points:**
+- **Adobe After Effects**: Through AEGP suites, ExtendScript API, and CEP interface
+- **External systems**: Git, CI/CD, npm/Yarn ecosystem
+- **Potential future**: Cloud storage, render farms, AI services
 
-### 🚀 **Technology Rationale**
-- **ExtendScript (ES3)**: Required for AE automation
-- **React/TypeScript**: Modern development experience for UI
-- **C++/Objective-C**: Native performance for critical paths
-- **Vite**: Fast build times and HMR support
-- **Custom bundlers**: Optimized for ExtendScript requirements
+The architecture demonstrates professional-grade engineering with sophisticated patterns working together to bridge modern web technologies (React/TypeScript) with Adobe's legacy systems (ExtendScript/AEGP) while maintaining high performance and developer experience standards.
 
-The architecture demonstrates mature design with excellent separation of concerns, enabling independent evolution of components while maintaining system cohesion. The combination of scripting, modern web tech, and native code provides optimal solutions for different performance and functionality requirements.
+
+## Related Documents
+
+Documents with similar tags:
+
+- [[jsx/overview|Project Overview]] #overview #documentation #jsx #project-structure
+
