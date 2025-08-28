@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/api-reference.md",
+                "file": "docs/jsx/dependency-analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "api-reference"
+              "title": "dependency-analysis"
             }
           }
         ],
@@ -82,9 +82,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ndjson",
+                "query": "tag:#typescript",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -103,11 +103,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 512.5
   },
   "right": {
     "id": "40c1adf5baee5aae",
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docuMentor/api-reference.md",
+                "file": "docs/jsx/dependency-analysis.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of api-reference"
+              "title": "Outline of dependency-analysis"
             }
           },
           {
@@ -213,20 +214,20 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "a2f15df847e37598",
   "lastOpenFiles": [
+    "docs/jsx/metrics.md",
+    "docs/jsx/overview.md",
+    "docs/jsx/performance-analysis.md",
+    "docs/jsx/security-analysis.md",
+    "docs/jsx/test-analysis.md",
+    "docs/docuMentor/api-reference.md",
     "docs/docuMentor/README.md",
     "docs/docuMentor/overview.md",
     "docs/docuMentor/GITHUB_SETUP.md",
     "docs/jsx/api-reference.md",
-    "docs/jsx/test-analysis.md",
-    "docs/jsx/security-analysis.md",
-    "docs/jsx/performance-analysis.md",
-    "docs/jsx/overview.md",
-    "docs/jsx/metrics.md",
     "docs/jsx/dependency-analysis.md",
     "docs/jsx/architecture.md",
-    "docs/docuMentor/api-reference.md",
     "docs/docuMentor/architecture.md",
     "docs/jsx",
     "docs/docuMentor/README.md.tmp.58592.1756396142833",
