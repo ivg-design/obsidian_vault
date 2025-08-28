@@ -10,141 +10,147 @@ aliases:
   - README
   - Getting Started
   - Project Documentation
-created: 2025-08-28T16:15:11.446Z
-updated: 2025-08-28T16:15:11.446Z
+created: 2025-08-28T16:48:12.567Z
+updated: 2025-08-28T16:48:12.567Z
 project: jsx
 backlinks: 0
 forwardLinks: 0
 ---
 
-I'll analyze the JSX project and generate a comprehensive overview. Let me start by exploring the project structure and understanding its purpose.Based on my analysis of the JSX project, here's a comprehensive overview formatted for Obsidian:
+I'll analyze the project at /Users/ivg/github/jsx to generate a comprehensive overview. Let me start by exploring the repository structure and key files.Now let me examine the key files to understand the project better:Now let me check the roadmap and project status:Now I'll create the comprehensive overview in markdown format:
 
-```markdown
----
-tags: [adobe, after-effects, scripting, jsx, cep, plugin-development, motion-graphics, automation, monorepo]
-created: 2025-01-28
-project-type: development-tools
-status: active
 ---
 
-# JSX - Adobe After Effects Automation Suite
+# JSX Project Overview
 
-## Project Purpose and Goals
+**Tags:** #adobe-after-effects #jsx #scripting #cep-extension #motion-graphics #animation-tools #monorepo #react #typescript
 
-The JSX project is a comprehensive collection of production-ready automation tools for Adobe After Effects, designed to streamline motion graphics workflows and enhance productivity. It serves as a monorepo containing:
+## 📋 Project Purpose and Goals
 
-- **31+ standalone ExtendScript (.jsx) automation scripts**
-- **Modern CEP extensions** with React-based UI
-- **Native AEGP plugins** for deeper After Effects integration
-- **Shared utility libraries** for consistent functionality
+The JSX project is a comprehensive collection of production-ready Adobe After Effects automation tools and extensions designed to streamline motion graphics workflows. The repository serves as a centralized hub for 31+ professional scripts and CEP extensions that enhance After Effects capabilities for animators, motion designers, and video professionals.
 
-The primary goal is to provide motion designers and animators with powerful tools that eliminate repetitive tasks, enable complex rigging systems, and improve workflow efficiency in After Effects.
+### Core Objectives:
+- **Automation**: Reduce repetitive tasks in After Effects workflows
+- **Efficiency**: Provide one-click solutions for complex animation setups
+- **Standardization**: Maintain consistent tooling across motion graphics projects
+- **Extensibility**: Enable custom workflow development through modular architecture
 
-## Key Features and Functionality
+## ✨ Key Features and Functionality
 
-### 🎯 Core Capabilities
+### Script Categories (31 Production Scripts)
 
-1. **Animation & Rigging**
-   - Advanced IK limb rigging system with curvature control
-   - Path-following animations with easing and loop controls
-   - Property linking with driver-based interpolation
+#### 🎬 **Animation Tools** (3 scripts)
+- **PathMaster** (it_follows.jsx): Advanced path-following animations with easing, loops, and marker support
+- **Linearizer**: Property linking with sophisticated driver-based interpolation
+- **Limb-a-tron**: Complete IK rigging system for character limbs with curvature control
 
-2. **Composition Management**
-   - Guide creation with calculation support
-   - Preset compositions for various aspect ratios (16:9, 9:16)
-   - Split-screen templates for mobile formats
+#### 📐 **Composition Management** (4 scripts)
+- **Guiderator**: Smart guide creation with built-in calculator support
+- **Slidotron**: 4K/vertical slider composition presets for presentations
+- **Split-o-matic**: Vertical split-screen templates for mobile content
 
-3. **Visual Effects**
-   - Color interpolation across properties
-   - Centralized audio control system (Voice/SFX/Music)
-   - Audio-to-visual property synchronization
-   - Animated stroke burst effects
+#### ✨ **Effects & Audio** (4 scripts)
+- **ChromaBlenderizer**: Color interpolation across multiple properties
+- **sfxMaster**: Centralized audio control with Voice/SFX/Music management
+- **StrokeBurst**: Animated stroke effect generator
+- **TuneSync**: Audio-to-visual property synchronization
 
-4. **Keyframe Manipulation**
-   - Batch keyframe value modification with math operations
-   - Temporal decay and easing duplication
-   - Current value recording as keyframes
+#### 🔑 **Keyframe Manipulation** (3 scripts)
+- **KeyDuplicator**: Advanced keyframe duplication with temporal decay
+- **keyMate**: Batch keyframe modification with mathematical operations
+- **Record_Keyframe_Value**: Value-to-keyframe recording system
 
-5. **Layer Management**
-   - Text highlighting with animators
-   - Advanced multi-parent systems
-   - Parametric to bezier path conversion
-   - Time remapping controls
+#### 📚 **Layer Control** (7 scripts)
+- **Rectangulator v2**: The iconic parametric-to-bezier rectangle converter
+- **Multi_Parent2**: Advanced multi-parent relationship system
+- **TimeRemapController**: Sophisticated time manipulation controls
+- **Highlighter**: Text highlighting with animators
+- **SubtitlePreset**: Automated subtitle composition generator
 
-6. **Path & Shape Tools**
-   - Dynamic vertex control via nulls
-   - Layer distribution along paths
-   - Shape path origin centering
-   - Mask to shape layer conversion
+#### 🛤️ **Path & Shape Tools** (6 scripts)
+- **ControlVertices**: Dynamic vertex control via null objects
+- **Distributron**: Layer distribution along shape paths
+- **Trace-o-matic**: Mask-to-shape conversion with keyframe preservation
+- **Originator**: Shape path origin centering
+- **CenterPathGuides**: Guide creation for path bounds and centers
 
-### 🌟 Flagship Tools
+#### 🔧 **Utilities** (4 scripts)
+- **celMate**: Onion skinning for shape layers
+- **Iterator**: Incremental property changes across layers
+- **Randomize_in_Range**: Keyframe randomization within ranges
+- **Trimmer**: Automated trim path animation
 
-- **Rectangulator v2** - Iconic parametric rectangle to bezier converter
-- **Frame Navigator** - Modern CEP extension for timeline navigation
-- **Parametric IK Limb** - Complete character rigging system
-- **sfxMaster** - Professional audio management suite
+### CEP Extensions
+- **Frame Navigator**: Modern React-based panel for advanced frame navigation and composition management
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 ### Core Technologies
-- **ExtendScript (ES3)** - Adobe's scripting environment
-- **JavaScript/TypeScript** - Modern development
-- **React 18** - CEP extension UI framework
-- **Vite** - Build tooling and development server
-- **Node.js** - Package management and tooling
+- **ExtendScript (ES3)**: Adobe's JavaScript variant for After Effects automation
+- **React 18**: Modern UI framework for CEP panel development
+- **TypeScript 5**: Type-safe development for panel code
+- **Vite 4**: Fast build tooling for modern web development
 
-### Development Tools
-- **Yarn Workspaces** - Monorepo management
-- **Rollup** - ES3 transpilation for ExtendScript
-- **CSInterface** - Adobe CEP communication layer
-- **Objective-C++** - Native plugin development
+### Build & Development Tools
+- **Yarn Workspaces**: Monorepo package management
+- **Rollup**: ES3 transpilation for ExtendScript compatibility
+- **Custom Bundler**: Proprietary script optimization system
+- **CEF (Chromium Embedded Framework)**: Runtime for CEP extensions
 
-### Adobe Integration
-- **After Effects CC 2019+** - Target platform
-- **CEP (Common Extensibility Platform)** - Extension framework
-- **AEGP SDK** - Native plugin development
-- **ScriptUI** - Native UI panels
+### Supporting Libraries
+- **CSInterface**: Adobe's bridge between panel and host contexts
+- **loglevel**: Structured logging across environments
+- **Model Context Protocol SDK**: AI assistant integration
+- **Smithery SDK**: Development tooling integration
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 JSX/
-├── packages/
-│   ├── ae-scripts/              # 31 ExtendScript automation tools
+├── packages/                      # Monorepo packages
+│   ├── ae-scripts/               # After Effects scripts (31 scripts)
 │   │   └── src/
-│   │       ├── animation/       # Motion and rigging (3 scripts)
-│   │       ├── composition/     # Comp management (4 scripts)
-│   │       ├── effects/         # Visual effects (4 scripts)
-│   │       ├── keyframes/       # Keyframe tools (3 scripts)
-│   │       ├── layers/          # Layer utilities (7 scripts)
-│   │       ├── paths/           # Path tools (6 scripts)
-│   │       └── utilities/       # General tools (4 scripts)
-│   ├── cep-extensions/
-│   │   └── frame-navigator/     # React-based timeline navigator
-│   └── plugins/
-│       └── frame-nav-plus/      # Native AEGP plugin
-├── tools/
-│   ├── scripting-modules/       # Shared JS libraries
-│   ├── bundlers/                # Custom build tools
+│   │       ├── animation/       # Motion and rigging tools
+│   │       ├── composition/     # Comp management
+│   │       ├── effects/         # Visual effects & audio
+│   │       ├── keyframes/       # Keyframe manipulation
+│   │       ├── layers/          # Layer utilities
+│   │       ├── paths/           # Path and shape tools
+│   │       └── utilities/       # General purpose tools
+│   └── cep-extensions/
+│       └── frame-navigator/      # React-based CEP extension
+├── tools/                        # Development tools
+│   ├── aegp-test-framework/     # AEGP testing framework
+│   ├── bundlers/                # Custom bundling tools
+│   ├── scripting-modules/       # Shared JS modules
 │   └── templates/               # Project templates
-└── docs/                        # Documentation
+├── docs/                        # Documentation
+│   ├── development/             # Development guides
+│   ├── housekeeping/           # Project organization
+│   └── TOC.md                  # Table of contents
+├── dist/                       # Production builds
+├── CLAUDE.md                   # AI assistant context
+├── README.md                   # Project overview
+└── package.json               # Workspace configuration
 ```
 
-## Getting Started Guide
+## 🚀 Getting Started Guide
 
 ### Prerequisites
-- Adobe After Effects CC 2019 or later
-- Node.js 16+ and Yarn package manager
-- macOS or Windows operating system
+- **Adobe After Effects CC 2019+**
+- **Node.js 16+**
+- **Yarn package manager**
+- **macOS or Windows**
 
 ### Installation
 
+#### Quick Setup
 ```bash
-# Clone the repository
-git clone [repository-url]
-cd jsx
+# Clone repository
+git clone https://github.com/ivg-design/JSX.git
+cd JSX
 
-# Install dependencies (MUST use Yarn)
+# Install dependencies
 yarn install
 
 # For CEP extension development
@@ -152,69 +158,81 @@ cd packages/cep-extensions/frame-navigator
 yarn dev
 ```
 
-### Using Individual Scripts
+#### Script Installation
 1. Copy desired `.jsx` files to After Effects Scripts folder:
-   - **Windows**: `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts`
    - **macOS**: `/Applications/Adobe After Effects [version]/Scripts`
+   - **Windows**: `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts`
 2. Restart After Effects
 3. Access via `File > Scripts > [Script Name]`
 
-### Building for Production
+### Development Commands
 ```bash
-# Build all packages
-yarn build
+# Development
+yarn dev              # Start Frame Navigator dev server
+yarn build           # Build all packages
+yarn clean          # Clean build artifacts
 
-# Build specific extension
-cd packages/cep-extensions/frame-navigator
-yarn build
-yarn zxp  # Package as installer
+# Code Quality (needs configuration)
+yarn lint           # Run linter
+yarn format        # Format code
+yarn typecheck    # Type checking
 ```
 
-## Key Contributors
+## 👥 Key Contributors
 
 Based on git history analysis:
-- **woozygoozy** - Primary developer (47 commits)
-- **ivg-design / IVG-Design** - Core contributor (34 commits)
+- **woozygoozy** (47 commits) - Lead developer
+- **ivg-design** (34 commits) - Project maintainer, IVG Design founder
+- Active development and maintenance ongoing
 
-Created and maintained by **IVG Design**.
+## 📄 License Information
 
-## License Information
+**MIT License** - Open source, commercial use permitted
 
-**MIT License** - Open source and free to use
+Individual scripts may contain specific attribution in their headers. The project is maintained by IVG Design with contributions from the community.
 
-Individual scripts may contain specific attribution in their headers.
+## 📊 Current Status and Roadmap
 
-## Current Status and Roadmap
+### Current Version: 2.0.0 (January 2025)
 
-### ✅ Active Development
-- **Frame Navigator** CEP extension - Primary focus
-- **fNav+ Plugin** - Native AEGP implementation (v1.0.3.14)
-- **Rectangulator v2** - Recently modernized with modular architecture
+#### Active Development
+- **Frame Navigator**: Primary focus with performance optimizations
+- **Rectangulator v2**: Recently modernized with modular architecture
+- **Parametric Limb v2**: Production-ready IK rigging system
+- **Bug fixes**: Ongoing cursor and input handling improvements
 
-### 🚧 Maintenance Needed
-- ESLint and Prettier configuration setup
-- Testing framework implementation (Vitest/Jest)
-- Dependency updates (TypeScript 4→5, Vite 4→5)
-- Cleanup of test output directories
-- Pre-commit hooks setup
+#### Recent Achievements (v2.0.0)
+- ✅ Complete monorepo restructuring
+- ✅ 31 scripts organized by category
+- ✅ Consistent naming convention implementation
+- ✅ Comprehensive documentation system
+- ✅ GitHub project tracking for all scripts
 
-### 🎯 Recent Updates (2025)
-- Major input handling fixes for fNav+
-- Cursor unification and selector improvements
-- Persistent state management implementation
-- Smart math operations with intelligent detection
-- Panel lifecycle management enhancements
-- Accurate time conversion for fractional frame rates
+#### Technical Debt & Improvements Needed
+- 🔧 ESLint configuration setup required
+- 🔧 Prettier formatting rules needed
+- 🔧 Testing framework implementation pending
+- 🔧 TypeScript 4→5 migration for some packages
+- 🔧 Vite 4→5 upgrade needed
+- 🔧 Pre-commit hooks would improve code quality
 
-### 🔮 Future Enhancements
-- Expanded CEP extension catalog
-- Enhanced debugging capabilities
-- Cross-version compatibility improvements
-- Performance optimizations for large compositions
+#### Future Roadmap
+- 🎯 Complete test coverage for all scripts
+- 🎯 Automated CI/CD pipeline
+- 🎯 Enhanced CEP extension capabilities
+- 🎯 Cross-platform compatibility improvements
+- 🎯 AI-powered script generation tools
+- 🎯 Cloud sync for script preferences
+- 🎯 Marketplace for community scripts
+
+### Repository Health
+- **Branches**: 4 active (main, time-fix-branch, feature branches)
+- **Last Commit**: Active development ongoing
+- **Issues**: Tracked via GitHub Projects
+- **Documentation**: Comprehensive and up-to-date
 
 ---
 
-*This repository represents years of After Effects scripting expertise, organized for maximum productivity and reusability in professional motion graphics workflows.*
-```I've generated a comprehensive overview of the JSX project with all requested sections formatted as clean, structured markdown with Obsidian tags. The overview includes detailed information about the project's purpose, features, technology stack, structure, installation guide, contributors, license, and current development status based on my analysis of the codebase and git history.
+*This repository represents years of After Effects scripting expertise, organized for maximum productivity and reusability. It serves as both a production toolkit and a reference implementation for Adobe ExtendScript development.*
 
 

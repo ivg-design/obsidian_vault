@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/jsx/overview.md",
+                "file": "docs/docuMentor/api-reference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "overview"
+              "title": "api-reference"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/jsx/overview.md",
-                "followCursor": false,
+                "file": "docs/docuMentor/api-reference.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of overview"
+              "title": "Outline of api-reference"
             }
           },
           {
@@ -191,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -213,22 +213,23 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "a2b7ca561a40b05a",
+  "active": "17e902c30cadffa0",
   "lastOpenFiles": [
-    "docs/jsx/test-analysis.md",
-    "docs/jsx/dependency-analysis.md",
-    "docs/jsx/performance-analysis.md",
-    "docs/jsx/security-analysis.md",
-    "docs/jsx/api-reference.md",
-    "docs/docuMentor/api-reference.md",
-    "docs/jsx/architecture.md",
+    "docs/docuMentor/README.md",
     "docs/docuMentor/overview.md",
     "docs/docuMentor/GITHUB_SETUP.md",
-    "docs/docuMentor/architecture.md",
+    "docs/jsx/api-reference.md",
+    "docs/jsx/test-analysis.md",
+    "docs/jsx/security-analysis.md",
+    "docs/jsx/performance-analysis.md",
     "docs/jsx/overview.md",
+    "docs/jsx/metrics.md",
+    "docs/jsx/dependency-analysis.md",
+    "docs/jsx/architecture.md",
+    "docs/docuMentor/api-reference.md",
+    "docs/docuMentor/architecture.md",
     "docs/jsx",
     "docs/docuMentor/README.md.tmp.58592.1756396142833",
-    "docs/docuMentor/README.md",
     "Untitled 1.md",
     "Untitled.md",
     "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
@@ -250,7 +251,6 @@
     "_daily_notes/2025-08-24.md",
     "my_apps/obsidian/UI_CUSTOMIZATIONS.md",
     "my_apps/after_effects/fNav+/bugs and todo.md",
-    "my_apps/raycast/rcastgmail/ARCHITECTURE_NOTES.md",
-    "my_apps/raycast/rcastgmail/PROJECT_STATUS.md"
+    "my_apps/raycast/rcastgmail/ARCHITECTURE_NOTES.md"
   ]
 }
