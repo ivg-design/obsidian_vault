@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "docs/docuMentor/overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "overview"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my_apps/raycast/rcastgmail/PROJECT_STATUS.md",
+                "file": "docs/docuMentor/overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PROJECT_STATUS"
+              "title": "Outline of overview"
             }
           },
           {
@@ -191,12 +191,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 327.5,
-    "collapsed": true
+    "width": 327.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,9 +215,11 @@
   },
   "active": "a2b7ca561a40b05a",
   "lastOpenFiles": [
-    "Untitled 1.md",
+    "docs/docuMentor/GITHUB_SETUP.md",
+    "docs/docuMentor/README.md.tmp.58592.1756396142833",
     "docs/docuMentor/README.md",
     "docs/docuMentor/overview.md",
+    "Untitled 1.md",
     "Untitled.md",
     "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
     "docs/docuMentor",
@@ -236,7 +237,6 @@
     "auto_bullet_time_processing/README.md",
     "auto_bullet_time_processing/BulletTimeAutomate.jsx",
     "auto_bullet_time_processing/BulletTimeAutomate.json",
-    "auto_bullet_time_processing",
     "Untitled.canvas",
     "_daily_notes/2025-08-24.md",
     "my_apps/obsidian/UI_CUSTOMIZATIONS.md",
@@ -251,7 +251,6 @@
     "my_apps/raycast/claudecast/CURRENT_STATE.md",
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
     "work/AE Script for autoprocessing video with bullettime.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG.md"
+    "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md"
   ]
 }
