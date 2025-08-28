@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/overview.md",
+                "file": "docs/jsx/overview.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/docuMentor/overview.md",
+                "file": "docs/jsx/overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,10 +215,13 @@
   },
   "active": "a2b7ca561a40b05a",
   "lastOpenFiles": [
+    "docs/docuMentor/overview.md",
     "docs/docuMentor/GITHUB_SETUP.md",
+    "docs/docuMentor/architecture.md",
+    "docs/jsx/overview.md",
+    "docs/jsx",
     "docs/docuMentor/README.md.tmp.58592.1756396142833",
     "docs/docuMentor/README.md",
-    "docs/docuMentor/overview.md",
     "Untitled 1.md",
     "Untitled.md",
     "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
@@ -236,7 +239,6 @@
     "work/AE_Automation_Bullet_Time",
     "auto_bullet_time_processing/README.md",
     "auto_bullet_time_processing/BulletTimeAutomate.jsx",
-    "auto_bullet_time_processing/BulletTimeAutomate.json",
     "Untitled.canvas",
     "_daily_notes/2025-08-24.md",
     "my_apps/obsidian/UI_CUSTOMIZATIONS.md",
@@ -249,8 +251,6 @@
     "my_apps/raycast/claudeCast/TECHNICAL_DETAILS.md",
     "my_apps/raycast/claudeCast/CHANGELOG.md",
     "my_apps/raycast/claudecast/CURRENT_STATE.md",
-    "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
-    "work/AE Script for autoprocessing video with bullettime.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md"
+    "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md"
   ]
 }
