@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "a2b7ca561a40b05a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled 1"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,12 +214,13 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "cbfcc994cf00b6ba",
+  "active": "a2b7ca561a40b05a",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "docs/docuMentor/README.md",
     "docs/docuMentor/overview.md",
     "Untitled.md",
     "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
-    "docs/docuMentor/README.md",
     "docs/docuMentor",
     "docs",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser/symbols.txt",
@@ -237,7 +252,6 @@
     "my_apps/raycast/claudecast/IMPLEMENTATION_GUIDE.md",
     "work/AE Script for autoprocessing video with bullettime.md",
     "my_apps/vsc_extensions/markdown_preview_enhanced/PARSER_ARCHIVE_README.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG.md",
-    "my_apps/vsc_extensions/markdown_preview_enhanced/SEARCH_WIDGET_FIX.md"
+    "my_apps/vsc_extensions/markdown_preview_enhanced/CHANGELOG.md"
   ]
 }
