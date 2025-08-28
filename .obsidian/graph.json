@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#after-effects  ",
+  "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 2.557402692228241,
+  "scale": 0.6574964316803021,
   "close": false
 }
