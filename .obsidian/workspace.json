@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "work/AE_Automation_Bullet_Time/README.md",
+                "file": "docs/docuMentor/GITHUB_SETUP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "d1c98c60694e5231",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 8.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 8"
+              "title": "GITHUB_SETUP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 8.md",
+                "file": "docs/docuMentor/GITHUB_SETUP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled 8"
+              "title": "Backlinks for GITHUB_SETUP"
             }
           },
           {
@@ -156,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 8.md",
+                "file": "docs/docuMentor/GITHUB_SETUP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled 8"
+              "title": "Outline of GITHUB_SETUP"
             }
           },
           {
@@ -195,15 +180,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d1c98c60694e5231",
+  "active": "240c61ff217c077e",
   "lastOpenFiles": [
+    "docs/docuMentor/overview.md",
+    "docs/docuMentor/document-map.md",
+    "docs/docuMentor/architecture.md",
+    "docs/docuMentor/api-reference.md",
+    "work/AE_Automation_Bullet_Time/README.md",
+    "Untitled.md",
+    "Untitled 8.md",
     "docs/jsx/tag-index.md",
     "docs/jsx/document-map.md",
     "docs/jsx/TAG-REPORT.md",
     "docs/docuMentor/tag-index.md",
-    "docs/docuMentor/document-map.md",
     "docs/docuMentor/TAG-REPORT.md",
-    "Untitled 8.md",
     "Untitled 6.md",
     "Untitled 7.md",
     "docs/jsx/metrics.md",
@@ -218,12 +208,7 @@
     "docs/jsx/architecture.md",
     "docs/jsx/api-reference.md",
     "docs/jsx",
-    "docs/docuMentor/architecture.md",
-    "docs/docuMentor/api-reference.md",
     "Untitled 2.md",
-    "docs/docuMentor/GITHUB_SETUP.md",
-    "auto_bullet_time_processing/README.md",
-    "docs/docuMentor/overview.md",
     "docs/docuMentor",
     "docs",
     "Untitled.canvas",
