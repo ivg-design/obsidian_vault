@@ -1,0 +1,544 @@
+{
+  "projectRoot": "jsx",
+  "registry": [
+    [
+      "documentor",
+      {
+        "tag": "documentor",
+        "aliases": [],
+        "category": "concept",
+        "count": 2,
+        "firstSeen": "2025-08-28T17:21:23.721Z",
+        "lastUsed": "2025-08-28T17:21:23.722Z"
+      }
+    ],
+    [
+      "documentation",
+      {
+        "tag": "documentation",
+        "aliases": [],
+        "category": "meta",
+        "count": 6,
+        "firstSeen": "2025-08-28T17:21:23.722Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "overview",
+      {
+        "tag": "overview",
+        "aliases": [],
+        "category": "concept",
+        "count": 5,
+        "firstSeen": "2025-08-28T17:21:23.724Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "jsx",
+      {
+        "tag": "jsx",
+        "aliases": [],
+        "category": "project",
+        "count": 19,
+        "firstSeen": "2025-08-28T17:21:23.724Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "project-structure",
+      {
+        "tag": "project-structure",
+        "aliases": [],
+        "category": "concept",
+        "count": 5,
+        "firstSeen": "2025-08-28T17:21:23.724Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "architecture",
+      {
+        "tag": "architecture",
+        "aliases": [],
+        "category": "concept",
+        "count": 4,
+        "firstSeen": "2025-08-28T17:21:23.724Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "components",
+      {
+        "tag": "components",
+        "aliases": [],
+        "category": "concept",
+        "count": 4,
+        "firstSeen": "2025-08-28T17:21:23.724Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "system-design",
+      {
+        "tag": "system-design",
+        "aliases": [
+          "design"
+        ],
+        "category": "concept",
+        "count": 4,
+        "firstSeen": "2025-08-28T17:21:23.724Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "security",
+      {
+        "tag": "security",
+        "aliases": [],
+        "category": "concept",
+        "count": 3,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "audit",
+      {
+        "tag": "audit",
+        "aliases": [],
+        "category": "concept",
+        "count": 4,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "vulnerabilities",
+      {
+        "tag": "vulnerabilities",
+        "aliases": [],
+        "category": "concept",
+        "count": 4,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "owasp",
+      {
+        "tag": "owasp",
+        "aliases": [],
+        "category": "concept",
+        "count": 3,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "api",
+      {
+        "tag": "api",
+        "aliases": [],
+        "category": "meta",
+        "count": 3,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "endpoints",
+      {
+        "tag": "endpoints",
+        "aliases": [],
+        "category": "concept",
+        "count": 3,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "reference",
+      {
+        "tag": "reference",
+        "aliases": [],
+        "category": "concept",
+        "count": 3,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "rest",
+      {
+        "tag": "rest",
+        "aliases": [],
+        "category": "concept",
+        "count": 3,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "performance",
+      {
+        "tag": "performance",
+        "aliases": [],
+        "category": "concept",
+        "count": 2,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "optimization",
+      {
+        "tag": "optimization",
+        "aliases": [],
+        "category": "concept",
+        "count": 2,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "bottlenecks",
+      {
+        "tag": "bottlenecks",
+        "aliases": [],
+        "category": "concept",
+        "count": 2,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "analysis",
+      {
+        "tag": "analysis",
+        "aliases": [],
+        "category": "concept",
+        "count": 2,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.726Z"
+      }
+    ],
+    [
+      "react",
+      {
+        "tag": "react",
+        "aliases": [],
+        "category": "framework",
+        "count": 1,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.725Z"
+      }
+    ],
+    [
+      "typescript",
+      {
+        "tag": "typescript",
+        "aliases": [],
+        "category": "language",
+        "count": 1,
+        "firstSeen": "2025-08-28T17:21:23.725Z",
+        "lastUsed": "2025-08-28T17:21:23.725Z"
+      }
+    ]
+  ],
+  "consolidationRules": [
+    [
+      "animations",
+      "animation"
+    ],
+    [
+      "animate",
+      "animation"
+    ],
+    [
+      "animated",
+      "animation"
+    ],
+    [
+      "adobe-after-effects",
+      "after-effects"
+    ],
+    [
+      "ae",
+      "after-effects"
+    ],
+    [
+      "aftereffects",
+      "after-effects"
+    ],
+    [
+      "js",
+      "javascript"
+    ],
+    [
+      "node-js",
+      "javascript"
+    ],
+    [
+      "nodejs",
+      "javascript"
+    ],
+    [
+      "node",
+      "javascript"
+    ],
+    [
+      "ts",
+      "typescript"
+    ],
+    [
+      "reactjs",
+      "react"
+    ],
+    [
+      "react-js",
+      "react"
+    ],
+    [
+      "vuejs",
+      "vue"
+    ],
+    [
+      "vue-js",
+      "vue"
+    ],
+    [
+      "angularjs",
+      "angular"
+    ],
+    [
+      "tests",
+      "test"
+    ],
+    [
+      "testing",
+      "test"
+    ],
+    [
+      "unit-test",
+      "test"
+    ],
+    [
+      "unit-tests",
+      "test"
+    ],
+    [
+      "end-to-end",
+      "e2e"
+    ],
+    [
+      "e2e-test",
+      "e2e"
+    ],
+    [
+      "integration-test",
+      "e2e"
+    ],
+    [
+      "documentation",
+      "docs"
+    ],
+    [
+      "doc",
+      "docs"
+    ],
+    [
+      "read-me",
+      "readme"
+    ],
+    [
+      "apis",
+      "api"
+    ],
+    [
+      "api-reference",
+      "api"
+    ],
+    [
+      "development",
+      "dev"
+    ],
+    [
+      "develop",
+      "dev"
+    ],
+    [
+      "production",
+      "prod"
+    ],
+    [
+      "configuration",
+      "config"
+    ],
+    [
+      "configs",
+      "config"
+    ],
+    [
+      "authentication",
+      "auth"
+    ],
+    [
+      "authorize",
+      "auth"
+    ],
+    [
+      "authorization",
+      "auth"
+    ],
+    [
+      "database",
+      "db"
+    ],
+    [
+      "databases",
+      "db"
+    ],
+    [
+      "user-interface",
+      "ui"
+    ],
+    [
+      "frontend",
+      "ui"
+    ],
+    [
+      "front-end",
+      "ui"
+    ],
+    [
+      "back-end",
+      "backend"
+    ],
+    [
+      "server",
+      "backend"
+    ],
+    [
+      "server-side",
+      "backend"
+    ],
+    [
+      "command-line",
+      "cli"
+    ],
+    [
+      "terminal",
+      "cli"
+    ],
+    [
+      "utils",
+      "util"
+    ],
+    [
+      "utility",
+      "util"
+    ],
+    [
+      "utilities",
+      "util"
+    ],
+    [
+      "helper",
+      "util"
+    ],
+    [
+      "helpers",
+      "util"
+    ],
+    [
+      "image",
+      "img"
+    ],
+    [
+      "images",
+      "img"
+    ],
+    [
+      "graphics",
+      "img"
+    ],
+    [
+      "video",
+      "vid"
+    ],
+    [
+      "videos",
+      "vid"
+    ],
+    [
+      "media",
+      "vid"
+    ],
+    [
+      "styles",
+      "css"
+    ],
+    [
+      "styling",
+      "css"
+    ],
+    [
+      "stylesheet",
+      "css"
+    ],
+    [
+      "creation",
+      "create"
+    ],
+    [
+      "generate",
+      "create"
+    ],
+    [
+      "generator",
+      "create"
+    ],
+    [
+      "modify",
+      "update"
+    ],
+    [
+      "edit",
+      "update"
+    ],
+    [
+      "remove",
+      "delete"
+    ],
+    [
+      "deletion",
+      "delete"
+    ],
+    [
+      "fetch",
+      "get"
+    ],
+    [
+      "retrieve",
+      "get"
+    ],
+    [
+      "read",
+      "get"
+    ],
+    [
+      "save",
+      "set"
+    ],
+    [
+      "write",
+      "set"
+    ],
+    [
+      "store",
+      "set"
+    ]
+  ],
+  "lastUpdated": "2025-08-28T17:29:44.853Z"
+}
