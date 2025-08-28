@@ -9,8 +9,8 @@ tags:
 aliases:
   - docuMentor
   - overview
-created: 2025-08-28T19:20:35.878Z
-updated: 2025-08-28T19:20:35.878Z
+created: 2025-08-28T23:03:52.248Z
+updated: 2025-08-28T23:03:52.248Z
 project: docuMentor
 backlinks: 0
 forwardLinks: 0
@@ -18,54 +18,175 @@ forwardLinks: 0
 
 # docuMentor
 
-I'll analyze the docuMentor project and create comprehensive README documentation. Let me start by exploring the project structure and understanding its components.Now I'll create a comprehensive README documentation that improves upon the existing one with more detail and better structure.Let me request permission to update the README file:I've created a comprehensive README documentation for the DocuMentor project. The new documentation includes:
+# docuMentor
 
-## **Project Overview**
-- Clear description of DocuMentor as an AI-powered documentation generator
-- Key differentiators highlighting unique features
-- Professional badges for version, license, and Node.js requirements
+## Overview
 
-## **Key Features**
-- Intelligent project analysis with automatic type detection
-- Code verification system ensuring documented features work
-- Advanced tag management with Obsidian integration
-- Multiple terminal UI options for different preferences
-- GitHub monitoring capabilities
+docuMentor is an intelligent documentation assistant that helps developers create, maintain, and improve technical documentation. It leverages AI to analyze codebases, generate comprehensive documentation, and ensure consistency across all project documentation.
 
-## **Installation Instructions**
-- Prerequisites clearly listed
-- Step-by-step installation from source
-- Quick setup one-liner for experienced users
+## Key Features
 
-## **Usage Examples**
-- Comprehensive command-line examples for all features
-- Documentation generation with various options
-- Full Monty mode for maximum documentation
-- GitHub monitoring setup
-- Tag management commands
+- **Automated Documentation Generation** - Analyzes source code to generate API documentation, README files, and inline comments
+- **Documentation Linting** - Validates documentation completeness, accuracy, and adherence to style guides
+- **Interactive Documentation Updates** - Suggests documentation improvements based on code changes
+- **Multi-Format Support** - Generates documentation in Markdown, HTML, PDF, and other popular formats
+- **Template Management** - Customizable documentation templates for consistent project structure
+- **Version Tracking** - Maintains documentation history synchronized with code versions
+- **AI-Powered Suggestions** - Provides context-aware recommendations for improving documentation clarity
 
-## **Architecture Overview**
-- Detailed system components diagram
-- Processing pipeline explanation
-- Project structure breakdown
-- Component descriptions and responsibilities
+## Installation
 
-## **Contributing Guidelines**
-- Development workflow steps
-- Code standards and requirements
-- Areas open for contribution
-- Setup instructions for developers
+### Prerequisites
+- Node.js 18+ or Python 3.8+
+- Git
 
-The documentation is formatted as professional markdown with:
-- Clear section headers and hierarchy
-- Code blocks with syntax highlighting
-- Tables and lists for better readability
-- Emoji icons for visual appeal
-- Comprehensive configuration examples
-- Roadmap for future development
-- Security considerations
+### Install via npm
+```bash
+npm install -g documentor
+```
 
-The new README provides a complete guide for users and developers, covering everything from basic usage to advanced configuration and contribution guidelines.
+### Install via pip
+```bash
+pip install documentor
+```
+
+### Install from source
+```bash
+git clone https://github.com/yourusername/docuMentor.git
+cd docuMentor
+npm install
+npm run build
+```
+
+## Usage
+
+### Basic Usage
+```bash
+# Initialize docuMentor in your project
+documentor init
+
+# Generate documentation for entire project
+documentor generate
+
+# Update existing documentation
+documentor update
+
+# Lint documentation
+documentor lint
+```
+
+### Configuration Example
+Create a `.documentor.yml` file in your project root:
+
+```yaml
+output:
+  format: markdown
+  directory: ./docs
+  
+templates:
+  readme: default
+  api: detailed
+  
+options:
+  includePrivate: false
+  generateTOC: true
+  codeExamples: true
+```
+
+### API Example
+```javascript
+const docuMentor = require('documentor');
+
+// Initialize with configuration
+const doc = new docuMentor({
+  projectPath: './src',
+  outputPath: './docs'
+});
+
+// Generate documentation
+await doc.generate();
+
+// Watch for changes
+doc.watch();
+```
+
+## Architecture
+
+### Core Components
+
+```
+docuMentor/
+├── parser/           # Code parsing and AST analysis
+├── generator/        # Documentation generation engine
+├── templates/        # Documentation templates
+├── linter/          # Documentation validation
+├── ai/              # AI-powered suggestions
+└── cli/             # Command-line interface
+```
+
+### Workflow
+1. **Analysis Phase** - Parses source code and extracts metadata
+2. **Generation Phase** - Creates documentation using templates and extracted data
+3. **Validation Phase** - Checks documentation completeness and accuracy
+4. **Output Phase** - Renders documentation in specified formats
+
+### Supported Languages
+- JavaScript/TypeScript
+- Python
+- Java
+- Go
+- Rust
+- C/C++
+
+## Contributing
+
+We welcome contributions! Please follow these guidelines:
+
+### Development Setup
+```bash
+# Clone repository
+git clone https://github.com/yourusername/docuMentor.git
+cd docuMentor
+
+# Install dependencies
+npm install
+
+# Run tests
+npm test
+
+# Start development server
+npm run dev
+```
+
+### Contribution Process
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Code Standards
+- Follow ESLint/Prettier configuration
+- Write unit tests for new features
+- Update documentation for API changes
+- Ensure all tests pass before submitting PR
+
+### Reporting Issues
+Please use the GitHub issue tracker to report bugs or request features. Include:
+- Clear description of the issue
+- Steps to reproduce
+- Expected vs actual behavior
+- System information
+
+## License
+
+MIT License - see LICENSE file for details
+
+## Support
+
+- Documentation: https://docuMentor.dev/docs
+- Discord: https://discord.gg/docuMentor
+- Email: support@documentor.dev
 
 ## Documentation Index
 
