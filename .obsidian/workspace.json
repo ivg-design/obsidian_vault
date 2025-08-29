@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/docuMentor/README.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "README"
@@ -186,9 +186,9 @@
   },
   "active": "7dcb9ae690444952",
   "lastOpenFiles": [
+    "docs/docuMentor/README.md",
     "docs/docuMentor/USAGE.md",
     "docs/docuMentor/docuMentor TODO.md",
-    "docs/docuMentor/README.md",
     "docs/docuMentor/docuMentor Roadmap.md",
     "Pasted image 20250829083834.png",
     "Untitled 1.md",
