@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/docuMentor TODO.md",
+                "file": "docs/docuMentor/Documentor Roadmap.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "docuMentor TODO"
+              "title": "Documentor Roadmap"
             }
           }
         ]
@@ -186,8 +186,15 @@
   },
   "active": "7dcb9ae690444952",
   "lastOpenFiles": [
-    "docs/docuMentor/Untitled/API.md",
     "docs/docuMentor/docuMentor TODO.md",
+    "docs/docuMentor/Documentor Roadmap.md",
+    "Pasted image 20250829083834.png",
+    "Untitled 1.md",
+    "Untitled.md",
+    "TECHNICAL_DOCUMENTATION.md",
+    "TECHNICAL.md",
+    "docs/docuMentor-TUI-overhaul-TODO.md",
+    "docs/docuMentor/Untitled/API.md",
     "docs/docuMentor/Untitled",
     "docs/docuMentor/Untitled/docuMentor TODO.md",
     "docs/docuMentor/Untitled/document-map.md",
@@ -197,23 +204,15 @@
     "docs/docuMentor/Untitled/TAG-REPORT.md",
     "docs/docuMentor/Untitled/EXAMPLES.md",
     "docs/docuMentor/Untitled/tag-index.md",
-    "TECHNICAL_DOCUMENTATION.md",
-    "Pasted image 20250829083834.png",
     "docs/docuMentor/Untitled/docuMentor-TUI-overhaul-TODO.md",
     "docs/docuMentor/Untitled/TECHNICAL.md",
     "docs/docuMentor/Untitled/README.md",
     "docs/docuMentor/Untitled/overview.md",
     "docs/docuMentor/Untitled/USAGE.md",
     "_daily_notes/2025-08-29.md",
-    "docs/docuMentor-TUI-overhaul-TODO.md",
     "_daily_notes/2025-08-28.md",
     "docs/jsx/overview.md",
     "docs/jsx/dependency-analysis.md",
-    "docs/jsx/TAG-REPORT.md",
-    "TECHNICAL.md",
-    "docs/docuMentor/Untitled/GITHUB_SETUP.md",
-    "docs/jsx/security-analysis.md",
-    "docs/jsx/performance-analysis.md",
     "docs/jsx",
     "docs/docuMentor/README.md.tmp.58592.1756396142833",
     "docs/docuMentor",
