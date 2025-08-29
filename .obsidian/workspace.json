@@ -11,10 +11,14 @@
             "id": "7dcb9ae690444952",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/docuMentor/docuMentor TODO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "docuMentor TODO"
             }
           }
         ]
@@ -180,8 +184,9 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "7dcb9ae690444952",
   "lastOpenFiles": [
+    "docs/docuMentor/Untitled/API.md",
     "docs/docuMentor/docuMentor TODO.md",
     "docs/docuMentor/Untitled",
     "docs/docuMentor/Untitled/docuMentor TODO.md",
@@ -189,7 +194,6 @@
     "docs/docuMentor/Untitled/AUDIT_REPORT.md",
     "docs/docuMentor/Untitled/architecture.md",
     "docs/docuMentor/Untitled/api-reference.md",
-    "docs/docuMentor/Untitled/API.md",
     "docs/docuMentor/Untitled/TAG-REPORT.md",
     "docs/docuMentor/Untitled/EXAMPLES.md",
     "docs/docuMentor/Untitled/tag-index.md",
