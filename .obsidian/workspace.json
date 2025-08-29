@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/docuMentor-TUI-overhaul-TODO.md",
+                "file": "docs/docuMentor/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docuMentor-TUI-overhaul-TODO"
+              "title": "README"
             }
           }
         ],
@@ -227,24 +227,25 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "3f230b3163e34312",
   "lastOpenFiles": [
+    "docs/docuMentor/overview.md",
+    "docs/docuMentor/README.md",
+    "docs/docuMentor/USAGE.md",
+    "_daily_notes/2025-08-29.md",
+    "docs/docuMentor/docuMentor-TUI-overhaul-TODO.md",
     "docs/docuMentor-TUI-overhaul-TODO.md",
     "_daily_notes/2025-08-28.md",
     "docs/jsx/overview.md",
-    "docs/docuMentor/docuMentor-TUI-overhaul-TODO.md",
     "docs/jsx/dependency-analysis.md",
-    "docs/docuMentor/USAGE.md",
     "docs/jsx/TAG-REPORT.md",
     "docs/docuMentor/tag-index.md",
     "docs/docuMentor/TAG-REPORT.md",
     "TECHNICAL.md",
-    "docs/docuMentor/README.md",
     "docs/docuMentor/GITHUB_SETUP.md",
     "docs/docuMentor/document-map.md",
     "docs/docuMentor/architecture.md",
     "docs/docuMentor/api-reference.md",
-    "docs/docuMentor/overview.md",
     "docs/jsx/security-analysis.md",
     "docs/jsx/performance-analysis.md",
     "docs/jsx/test-analysis.md",
@@ -254,7 +255,6 @@
     "docs/jsx/api-reference.md",
     "docs/jsx/document-map.md",
     "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
-    "Untitled 4.md",
     "docs/jsx",
     "docs/docuMentor/README.md.tmp.58592.1756396142833",
     "docs/docuMentor",

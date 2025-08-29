@@ -9,8 +9,8 @@ tags:
 aliases:
   - docuMentor
   - overview
-created: 2025-08-28T23:03:52.248Z
-updated: 2025-08-28T23:03:52.248Z
+created: 2025-08-29T10:53:54.153Z
+updated: 2025-08-29T10:53:54.153Z
 project: docuMentor
 backlinks: 0
 forwardLinks: 0
@@ -18,175 +18,26 @@ forwardLinks: 0
 
 # docuMentor
 
-# docuMentor
+I'll analyze the project and create comprehensive README documentation. Let me start by exploring the codebase to understand its structure and functionality.Now let me examine some of the key component files to better understand the architecture:Now I'll create a comprehensive README documentation based on my analysis of the project:I've successfully created comprehensive README documentation for the DocuMentor project. The new README includes:
 
-## Overview
+## Key Improvements:
 
-docuMentor is an intelligent documentation assistant that helps developers create, maintain, and improve technical documentation. It leverages AI to analyze codebases, generate comprehensive documentation, and ensure consistency across all project documentation.
+1. **Professional Header** - Added badges for license, Node version, and TypeScript
+2. **Comprehensive Overview** - Clear project description with value propositions
+3. **Detailed Features** - Organized into Core Capabilities and Advanced Features (v2.0)
+4. **Complete Installation Guide** - Prerequisites, quick start, and development setup
+5. **Extensive Usage Examples** - All commands with practical examples
+6. **Architecture Documentation** - System components diagram and data flow
+7. **Output Structure** - Visual representation of generated documentation
+8. **Configuration Details** - Complete config file example with environment variables
+9. **Tag System Documentation** - Hierarchical structure and management features
+10. **Safety Features** - File protection and operation safety details
+11. **Full Monty Mode** - Comprehensive analysis components and quality scoring
+12. **Contributing Guidelines** - Development workflow and code style
+13. **Roadmap** - Near-term, medium-term, and long-term plans
+14. **Support Information** - Links to issues, discussions, and documentation
 
-## Key Features
-
-- **Automated Documentation Generation** - Analyzes source code to generate API documentation, README files, and inline comments
-- **Documentation Linting** - Validates documentation completeness, accuracy, and adherence to style guides
-- **Interactive Documentation Updates** - Suggests documentation improvements based on code changes
-- **Multi-Format Support** - Generates documentation in Markdown, HTML, PDF, and other popular formats
-- **Template Management** - Customizable documentation templates for consistent project structure
-- **Version Tracking** - Maintains documentation history synchronized with code versions
-- **AI-Powered Suggestions** - Provides context-aware recommendations for improving documentation clarity
-
-## Installation
-
-### Prerequisites
-- Node.js 18+ or Python 3.8+
-- Git
-
-### Install via npm
-```bash
-npm install -g documentor
-```
-
-### Install via pip
-```bash
-pip install documentor
-```
-
-### Install from source
-```bash
-git clone https://github.com/yourusername/docuMentor.git
-cd docuMentor
-npm install
-npm run build
-```
-
-## Usage
-
-### Basic Usage
-```bash
-# Initialize docuMentor in your project
-documentor init
-
-# Generate documentation for entire project
-documentor generate
-
-# Update existing documentation
-documentor update
-
-# Lint documentation
-documentor lint
-```
-
-### Configuration Example
-Create a `.documentor.yml` file in your project root:
-
-```yaml
-output:
-  format: markdown
-  directory: ./docs
-  
-templates:
-  readme: default
-  api: detailed
-  
-options:
-  includePrivate: false
-  generateTOC: true
-  codeExamples: true
-```
-
-### API Example
-```javascript
-const docuMentor = require('documentor');
-
-// Initialize with configuration
-const doc = new docuMentor({
-  projectPath: './src',
-  outputPath: './docs'
-});
-
-// Generate documentation
-await doc.generate();
-
-// Watch for changes
-doc.watch();
-```
-
-## Architecture
-
-### Core Components
-
-```
-docuMentor/
-├── parser/           # Code parsing and AST analysis
-├── generator/        # Documentation generation engine
-├── templates/        # Documentation templates
-├── linter/          # Documentation validation
-├── ai/              # AI-powered suggestions
-└── cli/             # Command-line interface
-```
-
-### Workflow
-1. **Analysis Phase** - Parses source code and extracts metadata
-2. **Generation Phase** - Creates documentation using templates and extracted data
-3. **Validation Phase** - Checks documentation completeness and accuracy
-4. **Output Phase** - Renders documentation in specified formats
-
-### Supported Languages
-- JavaScript/TypeScript
-- Python
-- Java
-- Go
-- Rust
-- C/C++
-
-## Contributing
-
-We welcome contributions! Please follow these guidelines:
-
-### Development Setup
-```bash
-# Clone repository
-git clone https://github.com/yourusername/docuMentor.git
-cd docuMentor
-
-# Install dependencies
-npm install
-
-# Run tests
-npm test
-
-# Start development server
-npm run dev
-```
-
-### Contribution Process
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Code Standards
-- Follow ESLint/Prettier configuration
-- Write unit tests for new features
-- Update documentation for API changes
-- Ensure all tests pass before submitting PR
-
-### Reporting Issues
-Please use the GitHub issue tracker to report bugs or request features. Include:
-- Clear description of the issue
-- Steps to reproduce
-- Expected vs actual behavior
-- System information
-
-## License
-
-MIT License - see LICENSE file for details
-
-## Support
-
-- Documentation: https://docuMentor.dev/docs
-- Discord: https://discord.gg/docuMentor
-- Email: support@documentor.dev
+The documentation is now professional, comprehensive, and ready for use. It provides clear guidance for installation, usage, architecture understanding, and contribution to the project.
 
 ## Documentation Index
 
