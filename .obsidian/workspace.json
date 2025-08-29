@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/README.md",
+                "file": "docs/docuMentor/Documentor Roadmap.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Documentor Roadmap"
             }
           }
         ]
