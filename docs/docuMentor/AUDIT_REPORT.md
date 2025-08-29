@@ -1,0 +1,227 @@
+# Documentation Audit Report
+
+Generated: 8/29/2025, 8:37:54 AM
+
+## Summary
+- Files Audited: 14
+- Issues Found: 103
+
+## Issues by Severity
+
+### High Severity (76)
+- **API.md**: Broken link to: README|Back to README
+  - Suggestion: Fix or remove link to README|Back to README
+- **API.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **API.md**: Broken link to: EXAMPLES|Usage Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Usage Examples
+- **API.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **API.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **API.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **EXAMPLES.md**: Broken link to: README|Back to README
+  - Suggestion: Fix or remove link to README|Back to README
+- **EXAMPLES.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **EXAMPLES.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **EXAMPLES.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **EXAMPLES.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **EXAMPLES.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **EXAMPLES.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **README.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **README.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **README.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **README.md**: Broken link to: EXAMPLES|Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Examples
+- **TAG-REPORT.md**: File is missing frontmatter
+  - Suggestion: Add frontmatter with id, title, tags, and dates
+- **TECHNICAL.md**: Broken link to: README|Back to README
+  - Suggestion: Fix or remove link to README|Back to README
+- **TECHNICAL.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **TECHNICAL.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **TECHNICAL.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **TECHNICAL.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **USAGE.md**: Broken link to: README|Back to README
+  - Suggestion: Fix or remove link to README|Back to README
+- **USAGE.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **USAGE.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **USAGE.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **api-reference.md**: File is missing frontmatter
+  - Suggestion: Add frontmatter with id, title, tags, and dates
+- **architecture.md**: File is missing frontmatter
+  - Suggestion: Add frontmatter with id, title, tags, and dates
+- **document-map.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **document-map.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **document-map.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **document-map.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **document-map.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **document-map.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **document-map.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **document-map.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **document-map.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **document-map.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **document-map.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **document-map.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **document-map.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **document-map.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **document-map.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **document-map.md**: Broken link to: tag-index|View Tag Index
+  - Suggestion: Fix or remove link to tag-index|View Tag Index
+- **document-map.md**: Broken link to: docuMentor/README|Project Overview
+  - Suggestion: Fix or remove link to docuMentor/README|Project Overview
+- **document-map.md**: Broken link to: docuMentor/architecture|Architecture
+  - Suggestion: Fix or remove link to docuMentor/architecture|Architecture
+- **document-map.md**: Broken link to: docuMentor/api|API Reference
+  - Suggestion: Fix or remove link to docuMentor/api|API Reference
+- **overview.md**: File is missing frontmatter
+  - Suggestion: Add frontmatter with id, title, tags, and dates
+- **tag-index.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **tag-index.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **tag-index.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **tag-index.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **tag-index.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **tag-index.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **tag-index.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **tag-index.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **tag-index.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **tag-index.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **tag-index.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **tag-index.md**: Broken link to: README|docuMentor Documentation
+  - Suggestion: Fix or remove link to README|docuMentor Documentation
+- **tag-index.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **tag-index.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **tag-index.md**: Broken link to: USAGE|Usage Guide
+  - Suggestion: Fix or remove link to USAGE|Usage Guide
+- **tag-index.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **tag-index.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **tag-index.md**: Broken link to: TECHNICAL|Technical Documentation
+  - Suggestion: Fix or remove link to TECHNICAL|Technical Documentation
+- **tag-index.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **tag-index.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **tag-index.md**: Broken link to: API|API Reference
+  - Suggestion: Fix or remove link to API|API Reference
+- **tag-index.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **tag-index.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **tag-index.md**: Broken link to: EXAMPLES|Code Examples
+  - Suggestion: Fix or remove link to EXAMPLES|Code Examples
+- **API.md**: The file contains incomplete placeholder text starting with 'I'll create comprehensive API documentation...' and appears to be unfinished generation output
+  - Suggestion: Complete the API documentation by removing the incomplete generation text and properly documenting the actual API endpoints, methods, and interfaces
+- **EXAMPLES.md**: The file contains incomplete placeholder text starting with 'I'll create comprehensive examples...' and appears to be unfinished generation output
+  - Suggestion: Complete the examples documentation by removing the incomplete generation text and providing actual code examples with proper formatting
+- **README.md**: The file contains incomplete placeholder text starting with 'I'll analyze the docuMentor project...' and appears to be unfinished generation output
+  - Suggestion: Complete the README by removing the incomplete generation text and properly formatting the project overview and documentation
+
+### Medium Severity (17)
+- **GITHUB_SETUP.md**: Missing required frontmatter field: id
+  - Suggestion: Add id to frontmatter
+- **GITHUB_SETUP.md**: Missing required frontmatter field: updated
+  - Suggestion: Add updated to frontmatter
+- **docuMentor TODO.md**: Missing required frontmatter field: id
+  - Suggestion: Add id to frontmatter
+- **docuMentor TODO.md**: Missing required frontmatter field: created
+  - Suggestion: Add created to frontmatter
+- **docuMentor TODO.md**: Missing required frontmatter field: updated
+  - Suggestion: Add updated to frontmatter
+- **docuMentor-TUI-overhaul-TODO.md**: Missing required frontmatter field: id
+  - Suggestion: Add id to frontmatter
+- **docuMentor-TUI-overhaul-TODO.md**: Missing required frontmatter field: created
+  - Suggestion: Add created to frontmatter
+- **docuMentor-TUI-overhaul-TODO.md**: Missing required frontmatter field: updated
+  - Suggestion: Add updated to frontmatter
+- **document-map.md**: Missing required frontmatter field: id
+  - Suggestion: Add id to frontmatter
+- **document-map.md**: Missing required frontmatter field: updated
+  - Suggestion: Add updated to frontmatter
+- **tag-index.md**: Missing required frontmatter field: id
+  - Suggestion: Add id to frontmatter
+- **tag-index.md**: Missing required frontmatter field: updated
+  - Suggestion: Add updated to frontmatter
+- **TAG-REPORT.md**: The file has no frontmatter at all, unlike all other documentation files
+  - Suggestion: Add frontmatter with id, title, tags, created, updated, and other standard fields for consistency
+- **API.md**: Cross-references to [[TECHNICAL]] and [[USAGE]] documents that don't exist in the provided file list
+  - Suggestion: Either create the missing TECHNICAL.md and USAGE.md files or remove/update the broken cross-references
+- **EXAMPLES.md**: Cross-references to [[USAGE]] and [[TECHNICAL]] documents that don't exist in the provided file list
+  - Suggestion: Either create the missing USAGE.md and TECHNICAL.md files or remove/update the broken cross-references
+- **README.md**: Cross-references to [[USAGE]], [[TECHNICAL]], and [[API]] documents, but API link syntax doesn't match the actual API.md filename
+  - Suggestion: Update cross-references to use consistent naming or create the missing USAGE.md and TECHNICAL.md files
+- **All files**: GITHUB_SETUP.md uses different tag format (array syntax) while others use YAML list format with dashes
+  - Suggestion: Standardize tag format across all files to use either array syntax or YAML list format consistently
+
+### Low Severity (10)
+- **GITHUB_SETUP.md**: No backlinks defined
+  - Suggestion: Add backlinks to related documents
+- **docuMentor TODO.md**: No backlinks defined
+  - Suggestion: Add backlinks to related documents
+- **docuMentor-TUI-overhaul-TODO.md**: No backlinks defined
+  - Suggestion: Add backlinks to related documents
+- **docuMentor-TUI-overhaul-TODO.md**: Uses console.log instead of proper logging
+  - Suggestion: Update to modern patterns
+- **document-map.md**: No backlinks defined
+  - Suggestion: Add backlinks to related documents
+- **tag-index.md**: No backlinks defined
+  - Suggestion: Add backlinks to related documents
+- **GITHUB_SETUP.md**: Missing frontmatter fields compared to other files (no id, aliases, updated, project, backlinks, forwardLinks)
+  - Suggestion: Add consistent frontmatter fields matching other documentation files for better metadata consistency
+- **API.md**: Contains both 'See Also' and 'Related Documents' sections that serve the same purpose
+  - Suggestion: Consolidate into a single 'Related Documents' or 'See Also' section to avoid redundancy
+- **EXAMPLES.md**: Contains both 'See Also' and 'Related Documents' sections that serve the same purpose
+  - Suggestion: Consolidate into a single 'Related Documents' or 'See Also' section to avoid redundancy
+- **TAG-REPORT.md**: Lists 'jsx' as used 19 times but only 5 files exist, suggesting outdated statistics
+  - Suggestion: Regenerate the tag report to reflect the current state of the documentation
+
+## Recommendations
+- Run a batch process to add missing frontmatter to all files
+- Fix broken links to maintain documentation integrity
+- Review and update outdated content to reflect current state
+- Address high-severity issues immediately

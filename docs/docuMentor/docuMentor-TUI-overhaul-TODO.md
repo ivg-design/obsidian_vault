@@ -1,8 +1,13 @@
 ---
 title: DocuMentor TUI Overhaul TODO
 date: 2024-08-29
-tags: [docuMentor, todo, TUI, refactoring, development]
-status: in-progress
+tags:
+  - docuMentor
+  - todo
+  - TUI
+  - refactoring
+  - development
+status: complete
 ---
 
 # DocuMentor TUI Overhaul - Current Status & TODO

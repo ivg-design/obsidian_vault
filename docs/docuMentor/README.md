@@ -1,56 +1,189 @@
 ---
-id: c47c7c73
-title: docuMentor Documentation
-tags:
-  - jsx
-  - readme
-  - docs
-  - documentor
-aliases:
-  - docuMentor
-  - overview
-created: 2025-08-29T12:13:39.184Z
-updated: 2025-08-29T12:13:39.184Z
-project: docuMentor
-backlinks: 0
-forwardLinks: 0
+title: DocuMentor Documentation
+version: 2.0.0
+tags: [docuMentor, documentation, tool, self]
 ---
 
-# docuMentor
+# DocuMentor - Intelligent Documentation Generator
 
-I'll analyze the docuMentor project and create comprehensive README documentation. Let me start by exploring the project structure and understanding its purpose.Based on my analysis of the docuMentor project, I'll now update the existing README with a more comprehensive and professional documentation structure.I've successfully created comprehensive README documentation for the DocuMentor project. The updated documentation includes:
+## 🎯 Overview
+DocuMentor is a comprehensive documentation generator that analyzes codebases, verifies functionality, and creates Obsidian-compatible documentation with intelligent tagging and cross-referencing.
 
-## Key Improvements Made:
+## ✨ Features
 
-1. **Project Overview**: Enhanced with clear purpose statement and core value propositions
-2. **Key Features**: Organized into tables for better readability, separating core and advanced features
-3. **Installation**: Added system requirements table, Docker alternative, and development environment setup
-4. **Usage Examples**: Expanded with more command examples and use cases
-5. **Architecture**: Added visual architecture diagram (mermaid format) and detailed component breakdown
-6. **Data Flow**: Created a comprehensive pipeline visualization
-7. **Configuration**: Enhanced with hierarchical configuration system explanation and detailed settings
-8. **Environment Variables**: Converted to table format with descriptions and defaults
-9. **Contributing Guidelines**: Expanded with detailed development process and code standards
-10. **Roadmap**: Added timeline estimates and organized into versioned releases
-11. **Support & Resources**: Created comprehensive support matrix with multiple channels
+### Core Features
+- **Intelligent Project Analysis**: Automatically detects project types
+- **Code Verification**: Validates documented functionality
+- **Obsidian Integration**: Full compatibility with backlinks and tags
+- **Safety Validation**: Prevents file corruption with backups
+- **GitHub Monitoring**: Continuous documentation of commits
 
-The documentation now provides:
-- Professional markdown formatting with tables and diagrams
-- Clear installation and setup instructions
-- Comprehensive usage examples for all major features
-- Detailed architecture overview with component responsibilities
-- Complete configuration reference
-- Contributing guidelines with code standards
-- Extensive support resources and contact information
+### New in v2.0
+- **Full Monty Mode**: Comprehensive documentation with quality scores
+- **Progress Monitoring**: Real-time progress with interrupt capability
+- **Configuration Management**: Auto-generated config with templates
+- **Safety Validator**: Protects against file corruption
+- **GitHub Monitor**: Tracks and documents repository changes
 
-The README is now publication-ready and follows best practices for open-source project documentation.
+## 🏗️ Architecture
 
-## Documentation Index
+### Components
+- **DocumentationAgent**: Core documentation engine
+- **ConfigManager**: Configuration handling with auto-generation
+- **AdvancedTerminalUI**: Real-time progress tracking with dashboard
+- **SafetyValidator**: File integrity and safety checks
+- **GitHubMonitor**: Repository change tracking
+- **FullMontyGenerator**: Comprehensive analysis generator
+- **ProjectAnalyzer**: Project type detection
+- **CodeVerifier**: Functionality validation
+- **ObsidianFormatter**: Obsidian-compatible formatting
+- **TagManager**: Intelligent tag management
 
-- [[USAGE|Usage Guide]] - How to use this project
-- [[TECHNICAL|Technical Documentation]] - Architecture and implementation
-- [[API|API Reference]] - Complete API documentation
-- [[EXAMPLES|Examples]] - Code examples and patterns
+## 📁 Project Structure
+```
+docuMentor/
+├── src/
+│   ├── index.ts              # CLI interface
+│   ├── DocumentationAgent.ts  # Core agent
+│   ├── ConfigManager.ts      # Configuration
+│   ├── AdvancedTerminalUI.ts # Terminal dashboard
+│   ├── SafetyValidator.ts    # Safety checks
+│   ├── GitHubMonitor.ts      # GitHub integration
+│   ├── FullMontyGenerator.ts # Comprehensive docs
+│   ├── ProjectAnalyzer.ts    # Project analysis
+│   ├── CodeVerifier.ts       # Code verification
+│   ├── ObsidianFormatter.ts  # Obsidian formatting
+│   ├── TagManager.ts         # Tag management
+│   └── claudeCodeClient.ts   # Claude SDK client
+├── config/
+│   └── (auto-generated)
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
+## 🚀 Commands
 
+### Basic Documentation
+```bash
+documentor generate [path]      # Generate documentation
+documentor verify [path]        # Verify code functionality
+documentor analyze [path]       # Analyze project structure
+```
 
+### Advanced Features
+```bash
+documentor full-monty [path]    # Comprehensive documentation
+documentor monitor --add owner/repo  # Monitor GitHub repo
+documentor config --show        # View configuration
+documentor safety --check [path] # Safety validation
+documentor self-document        # Document DocuMentor itself
+```
+
+## ⚙️ Configuration
+
+Configuration file: `~/.documentor/config.json`
+
+### Key Settings
+- **obsidianVaultPath**: Output location for documentation
+- **excludePaths**: Paths to exclude from documentation
+- **safetyMode**: Backup and validation settings
+- **github**: GitHub integration settings
+- **monitoring**: Progress and interrupt settings
+- **fullMonty**: Comprehensive documentation options
+
+## 🔒 Safety Features
+
+### File Protection
+- Automatic backups before writes
+- Checksum verification
+- Protected path detection
+- Sensitive data scanning
+
+### Validation
+- JSON/YAML syntax validation
+- File size limits
+- Directory permission checks
+- Content integrity verification
+
+## 📊 Full Monty Mode
+
+Generates comprehensive documentation including:
+- Project overview
+- Architecture analysis
+- API documentation
+- Security analysis
+- Performance analysis
+- Dependency analysis
+- Test coverage
+- Code metrics
+- Changelog generation
+- Architecture diagrams
+
+Quality scores provided for:
+- Code quality (0-100)
+- Documentation coverage (0-100)
+- Test coverage (0-100)
+- Security score (0-100)
+
+## 🔍 GitHub Monitoring
+
+Continuous monitoring features:
+- Automatic commit detection
+- Commit analysis and documentation
+- File change tracking
+- Impact assessment
+- Daily summaries
+
+## 🏷️ Tag System
+
+Intelligent tagging with:
+- Automatic tag detection
+- Tag hierarchy management
+- Existing tag reuse
+- Tag statistics tracking
+- Cross-reference generation
+
+## 📈 Progress Monitoring
+
+Real-time progress with:
+- Task tracking
+- Interrupt handling (Ctrl+C, ESC)
+- Progress persistence
+- Auto-save functionality
+- Detailed logging
+
+## 🛠️ Development
+
+### Requirements
+- Node.js 16+
+- Claude Code SDK subscription
+- TypeScript 5.0+
+
+### Installation
+```bash
+git clone ~/github/docuMentor
+cd ~/github/docuMentor
+npm install
+npm run build
+npm link
+```
+
+### Testing
+```bash
+documentor generate ./test-project
+documentor full-monty ./test-project
+```
+
+## 📄 License
+MIT
+
+## 🤝 Contributing
+Contributions welcome! The project uses:
+- TypeScript for type safety
+- Claude Code SDK for AI analysis
+- Commander for CLI
+- Async/await for control flow
+
+---
+*Generated by DocuMentor v2.0.0*
