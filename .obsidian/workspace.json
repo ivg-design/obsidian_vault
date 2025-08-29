@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/Documentor Roadmap.md",
+                "file": "docs/docuMentor/README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Documentor Roadmap"
+              "title": "README"
             }
           }
         ]
@@ -186,9 +186,9 @@
   },
   "active": "7dcb9ae690444952",
   "lastOpenFiles": [
-    "docs/docuMentor/USAGE.md",
-    "docs/docuMentor/README.md",
     "docs/docuMentor/Documentor Roadmap.md",
+    "docs/docuMentor/README.md",
+    "docs/docuMentor/USAGE.md",
     "docs/docuMentor/docuMentor TODO.md",
     "Pasted image 20250829083834.png",
     "Untitled 1.md",
