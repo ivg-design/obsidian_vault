@@ -6,7 +6,7 @@ tags:
   - todo
   - refactoring
   - development
-status: complete
+status: planning
 ---
 1. it still says phase 1 of 1 there definitely more than one phase!  and it does not update at all throughout the process!
 2. debug and raw modes are not implemented -  when i go to debug all i see is empty statements and raw mode doesn't show anything at all - it looks like you tried to move the raw messages to the debug but and left raw mode empty - what you must do is 1) add debugging messages to different modules that can help debug and diagnose issue, make those messages visible in debug mode, and raw   mode supposed to show unformatted json messages sent to claude 
