@@ -32,7 +32,7 @@ The guide is now saved as `USAGE_GUIDE.md` in the docuMentor directory, providin
 
 ## See Also
 
-- [[README|Back to README]]
+- [[docs/docuMentor/Untitled/README|Back to README]]
 - [[TECHNICAL|Technical Documentation]]
 - [[EXAMPLES|Code Examples]]
 
@@ -41,6 +41,6 @@ The guide is now saved as `USAGE_GUIDE.md` in the docuMentor directory, providin
 
 Documents with similar tags:
 
-- [[README|docuMentor Documentation]] #jsx #readme #docs #documentor
+- [[docs/docuMentor/Untitled/README|docuMentor Documentation]] #jsx #readme #docs #documentor
 
 

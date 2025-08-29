@@ -60,7 +60,7 @@ The documentation is saved as `API_DOCUMENTATION.md` and includes everything nee
 
 ## See Also
 
-- [[README|Back to README]]
+- [[docs/docuMentor/Untitled/README|Back to README]]
 - [[TECHNICAL|Technical Documentation]]
 - [[EXAMPLES|Usage Examples]]
 
@@ -69,7 +69,7 @@ The documentation is saved as `API_DOCUMENTATION.md` and includes everything nee
 
 Documents with similar tags:
 
-- [[README|docuMentor Documentation]] #jsx #readme #docs #documentor
+- [[docs/docuMentor/Untitled/README|docuMentor Documentation]] #jsx #readme #docs #documentor
 - [[USAGE|Usage Guide]] #jsx #usage #guide #howto #documentor
 - [[TECHNICAL|Technical Documentation]] #jsx #technical #architecture #implementation #documentor
 

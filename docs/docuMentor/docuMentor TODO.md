@@ -16,11 +16,7 @@ status:  in progress
  6. for the "free" message - i assume that this is the indication that the lock file is currently unlocked - make this clearer, and add another line between the shortcut message and the topmost line - this is where you should update the lockfile status - as it is updated by the script every 5s 
  7. there should be a counter of how many docs have already been written and the name of the current  one being worked on 
  8. instead of creating documentation, currently documentor is creating a stream of consciousness document in obsidian while it is creating the actual documentation files in the project folder - it must be creating hte documents in the obsidian docs folder following the hierarchical structure of folder per project and inside if there is one tool/project/utility/plugin/extension/script then just the documentation while if there are multiple, each one gets a subfolder and its own documentation, and the repo a general document and structure overview 
- 9. it seems either it is is improperly documenting the project  [], or
-│   the project is incorrect - it should not have any heuristic algorythms for determinining type of     │
-│   project or the tag analysis - everything should be passed through documentor agent and only the      │
-│   documentor agent is making any determinations! \                                                     │
-│   10. it is generating documentsation without the frontmatter - the tags, dates, backlinks and front   │
-│   links,  and all other required information - no file can be generated without it! \                  │
-│   11. times stamps must be in local time! \ \                                                          │
-│   12.           
+ 9. it seems either it is is improperly documenting the project  [TECHNICAL_DOCUMENTATION] or the project is incorrect - it should not have any heuristic algorythms for determinining type of project or the tag analysis - everything should be passed through documentor agent and only the documentor agent is making any determinations! 
+ 10. it is generating documentation without the frontmatter - the tags, dates, backlinks and front links,  and all other required information - no file can be generated without it! 
+ 11. times stamps must be in local time! 
+ 12. it looks like the self documentation was complete without a tag consolidation step - it needed the agent must review the existing project tags related to the project documentation and make sure to consolidate all of them properly!

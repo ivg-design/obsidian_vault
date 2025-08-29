@@ -62,7 +62,7 @@ The file includes practical, copy-paste ready examples with detailed explanation
 
 ## See Also
 
-- [[README|Back to README]]
+- [[docs/docuMentor/Untitled/README|Back to README]]
 - [[USAGE|Usage Guide]]
 - [[API|API Reference]]
 
@@ -71,7 +71,7 @@ The file includes practical, copy-paste ready examples with detailed explanation
 
 Documents with similar tags:
 
-- [[README|docuMentor Documentation]] #jsx #readme #docs #documentor
+- [[docs/docuMentor/Untitled/README|docuMentor Documentation]] #jsx #readme #docs #documentor
 - [[USAGE|Usage Guide]] #jsx #usage #guide #howto #documentor
 - [[TECHNICAL|Technical Documentation]] #jsx #technical #architecture #implementation #documentor
 - [[API|API Reference]] #jsx #api #reference #functions #documentor

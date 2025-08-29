@@ -30,7 +30,7 @@ graph TD
 
 ## Navigation
 
-- [[tag-index|View Tag Index]]
+- [[docs/jsx/tag-index|View Tag Index]]
 - [[jsx/README|Project Overview]]
 - [[jsx/architecture|Architecture]]
 - [[jsx/api|API Reference]]

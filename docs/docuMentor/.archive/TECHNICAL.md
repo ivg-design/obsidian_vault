@@ -31,7 +31,7 @@ I'll analyze the docuMentor codebase and create comprehensive technical document
 
 ## See Also
 
-- [[README|Back to README]]
+- [[docs/docuMentor/Untitled/README|Back to README]]
 - [[API|API Reference]]
 - [[USAGE|Usage Guide]]
 
@@ -40,7 +40,7 @@ I'll analyze the docuMentor codebase and create comprehensive technical document
 
 Documents with similar tags:
 
-- [[README|docuMentor Documentation]] #jsx #readme #docs #documentor
+- [[docs/docuMentor/Untitled/README|docuMentor Documentation]] #jsx #readme #docs #documentor
 - [[USAGE|Usage Guide]] #jsx #usage #guide #howto #documentor
 
 
