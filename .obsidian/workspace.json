@@ -11,10 +11,14 @@
             "id": "7dcb9ae690444952",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/bm_player_template-documentation/TOC_md.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "TOC_md"
             }
           }
         ]
@@ -180,22 +184,23 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "7dcb9ae690444952",
   "lastOpenFiles": [
     "docs/bm_player_template-documentation/subframe-rendering_md.md",
+    "docs/bm_player_template-documentation/README_md.md",
     "docs/bm_player_template-documentation/player-controls_md.md",
     "docs/bm_player_template-documentation/package_json.md",
-    "docs/bm_player_template-documentation/build-process_md.md",
-    "docs/bm_player_template-documentation/TOC_md.md",
-    "docs/bm_player_template-documentation/README_md.md",
     "docs/bm_player_template-documentation/INDEX.md",
     "docs/bm_player_template-documentation/DOCUMENTATION_md.md",
     "docs/bm_player_template-documentation/CHANGELOG_md.md",
+    "docs/bm_player_template-documentation/build-process_md.md",
+    "docs/bm-player-template-documentation/README.md",
+    "docs/bm_player_template-documentation/TOC_md.md",
     "docs/bm_player_template-documentation",
+    "docs/bm_player_template-documentation.zip",
     "docs/bm-player-template-documentation/INDEX.md",
     "docs/bm-player-template-documentation/CHANGELOG.md",
     "docs/bm-player-template-documentation/build.md",
-    "docs/bm-player-template-documentation/README.md",
     "docs/jsx/architecture.md",
     "docs/bm-player-template-documentation",
     "docs/docuMentor/docuMentor Roadmap.md",
@@ -210,7 +215,6 @@
     "docs/Users/ivg/github/docuMentor/~",
     "docs/Users/ivg/github/docuMentor",
     "docs/Users/ivg/github",
-    "docs/Users/ivg",
     "docs/docuMentor/README.md",
     "_daily_notes/2025-08-26.md",
     "docs/docuMentor/USAGE.md",

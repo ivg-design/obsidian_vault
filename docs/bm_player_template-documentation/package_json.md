@@ -3,323 +3,430 @@ title: Package
 type: config
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/package.json
-created: 08-30-2025 22:25:23
-modified: 08-30-2025 22:25:23
+created: 08-31-2025 06:02:48
+modified: 08-31-2025 06:02:48
 tags:
   - #bm_player_template
   - #type/config
 ---
 
-I'll analyze the project structure and codebase to generate comprehensive documentation.# Configuration System Documentation
+I need to analyze the project to generate appropriate documentation. Let me examine the codebase structure and recent changes.# DocuMentor Configuration Guide
 
 ## Overview
 
-The Bodymovin Player Template Builder uses a centralized configuration system to manage build settings, deployment paths, and template processing parameters. The configuration is defined in the `scripts/build.js` file and controls all aspects of the build and deployment process.
+DocuMentor uses a JSON-based configuration system that allows customization of documentation generation behavior, output formats, and integration features. The configuration file `.documentor.config.json` provides fine-grained control over all aspects of the documentation pipeline.
+
+## Configuration File Location
+
+The configuration file is automatically created in the project root directory when running `documentor config init`. The default location is:
+
+```
+.documentor.config.json
+```
 
 ## Configuration Structure
 
-### Main Configuration Object
+### Basic Configuration
 
-The primary configuration object is located at the top of `scripts/build.js`:
-
-```javascript
-const CONFIG = {
-  sourceTemplate: path.join(__dirname, '..', 'src', 'demo_template.html'),
-  minifiedPlayer: path.join(__dirname, '..', 'lib', 'minified_bm_player.min.js'),
-  targetDir: '/Library/Application Support/Adobe/CEP/extensions/bodymovin/assets/player/',
-  targetFile: 'demo.html',
-  animationPlaceholder: '__[[ANIMATIONDATA]]__'
-};
-```
-
-### Configuration Properties
-
-#### `sourceTemplate`
-- **Type**: String (file path)
-- **Default**: `src/demo_template.html`
-- **Description**: Path to the source HTML template containing the Lottie animation player interface
-- **Requirements**: Must be a valid HTML file with proper structure for animation injection
-
-#### `minifiedPlayer`
-- **Type**: String (file path)
-- **Default**: `lib/minified_bm_player.min.js`
-- **Description**: Path to the minified Lottie player JavaScript library
-- **Current Version**: 5.12.2
-- **Purpose**: Self-contained player code that gets injected into the template
-
-#### `targetDir`
-- **Type**: String (directory path)
-- **Default**: `/Library/Application Support/Adobe/CEP/extensions/bodymovin/assets/player/`
-- **Description**: Destination directory for the processed template file
-- **Platform Notes**: 
-  - macOS: Default path shown above
-  - Windows: Typically `C:\Program Files\Common Files\Adobe\CEP\extensions\bodymovin\assets\player\`
-  - Linux: May vary based on Adobe installation
-
-#### `targetFile`
-- **Type**: String (filename)
-- **Default**: `demo.html`
-- **Description**: Name of the output file in the target directory
-- **Note**: This file will be used by the Bodymovin extension when exporting animations
-
-#### `animationPlaceholder`
-- **Type**: String
-- **Default**: `__[[ANIMATIONDATA]]__`
-- **Description**: Placeholder string that gets replaced with actual animation data by Bodymovin
-- **Format**: Double underscore prefix/suffix with double square brackets for uniqueness
-
-## Logging Configuration
-
-### Log Levels
-
-The build script uses the `loglevel` library for configurable logging output:
-
-```javascript
-log.setLevel('info'); // Default level
-```
-
-Available log levels:
-- `trace`: Most verbose, includes all debug information
-- `debug`: Detailed debugging information
-- `info`: General informational messages (default)
-- `warn`: Warning messages only
-- `error`: Error messages only
-- `silent`: No output
-
-### Enabling Debug Mode
-
-To enable verbose logging for troubleshooting:
-
-```javascript
-log.setLevel('debug');
-```
-
-## Build Process Configuration
-
-### File Processing Steps
-
-The build process follows these configurable steps:
-
-1. **File Verification**
-   - Checks existence of source template
-   - Validates minified player file
-   - Confirms target directory accessibility
-
-2. **Template Processing**
-   - CDN script removal patterns
-   - Build marker detection
-   - Animation data replacement
-
-3. **Backup Configuration**
-   - Automatic backup creation with timestamp
-   - Backup naming format: `demo.old.YYMMDD-HHMM.html`
-
-### Processing Patterns
-
-#### CDN Script Detection
-```javascript
-const cdnScriptPattern = /<script[^>]*src=["'][^"']*lottie[^"']*\.js["'][^>]*><\/script>/gi;
-```
-
-#### Build Markers
-```javascript
-const buildMarkerPattern = /<!-- build:scripto -->[\s\S]*?<!-- endbuild -->/;
-```
-
-#### Animation Data Pattern
-```javascript
-const animationDataPattern = /var\s+animationData\s*=\s*({[\s\S]*?});/g;
-```
-
-## Customization Guide
-
-### Modifying Target Directory
-
-To deploy to a custom location:
-
-```javascript
-const CONFIG = {
-  // ... other settings
-  targetDir: '/path/to/your/custom/directory/',
-  targetFile: 'custom-player.html'
-};
-```
-
-### Using Different Player Version
-
-To use an alternative Lottie player build:
-
-```javascript
-const CONFIG = {
-  // ... other settings
-  minifiedPlayer: path.join(__dirname, '..', 'lib', 'your-custom-player.min.js')
-};
-```
-
-### Custom Placeholder Format
-
-To change the animation data placeholder:
-
-```javascript
-const CONFIG = {
-  // ... other settings
-  animationPlaceholder: '{{ANIMATION_DATA_HERE}}'
-};
-```
-
-## Environment-Specific Configuration
-
-### Development Environment
-
-For development and testing:
-
-```javascript
-const isDevelopment = process.env.NODE_ENV === 'development';
-
-const CONFIG = {
-  sourceTemplate: path.join(__dirname, '..', 'src', 'demo_template.html'),
-  minifiedPlayer: path.join(__dirname, '..', 'lib', 'minified_bm_player.min.js'),
-  targetDir: isDevelopment 
-    ? path.join(__dirname, '..', 'dist') 
-    : '/Library/Application Support/Adobe/CEP/extensions/bodymovin/assets/player/',
-  targetFile: 'demo.html',
-  animationPlaceholder: '__[[ANIMATIONDATA]]__'
-};
-```
-
-### Platform Detection
-
-For cross-platform compatibility:
-
-```javascript
-const os = require('os');
-
-function getTargetDirectory() {
-  const platform = os.platform();
-  
-  switch(platform) {
-    case 'darwin': // macOS
-      return '/Library/Application Support/Adobe/CEP/extensions/bodymovin/assets/player/';
-    case 'win32': // Windows
-      return 'C:\\Program Files\\Common Files\\Adobe\\CEP\\extensions\\bodymovin\\assets\\player\\';
-    case 'linux':
-      return path.join(os.homedir(), '.adobe/CEP/extensions/bodymovin/assets/player/');
-    default:
-      return './dist/'; // Fallback to local directory
+```json
+{
+  "version": "3.1.0",
+  "project": {
+    "name": "auto-detect",
+    "type": "auto"
+  },
+  "output": {
+    "path": "~/Documents/documentation",
+    "format": "obsidian"
   }
 }
-
-const CONFIG = {
-  // ... other settings
-  targetDir: getTargetDirectory()
-};
 ```
 
-## Command Line Arguments
+### Complete Configuration
 
-### Adding CLI Configuration Override
-
-To support command-line configuration overrides:
-
-```javascript
-const args = process.argv.slice(2);
-const targetIndex = args.indexOf('--target');
-
-if (targetIndex !== -1 && args[targetIndex + 1]) {
-  CONFIG.targetDir = args[targetIndex + 1];
+```json
+{
+  "version": "3.1.0",
+  "project": {
+    "name": "auto-detect",
+    "type": "auto"
+  },
+  "output": {
+    "path": "~/github/obsidian_vault/docs",
+    "format": "obsidian",
+    "features": {
+      "frontmatter": true,
+      "backlinks": true,
+      "tags": {
+        "optimize": true,
+        "hierarchy": true,
+        "minPerDoc": 3
+      },
+      "moc": true,
+      "dataview": true
+    }
+  },
+  "permissions": {
+    "requestPassword": false,
+    "skipOnDenial": true,
+    "importantPaths": ["src", "lib", "config", "docs", "scripts"]
+  },
+  "claude": {
+    "model": "claude-opus-4-1-20250805",
+    "maxTokens": 200000,
+    "temperature": 0.3
+  },
+  "github": {
+    "enabled": false,
+    "accessToken": "",
+    "username": "",
+    "repositories": [],
+    "pollInterval": 5,
+    "documentOnCommit": true,
+    "documentOnPR": true,
+    "ignorePatterns": ["*.min.js", "*.min.css", "package-lock.json"]
+  },
+  "watch": {
+    "enabled": false,
+    "paths": [],
+    "interval": 5000,
+    "debounce": 1000,
+    "ignorePatterns": ["**/node_modules/**", "**/.git/**"]
+  },
+  "phases": [
+    "analysis",
+    "security",
+    "generation",
+    "enhancement",
+    "obsidian-integration",
+    "tag-optimization",
+    "backlink-generation",
+    "verification",
+    "save"
+  ]
 }
-
-// Usage: node scripts/build.js --target /custom/path/
 ```
 
-## Error Handling Configuration
+## Configuration Sections
 
-### Validation Rules
+### Project Settings
 
-The build script validates configuration with these rules:
+Controls project identification and type detection.
 
-1. **Source Files Must Exist**
-   - Template file must be readable
-   - Player file must be accessible
+```json
+"project": {
+  "name": "auto-detect",
+  "type": "auto"
+}
+```
 
-2. **Target Directory Permissions**
-   - Write access required for deployment
-   - Fallback to current directory if target unavailable
+**Options:**
+- `name`: Project name (`"auto-detect"` uses directory name)
+- `type`: Project type detection mode (`"auto"` | `"manual"`)
 
-3. **Placeholder Uniqueness**
-   - Placeholder string must not conflict with actual code
-   - Should be easily identifiable for replacement
+### Output Settings
+
+Defines where and how documentation is generated.
+
+```json
+"output": {
+  "path": "~/Documents/documentation",
+  "format": "obsidian",
+  "features": {
+    "frontmatter": true,
+    "backlinks": true,
+    "tags": {
+      "optimize": true,
+      "hierarchy": true,
+      "minPerDoc": 3
+    },
+    "moc": true,
+    "dataview": true
+  }
+}
+```
+
+**Options:**
+- `path`: Output directory path (supports `~` for home directory)
+- `format`: Output format (`"obsidian"` | `"markdown"`)
+- `features.frontmatter`: Enable YAML frontmatter generation
+- `features.backlinks`: Generate cross-references between documents
+- `features.tags.optimize`: Enable intelligent tag optimization
+- `features.tags.hierarchy`: Create hierarchical tag structures
+- `features.tags.minPerDoc`: Minimum tags per document
+- `features.moc`: Generate Map of Contents
+- `features.dataview`: Add Dataview plugin metadata
+
+### Permissions Settings
+
+Controls file access and security prompts.
+
+```json
+"permissions": {
+  "requestPassword": false,
+  "skipOnDenial": true,
+  "importantPaths": ["src", "lib", "config", "docs", "scripts"]
+}
+```
+
+**Options:**
+- `requestPassword`: Prompt for password for sensitive operations
+- `skipOnDenial`: Skip files when access is denied
+- `importantPaths`: Priority paths for documentation
+
+### Claude AI Settings
+
+Configures the AI model parameters.
+
+```json
+"claude": {
+  "model": "claude-opus-4-1-20250805",
+  "maxTokens": 200000,
+  "temperature": 0.3
+}
+```
+
+**Options:**
+- `model`: Claude model identifier
+- `maxTokens`: Maximum tokens for generation (up to 200,000)
+- `temperature`: Creativity level (0.0 = deterministic, 1.0 = creative)
+
+### GitHub Integration
+
+Enables repository monitoring and automatic documentation.
+
+```json
+"github": {
+  "enabled": false,
+  "accessToken": "ghp_...",
+  "username": "yourusername",
+  "repositories": ["repo1", "repo2"],
+  "pollInterval": 5,
+  "documentOnCommit": true,
+  "documentOnPR": true,
+  "ignorePatterns": ["*.min.js", "*.min.css"]
+}
+```
+
+**Options:**
+- `enabled`: Enable GitHub monitoring
+- `accessToken`: GitHub personal access token
+- `username`: GitHub username
+- `repositories`: List of repositories to monitor
+- `pollInterval`: Check interval in minutes
+- `documentOnCommit`: Generate docs on new commits
+- `documentOnPR`: Generate docs on pull requests
+- `ignorePatterns`: Files to exclude from documentation
+
+### Watch Mode Settings
+
+Configures file system monitoring.
+
+```json
+"watch": {
+  "enabled": false,
+  "paths": ["./src", "./lib"],
+  "interval": 5000,
+  "debounce": 1000,
+  "ignorePatterns": ["**/node_modules/**", "**/.git/**"]
+}
+```
+
+**Options:**
+- `enabled`: Enable watch mode
+- `paths`: Directories to monitor (empty = current directory)
+- `interval`: Check interval in milliseconds
+- `debounce`: Wait time before regenerating
+- `ignorePatterns`: Patterns to exclude from watching
+
+### Phase Configuration
+
+Customize the documentation pipeline phases.
+
+```json
+"phases": [
+  "analysis",
+  "security",
+  "generation",
+  "enhancement",
+  "obsidian-integration",
+  "tag-optimization",
+  "backlink-generation",
+  "verification",
+  "save"
+]
+```
+
+**Available Phases:**
+1. `analysis` - Project structure analysis
+2. `security` - Security vulnerability scanning
+3. `generation` - Core documentation generation
+4. `enhancement` - Content refinement
+5. `obsidian-integration` - Obsidian-specific formatting
+6. `tag-optimization` - Tag hierarchy creation
+7. `backlink-generation` - Cross-reference creation
+8. `verification` - Quality validation
+9. `save` - Final output generation
+
+## Configuration Commands
+
+### Initialize Configuration
+
+Creates a new configuration file with defaults:
+
+```bash
+documentor config init
+```
+
+### View Configuration
+
+Display current configuration:
+
+```bash
+documentor config show
+```
+
+### Edit Configuration
+
+Open configuration in default editor:
+
+```bash
+documentor config edit
+```
+
+### Validate Configuration
+
+Check configuration for errors:
+
+```bash
+documentor config validate
+```
+
+## Environment Variables
+
+Override configuration via environment variables:
+
+```bash
+# Override output path
+DOCUMENTOR_OUTPUT_PATH=/custom/path documentor generate .
+
+# Override format
+DOCUMENTOR_FORMAT=markdown documentor generate .
+
+# Enable efficient mode
+DOCUMENTOR_EFFICIENT=true documentor generate .
+
+# Set Claude API key
+CLAUDE_API_KEY=your-key documentor generate .
+```
+
+## Configuration Precedence
+
+Configuration values are resolved in this order:
+1. Command-line arguments (highest priority)
+2. Environment variables
+3. Configuration file
+4. Default values (lowest priority)
+
+## Format-Specific Settings
+
+### Obsidian Format
+
+When `format` is set to `"obsidian"`, additional features become available:
+
+- **Frontmatter**: YAML metadata for each document
+- **Tags**: Hierarchical tag system compatible with Obsidian
+- **Backlinks**: `[[wiki-style]]` links between documents
+- **MOC**: Map of Contents for navigation
+- **Dataview**: Metadata for Dataview plugin queries
+
+### Markdown Format
+
+When `format` is set to `"markdown"`, generates:
+
+- Standard markdown files
+- Table of contents
+- Cross-references using standard markdown links
+- No Obsidian-specific features
+
+## Advanced Configuration
+
+### Custom Templates
+
+Place custom templates in the `templates/` directory:
+
+```
+templates/
+├── component.md
+├── api.md
+└── architecture.md
+```
+
+### Ignore Files
+
+Create `.documentorignore` file to exclude patterns:
+
+```
+node_modules/
+dist/
+*.test.js
+*.spec.ts
+```
+
+### Per-Directory Configuration
+
+Place `.documentor.json` in subdirectories for local overrides:
+
+```json
+{
+  "output": {
+    "features": {
+      "tags": {
+        "minPerDoc": 5
+      }
+    }
+  }
+}
+```
 
 ## Best Practices
 
-### Configuration Management
-
-1. **Version Control**
-   - Keep configuration in version control
-   - Document any environment-specific changes
-
-2. **Path Resolution**
-   - Always use `path.join()` for cross-platform compatibility
-   - Use absolute paths when possible
-
-3. **Validation**
-   - Validate all configuration values before processing
-   - Provide clear error messages for configuration issues
-
-### Security Considerations
-
-1. **File Permissions**
-   - Check read/write permissions before operations
-   - Handle permission errors gracefully
-
-2. **Path Sanitization**
-   - Validate user-provided paths
-   - Prevent directory traversal attacks
-
-3. **Backup Strategy**
-   - Always create backups before overwriting files
-   - Maintain reasonable backup retention
+1. **Start Simple**: Begin with minimal configuration and add features as needed
+2. **Version Control**: Commit `.documentor.config.json` to track changes
+3. **Secure Tokens**: Never commit GitHub tokens; use environment variables
+4. **Optimize Phases**: Remove unnecessary phases for faster generation
+5. **Test Settings**: Use `--dry-run` flag to test configuration changes
+6. **Monitor Performance**: Adjust `maxTokens` and `temperature` for optimal results
 
 ## Troubleshooting
 
-### Common Configuration Issues
+### Common Issues
 
-| Issue | Solution |
-|-------|----------|
-| Target directory not found | Check Adobe CEP installation path |
-| Permission denied | Run with appropriate permissions or use sudo (carefully) |
-| Player file missing | Ensure `lib/minified_bm_player.min.js` exists |
-| Placeholder not replaced | Verify placeholder string matches exactly |
+**Documentation not generating:**
+- Verify Claude API key is set
+- Check output path permissions
+- Validate configuration syntax
 
-### Debug Configuration
+**GitHub integration not working:**
+- Confirm access token has required permissions
+- Verify repository names are correct
+- Check network connectivity
 
-Enable detailed logging to troubleshoot configuration issues:
+**Watch mode missing changes:**
+- Adjust `debounce` value
+- Check `ignorePatterns` aren't too broad
+- Verify file system permissions
 
-```javascript
-// At the top of build.js
-log.setLevel('debug');
+### Debug Mode
 
-// Add debug statements
-log.debug('Configuration:', CONFIG);
-log.debug('Current directory:', __dirname);
-log.debug('Target path:', path.join(CONFIG.targetDir, CONFIG.targetFile));
+Enable verbose logging:
+
+```bash
+DOCUMENTOR_DEBUG=true documentor generate .
 ```
 
-## Integration with Bodymovin
+View configuration resolution:
 
-### Extension Requirements
-
-The configuration must align with Bodymovin extension expectations:
-
-1. **File Location**: Must be in the correct assets/player directory
-2. **File Name**: Should match what Bodymovin expects (typically `demo.html`)
-3. **Placeholder Format**: Must be exactly what Bodymovin will replace
-
-### Verification
-
-After deployment, verify integration:
-
-1. Open After Effects
-2. Navigate to Window > Extensions > Bodymovin
-3. Export an animation with "Demo" option enabled
-4. Confirm the custom player template is used
+```bash
+documentor config debug
+```

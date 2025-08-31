@@ -3,198 +3,386 @@ title: TOC
 type: documentation
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/docs/TOC.md
-created: 08-30-2025 22:27:09
-modified: 08-30-2025 22:27:09
+created: 08-31-2025 06:03:44
+modified: 08-31-2025 06:03:44
 tags:
   - #bm_player_template
   - #type/documentation
 ---
 
-I'll analyze the project structure and codebase to generate comprehensive documentation.## Bodymovin Player Template Builder
-
-The Bodymovin Player Template Builder is a comprehensive solution for creating professional Lottie animation players with advanced controls and automated build integration for Adobe After Effects Bodymovin extension.
+I need to analyze the codebase to generate comprehensive documentation. Let me examine the project structure and key files.# DocuMentor Documentation
 
 ## Overview
 
-The project provides a fully-featured animation player with sophisticated controls, automated template processing, and seamless deployment to the Bodymovin extension. It bridges the gap between animation creation in After Effects and web deployment, offering designers a polished interface and developers an automated build pipeline.
+DocuMentor is an intelligent documentation generator powered by Claude AI that creates comprehensive, well-structured documentation for software projects with seamless Obsidian integration. The system employs a sophisticated 9-phase documentation pipeline to ensure thorough analysis and high-quality output.
 
-## System Architecture
+## Architecture
+
+### Core System Design
+
+The system follows a modular architecture with clear separation of concerns:
+
+- **Command Layer** - CLI commands for user interaction
+- **Core Engine** - DocumentEngine orchestrates the 9-phase pipeline
+- **Processing Components** - Individual modules for specific tasks
+- **Output Management** - File writing and formatting systems
+- **Integration Layer** - Obsidian and external tool integrations
+
+### 9-Phase Documentation Pipeline
+
+The documentation generation process follows nine distinct phases:
+
+1. **Analysis Phase** - Deep project structure analysis and file discovery
+2. **Security Validation** - Vulnerability scanning and dependency validation  
+3. **Generation Phase** - AI-powered documentation creation using Claude
+4. **Enhancement Phase** - Content refinement and formatting
+5. **Obsidian Integration** - Vault structure and frontmatter generation
+6. **Tag Optimization** - Hierarchical tag creation and organization
+7. **Backlink Generation** - Cross-reference and relationship mapping
+8. **Verification Phase** - Quality checks and validation
+9. **Save Phase** - Final assembly and output generation
 
 ### Core Components
 
-The system consists of three main components:
+#### DocumentEngine (`src/core/DocumentEngine.ts`)
 
-1. **HTML Template** (`src/demo_template.html`) - The interactive player interface with advanced controls
-2. **Build System** (`scripts/build.js`) - Automated template processor and deployment tool  
-3. **Minified Player** (`lib/minified_bm_player.min.js`) - Optimized Lottie runtime library
+The main orchestrator that manages the entire documentation generation process. Coordinates all phases, manages state, and handles error recovery.
 
-### Build Pipeline
+Key responsibilities:
+- Phase execution management
+- Project analysis coordination
+- Document generation orchestration
+- Error handling and recovery
+- Lock file management
 
-The build process transforms the development template into a production-ready player:
+#### ClaudeClient (`src/core/ClaudeClient.ts`)
 
-1. **Template Processing**
-   - Removes external CDN dependencies
-   - Injects minified Lottie player directly into HTML
-   - Replaces mock animation data with Bodymovin placeholder
+Integrates with Claude AI API for intelligent documentation generation. Handles API communication, rate limiting, and response processing.
 
-2. **Validation**
-   - Verifies successful script injection
-   - Confirms placeholder insertion
-   - Validates CDN removal
+#### DocGenerator (`src/core/DocGenerator.ts`)
 
-3. **Deployment**
-   - Creates timestamped backups
-   - Deploys to Adobe CEP extensions directory
-   - Provides rollback capability on failure
+Generates documentation content using Claude AI. Processes source files and creates comprehensive documentation with proper formatting.
 
-## Player Features
+#### ObsidianIntegration (`src/core/ObsidianIntegration.ts`)
 
-### Playback Controls
+Manages Obsidian-specific features including:
+- Frontmatter generation with YAML formatting
+- Tag hierarchy creation
+- Backlink relationship mapping
+- Vault structure organization
 
-The player provides comprehensive playback management:
+#### FileScanner (`src/core/FileScanner.ts`)
 
-- **Play/Pause** - Animated SVG icons with smooth state transitions
-- **Progress Bar** - Frame-accurate scrubbing with visual feedback
-- **Speed Control** - Variable playback from 0.25x to 2x speed
-- **Loop/Reverse** - Toggle continuous playback and direction
+Discovers and categorizes project files. Respects gitignore patterns and filters non-documentable files.
 
-### Display Modes
+#### ProjectAnalyzer (`src/core/ProjectAnalyzer.ts`)
 
-Multiple viewing options optimize for different use cases:
+Analyzes project structure, dependencies, and architecture. Detects project type and extracts metadata.
 
-- **Standard Mode** - Full control panel with all features
-- **Mini Mode** - Compact 50px interface for embedded contexts
-- **Frame Counter** - Real-time frame and time display
-- **Animation Info** - FPS, duration, and frame count metrics
+#### PhaseManager (`src/core/PhaseManager.ts`)
 
-### Subframe Rendering
+Manages the 9-phase pipeline execution. Tracks progress, handles phase transitions, and reports status.
 
-Special toggle addresses rendering artifacts:
+#### TUIAdapter (`src/core/TUIAdapter.ts`)
 
-- Resolves flickering in rounded corner animations
-- Fixes unstable path morphing issues
-- Provides immediate visual feedback on toggle
-- Maintains animation state during switching
+Provides terminal user interface for real-time progress display. Integrates with the Go-based TUI for enhanced visualization.
 
-## Technical Implementation
+### Efficient Processing Mode
 
-### Animation Control
+DocuMentor includes an experimental efficient processing mode that provides significant performance improvements:
 
-The player uses Lottie's native API for precise control:
+#### DocumentProcessor (`src/core/efficient/DocumentProcessor.ts`)
 
-```javascript
-// Core animation management
-animation.play();
-animation.pause();
-animation.setSpeed(rate);
-animation.goToAndStop(frame, isFrame);
-animation.setSubframe(enabled);
+Orchestrates parallel document processing with sequential output. Uses worker threads for concurrent processing while maintaining output order.
+
+Features:
+- Parallel processing with 4 concurrent workers
+- Queue-based task distribution
+- Real-time progress reporting
+- Error isolation and recovery
+
+#### Supporting Components
+
+- **DocumentQueue** - Thread-safe queue for document processing
+- **DocumentPipeline** - Processes individual documents through all phases
+- **OutputManager** - Manages sequential writing of processed documents
+- **ProgressReporter** - Real-time progress tracking and reporting
+- **SimpleFileScanner** - Fast, lightweight file discovery
+
+## CLI Commands
+
+### generate
+
+Generates comprehensive documentation for a project.
+
+```bash
+documentor generate <project-path> [options]
 ```
 
-### Event Handling
+Options:
+- `-o, --output <path>` - Output directory (overrides config)
+- `-f, --format <format>` - Output format: obsidian|markdown
+- `-v, --verbose` - Verbose output
+- `--no-permission` - Skip password prompts
 
-Responsive interaction through event listeners:
+### config
 
-```javascript
-// Progress scrubbing
-progressSlider.addEventListener('input', (e) => {
-    animation.goToAndStop(e.target.value, true);
-});
+Manages DocuMentor configuration.
 
-// Speed adjustment
-speedSlider.addEventListener('input', (e) => {
-    animation.setSpeed(parseFloat(e.target.value));
-});
+```bash
+documentor config init    # Initialize configuration
+documentor config show    # Display current configuration
+documentor config edit    # Edit configuration file
 ```
 
-### Visual Design
+### watch
 
-Modern interface with glassmorphism effects:
+Monitors project for changes and auto-generates documentation.
 
-```css
-.control-panel {
-    background: rgba(30, 30, 30, 0.8);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+```bash
+documentor watch <project-path> [options]
+```
+
+Options:
+- `--interval <seconds>` - Check interval (default: 5)
+
+### github-watch
+
+Monitors GitHub repositories for changes.
+
+```bash
+documentor github-watch --repo <username/repository> [options]
+```
+
+Options:
+- `--interval <seconds>` - Poll interval (default: 60)
+
+### verify
+
+Verifies existing documentation quality.
+
+```bash
+documentor verify <docs-path>
+```
+
+### self-document
+
+Generates documentation for DocuMentor itself.
+
+```bash
+documentor self-document
+```
+
+## Configuration
+
+DocuMentor uses a JSON configuration file (`.documentor.config.json`) with extensive customization options.
+
+### Configuration Structure
+
+```json
+{
+  "version": "3.1.0",
+  "project": {
+    "name": "auto-detect",
+    "type": "auto"
+  },
+  "output": {
+    "path": "~/Documents/documentation",
+    "format": "obsidian",
+    "features": {
+      "frontmatter": true,
+      "backlinks": true,
+      "tags": {
+        "optimize": true,
+        "hierarchy": true,
+        "minPerDoc": 3
+      }
+    }
+  },
+  "claude": {
+    "model": "claude-opus-4-1-20250805",
+    "maxTokens": 200000,
+    "temperature": 0.3
+  }
 }
 ```
 
-## Build Configuration
+### Key Configuration Options
 
-The build system uses configurable paths:
+- **project.name** - Project identifier (auto-detect uses directory name)
+- **project.type** - Detection mode (auto|manual)
+- **output.path** - Documentation output directory
+- **output.format** - Output format (obsidian|markdown)
+- **output.features** - Enable/disable specific features
+- **claude.model** - Claude AI model selection
+- **claude.maxTokens** - Maximum token limit for generation
+- **claude.temperature** - AI creativity level (0.0-1.0)
 
-```javascript
-const CONFIG = {
-    sourceTemplate: 'src/demo_template.html',
-    minifiedPlayer: 'lib/minified_bm_player.min.js',
-    targetDir: '/Library/Application Support/Adobe/CEP/extensions/bodymovin/assets/player/',
-    targetFile: 'demo.html',
-    animationPlaceholder: '__[[ANIMATIONDATA]]__'
-};
+## File Support
+
+### Source Code
+- TypeScript/JavaScript (`.ts`, `.tsx`, `.js`, `.jsx`)
+- Python (`.py`)
+- Go (`.go`)
+- Rust (`.rs`)
+- Java (`.java`)
+
+### Documentation
+- Markdown (`.md`)
+- README files
+- CHANGELOG files
+- Configuration files
+
+### Project Files
+- `package.json` (Node.js)
+- `Cargo.toml` (Rust)
+- `go.mod` (Go)
+- `requirements.txt` (Python)
+- `pom.xml` (Java)
+
+## Output Structure
+
+Generated documentation follows a hierarchical structure:
+
+```
+output-directory/
+├── project-name-documentation/
+│   ├── INDEX.md                 # Main documentation index
+│   ├── README.md                 # Project overview
+│   ├── API-Documentation.md     # API reference
+│   ├── Architecture.md          # System architecture
+│   └── Components/              # Component documentation
+│       ├── Component1.md
+│       └── Component2.md
 ```
 
-## Usage
+## Security Features
 
-### Basic Build
+- **Permission System** - Password-protected operations
+- **Path Validation** - Secure file access verification
+- **Dependency Scanning** - Vulnerability detection
+- **Safe File Operations** - Protected read/write operations
+- **Lock File Management** - Prevents concurrent modifications
 
-Execute the build process:
+## Performance Optimization
+
+### Standard Mode
+- Sequential processing through 9 phases
+- Comprehensive analysis and validation
+- Full Obsidian integration
+
+### Efficient Mode
+- Parallel document processing
+- Queue-based task distribution
+- Optimized memory usage
+- Smart caching strategies
+
+Enable efficient mode:
+```bash
+DOCUMENTOR_EFFICIENT=true documentor generate .
+```
+
+## Error Handling
+
+The system implements comprehensive error handling:
+
+- **Phase-level Recovery** - Isolated phase failures
+- **File-level Isolation** - Individual file errors don't stop processing
+- **Lock File Protection** - Prevents data corruption
+- **Detailed Logging** - Comprehensive error tracking
+- **Graceful Degradation** - Continues with partial results
+
+## Integration Points
+
+### Obsidian Integration
+- YAML frontmatter generation
+- Hierarchical tag structures
+- Bidirectional backlinks
+- Vault-compatible formatting
+
+### GitHub Integration
+- Repository monitoring
+- Commit-triggered generation
+- Pull request documentation
+- Git metadata extraction
+
+### Claude AI Integration
+- Intelligent content generation
+- Code understanding
+- Architecture analysis
+- API documentation creation
+
+## Development
+
+### Building from Source
 
 ```bash
-yarn build
-# or
+# Clone repository
+git clone https://github.com/yourusername/docuMentor.git
+cd docuMentor
+
+# Install dependencies
+npm install
+
+# Build TypeScript
 npm run build
+
+# Build binaries
+npm run build:binary
 ```
 
-### Manual Testing
-
-Open `src/demo_template.html` directly in a browser to test with mock animation data.
-
-### Keyboard Shortcuts
-
-| Key | Action |
-|-----|--------|
-| Space | Play/Pause |
-| ← → | Frame navigation |
-| ↑ ↓ | Speed adjustment |
-| M | Mini mode |
-| L | Loop toggle |
-| R | Reverse toggle |
-| S | Subframe toggle |
-
-## Dependencies
-
-The project requires:
-
-- **Node.js** 14.0+ for build tools
-- **Yarn/npm** for package management
-- **chalk** 4.1.2 - Terminal styling
-- **inquirer** 8.2.6 - Interactive prompts
-- **loglevel** 1.9.1 - Logging utilities
-
-## File Structure
+### Project Structure
 
 ```
-bm_player_template/
+docuMentor/
 ├── src/
-│   └── demo_template.html       # Player interface template
-├── lib/
-│   └── minified_bm_player.min.js # Lottie runtime (5.12.2)
-├── scripts/
-│   └── build.js                  # Build automation script
-├── docs/                         # Technical documentation
-├── package.json                  # Project configuration
-└── README.md                     # Project overview
+│   ├── cli/           # CLI command implementations
+│   ├── core/          # Core engine and processors
+│   ├── types/         # TypeScript type definitions
+│   ├── utils/         # Utility functions
+│   └── tui/           # Terminal UI (Go)
+├── templates/         # Documentation templates
+├── dist/             # Compiled JavaScript
+└── bin/              # Binary executables
 ```
 
-## Browser Compatibility
+### Testing
 
-- **Full Support**: Chrome, Edge, Firefox
-- **Partial Support**: Safari (no backdrop-filter)
-- **Mobile**: Touch-optimized controls for iOS/Android
+```bash
+npm run lint          # Run ESLint
+npm run lint:fix      # Fix linting issues
+npm test             # Run tests (when available)
+```
 
-## Performance
+## System Requirements
 
-- Minified player reduces file size by ~60%
-- Self-contained HTML eliminates network dependencies
-- Configurable subframe rendering for optimization
-- Efficient DOM manipulation minimizes reflows
+- Node.js 18.0.0 or higher
+- npm or yarn package manager
+- Claude API access (for AI features)
+- 4GB RAM minimum (8GB recommended for large projects)
+- 500MB free disk space
+
+## Troubleshooting
+
+### Common Issues
+
+**Lock file conflicts**: Remove `.documentor.lock` if generation fails
+**API timeouts**: Increase timeout in configuration
+**Memory issues**: Use efficient mode for large projects
+**Permission errors**: Check file system permissions
+
+### Debug Mode
+
+Enable verbose logging:
+```bash
+documentor generate . --verbose
+```
+
+## Future Enhancements
+
+- Real-time collaboration features
+- Multi-language documentation generation
+- Custom template support
+- Plugin architecture
+- Cloud synchronization
+- IDE integrations
