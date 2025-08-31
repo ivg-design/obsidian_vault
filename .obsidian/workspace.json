@@ -182,15 +182,15 @@
   },
   "active": "17e902c30cadffa0",
   "lastOpenFiles": [
-    "docs/bm_player_template-documentation/README_md.md",
-    "docs/bm_player_template-documentation/INDEX.md",
-    "docs/bm_player_template-documentation/CHANGELOG_md.md",
-    "docs/bm_player_template-documentation/TOC_md.md",
     "docs/bm_player_template-documentation/subframe-rendering_md.md",
     "docs/bm_player_template-documentation/player-controls_md.md",
-    "docs/bm_player_template-documentation/build-process_md.md",
     "docs/bm_player_template-documentation/package_json.md",
+    "docs/bm_player_template-documentation/build-process_md.md",
+    "docs/bm_player_template-documentation/TOC_md.md",
+    "docs/bm_player_template-documentation/README_md.md",
+    "docs/bm_player_template-documentation/INDEX.md",
     "docs/bm_player_template-documentation/DOCUMENTATION_md.md",
+    "docs/bm_player_template-documentation/CHANGELOG_md.md",
     "docs/bm_player_template-documentation",
     "docs/bm-player-template-documentation/INDEX.md",
     "docs/bm-player-template-documentation/CHANGELOG.md",
@@ -218,7 +218,6 @@
     "Untitled 1.md",
     "Untitled.md",
     "TECHNICAL_DOCUMENTATION.md",
-    "TECHNICAL.md",
     "Untitled.canvas"
   ]
 }

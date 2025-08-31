@@ -3,65 +3,68 @@ title: CHANGELOG
 type: changelog
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/CHANGELOG.md
-created: 08-30-2025 21:41:11
-modified: 08-30-2025 21:41:11
+created: 08-30-2025 21:52:51
+modified: 08-30-2025 21:52:51
 tags:
   - #bm_player_template
   - #type/changelog
 ---
 
+# CHANGELOG.md
+
+Type: changelog
+Size: 2714 bytes
+Path: /Users/ivg/github/bm_player_template/CHANGELOG.md
+
+## Content
+
 # Changelog
+
+All notable changes to the Bodymovin Player Template Builder will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
 ### Added
-- **Efficient Architecture System**: New streamlined documentation generation with optimized performance
-  - `generate-efficient.ts` command for faster documentation generation
-  - Modular components in `src/core/efficient/` directory
-  - Reduced memory footprint and improved processing speed
-
-- **TUI (Terminal User Interface) Integration**
-  - Go-based TUI application for interactive documentation management
-  - `launcher.go` for seamless TUI initialization
-  - Real-time documentation preview and editing capabilities
-
-- **Enhanced Configuration Management**
-  - `.documentor.config.json` for project-specific settings
-  - Improved configuration validation and error handling
-  - Support for custom templates and output formats
+- MIT License file
+- Organized project structure with dedicated folders
+- Subframe rendering toggle button to address rounded corner flickering issues
+- Visual feedback for subframe toggle state (active/inactive)
+- Auto-reset animation when toggling subframe to immediately show effect
 
 ### Changed
-- **Core Module Refactoring**
-  - Restructured `DocGenerator.ts` for better modularity
-  - Updated `DocumentEngine.ts` with improved parsing algorithms
-  - Enhanced `FileWriter.ts` with atomic write operations
-  - Optimized `LockFileManager.ts` for concurrent access handling
-
-- **CLI Commands Enhancement**
-  - Improved `generate.ts` with parallel processing support
-  - Enhanced `watch.ts` with debouncing and selective updates
-  - Updated `verify.ts` with comprehensive validation rules
-  - Refined `github-watch.ts` for better API rate limit handling
-
-- **Obsidian Integration Improvements**
-  - Enhanced `ObsidianIntegration.ts` with vault detection
-  - Improved `ObsidianFrontmatter.ts` metadata handling
-  - Optimized `ObsidianTagOptimizer.ts` for tag deduplication
+- Moved source template to `src/` directory
+- Moved minified player to `lib/` directory  
+- Moved build script to `scripts/` directory
+- Added `dist/` directory for output files
+- Updated all paths and documentation to reflect new structure
 
 ### Fixed
-- TypeScript compilation errors across all modules
-- ESLint violations and code quality issues
-- Memory leaks in long-running watch processes
-- Race conditions in concurrent file operations
-- Configuration loading issues in nested projects
+- Implemented workaround for rounded corner flickering in Lottie animations
+- Added ability to disable subframe rendering which resolves flickering issues
 
-### Removed
-- Legacy documentation files moved to Archive directory
-- Deprecated test scripts (`test-production.sh`)
-- Obsolete phase system documentation
-- Redundant audit and review files
+## [0.2.0] - 2025-08-13
 
-## Previous Versions
+### Added
+- Advanced Lottie animation player controls
+- Play/pause functionality with animated SVG icons
+- Progress bar with custom slider styling
+- Speed control slider (0.25x - 2x playback speed)
+- Frame counter display
+- Loop toggle functionality
+- Reverse playback option
+- Mini mode for compact UI display
+- Frosted glass effect on slider thumbs
+- Color-coded unit selector buttons
+- Styled info panel with animation metrics
+- Dark theme with consistent color scheme
 
-### Version History
-Previous version information has been archived. The project has undergone a major refactoring to improve performance, maintainability, and user experience. The current unreleased version represents a significant architectural improvement over previous iterations.
+### Fixed
+- Removed all currentColor references causing color inheritance issues
+- Fixed nested SVG structure in unit selector
+- Corrected progress bar height in mini mode
+- Ensured consistent icon colors across UI
+
+### Changed
