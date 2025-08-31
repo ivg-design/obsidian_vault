@@ -3,8 +3,8 @@ title: Player controls
 type: documentation
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/docs/player-controls.md
-created: 08-30-2025 21:52:51
-modified: 08-30-2025 21:52:51
+created: 08-30-2025 22:02:36
+modified: 08-30-2025 22:02:36
 tags:
   - #bm_player_template
   - #type/documentation
