@@ -7,12 +7,13 @@ info________________________________________________________________status______
 | worker3:  analyzing main.tsx        worker4:  thinking           |  
 ______________________________________________________________________________________
 [buttons]     [buttons]     [buttons]     [buttons]     [buttons]     [buttons]
-
+______________________________________________________________________________________
+|
+|    main window for logs - about 20-30 lines tall
+|_____________________________________________________________________________________
+currently working on: file/path/to/current/file                    memory: 2mb spinner
+______________________________________________________________________________________
 
 
 ```
-`_info____________________________________________________________status_____ 
-`| Project:     parentFolder/name                           PID:         00000                       |  time`
-`| Phase:       (1/9)   Analysis                                  lockfile:   locked,                      |  elapsed`
-`| worker1:    reviewing src/index.js                      worker2:  reading index.html  |   status`
-`| worker3:   analyzing main.tsx                            worker4:  thinking                    |`  
+
