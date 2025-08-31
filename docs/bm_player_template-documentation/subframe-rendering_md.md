@@ -3,8 +3,8 @@ title: Subframe rendering
 type: documentation
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/docs/subframe-rendering.md
-created: 08-30-2025 22:08:59
-modified: 08-30-2025 22:08:59
+created: 08-30-2025 22:14:02
+modified: 08-30-2025 22:14:02
 tags:
   - #bm_player_template
   - #type/documentation

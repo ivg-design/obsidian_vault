@@ -3,8 +3,8 @@ title: Package
 type: config
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/package.json
-created: 08-30-2025 22:08:29
-modified: 08-30-2025 22:08:29
+created: 08-30-2025 22:13:32
+modified: 08-30-2025 22:13:32
 tags:
   - #bm_player_template
   - #type/config
