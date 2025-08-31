@@ -3,8 +3,8 @@ title: README
 type: readme
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/README.md
-created: 08-30-2025 22:02:36
-modified: 08-30-2025 22:02:36
+created: 08-30-2025 22:08:29
+modified: 08-30-2025 22:08:29
 tags:
   - #bm_player_template
   - #type/readme
@@ -12,11 +12,14 @@ tags:
 
 # README.md
 
+> ⚠️ **Warning**: Documentation generated without Claude AI. This is basic content extraction only.
+> To enable intelligent documentation, set ANTHROPIC_API_KEY environment variable.
+
 Type: readme
 Size: 11182 bytes
 Path: /Users/ivg/github/bm_player_template/README.md
 
-## Content
+## Content Preview
 
 # Bodymovin Player Template Builder
 

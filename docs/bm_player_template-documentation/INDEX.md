@@ -1,26 +1,24 @@
 # bm_player_template Documentation
 
-Generated: 2025-08-31T02:02:36.439Z
+Generated: 2025-08-31T02:08:59.027Z
 
 ## Documents
-
-### Config
-
-- [[package_json]] - Package
 
 ### Changelog
 
 - [[CHANGELOG_md]] - CHANGELOG
 
-### Readme
+### Config
 
-- [[README_md]] - README
+- [[package_json]] - Package
 
 ### Documentation
 
 - [[DOCUMENTATION_md]] - DOCUMENTATION
 - [[build-process_md]] - Build process
 - [[player-controls_md]] - Player controls
-- [[TOC_md]] - TOC
-- [[subframe-rendering_md]] - Subframe rendering
+
+### Readme
+
+- [[README_md]] - README
 

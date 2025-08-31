@@ -3,8 +3,8 @@ title: Subframe rendering
 type: documentation
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/docs/subframe-rendering.md
-created: 08-30-2025 22:02:36
-modified: 08-30-2025 22:02:36
+created: 08-30-2025 22:08:59
+modified: 08-30-2025 22:08:59
 tags:
   - #bm_player_template
   - #type/documentation
@@ -12,11 +12,14 @@ tags:
 
 # subframe-rendering.md
 
+> ⚠️ **Warning**: Documentation generated without Claude AI. This is basic content extraction only.
+> To enable intelligent documentation, set ANTHROPIC_API_KEY environment variable.
+
 Type: documentation
 Size: 1635 bytes
 Path: /Users/ivg/github/bm_player_template/docs/subframe-rendering.md
 
-## Content
+## Content Preview
 
 # Subframe Rendering Toggle
 

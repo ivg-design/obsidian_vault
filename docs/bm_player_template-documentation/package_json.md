@@ -3,8 +3,8 @@ title: Package
 type: config
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/package.json
-created: 08-30-2025 22:02:36
-modified: 08-30-2025 22:02:36
+created: 08-30-2025 22:08:29
+modified: 08-30-2025 22:08:29
 tags:
   - #bm_player_template
   - #type/config
@@ -12,11 +12,14 @@ tags:
 
 # package.json
 
+> ⚠️ **Warning**: Documentation generated without Claude AI. This is basic content extraction only.
+> To enable intelligent documentation, set ANTHROPIC_API_KEY environment variable.
+
 Type: config
 Size: 342 bytes
 Path: /Users/ivg/github/bm_player_template/package.json
 
-## Content
+## Content Preview
 
 {
   "name": "bm-player-template",

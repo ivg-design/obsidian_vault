@@ -3,8 +3,8 @@ title: TOC
 type: documentation
 project: bm_player_template
 source: /Users/ivg/github/bm_player_template/docs/TOC.md
-created: 08-30-2025 22:02:36
-modified: 08-30-2025 22:02:36
+created: 08-30-2025 22:08:59
+modified: 08-30-2025 22:08:59
 tags:
   - #bm_player_template
   - #type/documentation
@@ -12,11 +12,14 @@ tags:
 
 # TOC.md
 
+> ⚠️ **Warning**: Documentation generated without Claude AI. This is basic content extraction only.
+> To enable intelligent documentation, set ANTHROPIC_API_KEY environment variable.
+
 Type: documentation
 Size: 895 bytes
 Path: /Users/ivg/github/bm_player_template/docs/TOC.md
 
-## Content
+## Content Preview
 
 # Documentation Table of Contents
 
