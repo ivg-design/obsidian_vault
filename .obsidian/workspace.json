@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/bm_player_template-documentation/TOC_md.md",
+                "file": "docs/docuMentor/docuMentor Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TOC_md"
+              "title": "docuMentor Roadmap"
+            }
+          },
+          {
+            "id": "5538dbeba6bd337b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentor TUI layout.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "documentor TUI layout"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,9 +175,19 @@
               "icon": "smart-connections",
               "title": "Connections"
             }
+          },
+          {
+            "id": "5f985a9cb11cdef7",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -184,8 +209,12 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "7dcb9ae690444952",
+  "active": "5f985a9cb11cdef7",
   "lastOpenFiles": [
+    "docs/docuMentor/docuMentor Roadmap.md",
+    "documentor TUI layout.md",
+    "docs/docuMentor/Untitled.base",
+    "docs/bm_player_template-documentation/TOC_md.md",
     "docs/bm_player_template-documentation/subframe-rendering_md.md",
     "docs/bm_player_template-documentation/README_md.md",
     "docs/bm_player_template-documentation/player-controls_md.md",
@@ -195,7 +224,6 @@
     "docs/bm_player_template-documentation/CHANGELOG_md.md",
     "docs/bm_player_template-documentation/build-process_md.md",
     "docs/bm-player-template-documentation/README.md",
-    "docs/bm_player_template-documentation/TOC_md.md",
     "docs/bm_player_template-documentation",
     "docs/bm_player_template-documentation.zip",
     "docs/bm-player-template-documentation/INDEX.md",
@@ -203,7 +231,6 @@
     "docs/bm-player-template-documentation/build.md",
     "docs/jsx/architecture.md",
     "docs/bm-player-template-documentation",
-    "docs/docuMentor/docuMentor Roadmap.md",
     "docs/docuMentor/docuMentor TODO.md",
     "docs/Users/ivg/github/docuMentor/~/github/obsidian_vault/docs/bm-player-template/INDEX.md",
     "docs/bm-player-template-documentation/package.md",
@@ -214,13 +241,11 @@
     "docs/Users/ivg/github/docuMentor/~/github",
     "docs/Users/ivg/github/docuMentor/~",
     "docs/Users/ivg/github/docuMentor",
-    "docs/Users/ivg/github",
     "docs/docuMentor/README.md",
     "_daily_notes/2025-08-26.md",
     "docs/docuMentor/USAGE.md",
     "Pasted image 20250829083834.png",
     "Untitled 1.md",
-    "Untitled.md",
     "TECHNICAL_DOCUMENTATION.md",
     "Untitled.canvas"
   ]
