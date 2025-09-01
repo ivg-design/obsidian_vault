@@ -190,11 +190,11 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "7dcb9ae690444952",
   "lastOpenFiles": [
+    "docs/bm_player_template_pipeline_v2/build.md",
     "docs/bm_player_template_pipeline_v2/demo_template.md",
     "docs/bm_player_template_pipeline_v2/README.md",
-    "docs/bm_player_template_pipeline_v2/build.md",
     "docs/bm_player_template_pipeline/README.md",
     "docs/bm_player_template_pipeline/build.md",
     "docs/bm_player_template/lib/minified_bm_player.min.md",
