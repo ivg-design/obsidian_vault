@@ -31,9 +31,9 @@ File Type: unknown
 ```
 
 ---
-*Documentation generated at 2025-09-01T09:36:03.775Z*
+*Documentation generated at 2025-09-01T09:46:48.593Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/package.json*
-*Date: 2025-09-01T09:36:03.775Z*
+*Date: 2025-09-01T09:46:48.593Z*
