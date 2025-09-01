@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/docuMentor/docuMentor Roadmap.md",
+                "file": "docs/bm_player_template/lib/minified_bm_player.min.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "docuMentor Roadmap"
+              "title": "minified_bm_player.min"
             }
           }
         ],
@@ -209,9 +209,15 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "17e902c30cadffa0",
+  "active": "5538dbeba6bd337b",
   "lastOpenFiles": [
+    "docs/bm_player_template/scripts/build.md",
+    "docs/bm_player_template/lib/minified_bm_player.min.md",
     "docs/README.md",
+    "docs/bm_player_template/scripts",
+    "docs/bm_player_template/lib",
+    "docs/bm_player_template",
+    "docs/docuMentor/docuMentor Roadmap.md",
     "docs/docuMentor/documentor TUI layout.md",
     "bm_player_template/scripts/build.md",
     "bm_player_template/lib/minified_bm_player.min.md",
@@ -226,10 +232,6 @@
     "bm_player_template/CHANGELOG.md",
     "docs/bm_player_template/PROCESSING_REPORT.md",
     "docs/bm_player_template/INDEX.md",
-    "docs/bm_player_template/scripts/build.md",
-    "docs/bm_player_template/scripts",
-    "docs/bm_player_template/lib/minified_bm_player.min.md",
-    "docs/bm_player_template/lib",
     "docs/bm_player_template/docs/player-controls.md",
     "docs/bm_player_template/docs/build-process.md",
     "docs/bm_player_template/docs/subframe-rendering.md",
@@ -238,9 +240,7 @@
     "docs/bm_player_template/CHANGELOG.md",
     "docs/bm_player_template/docs/TOC.md",
     "docs/bm_player_template/docs",
-    "docs/bm_player_template",
     "docs/docuMentor/Untitled.base",
-    "docs/docuMentor/docuMentor Roadmap.md",
     "docs/bm_player_template-documentation/TOC_md.md",
     "docs/bm_player_template-documentation/subframe-rendering_md.md",
     "docs/bm_player_template-documentation/README_md.md",
