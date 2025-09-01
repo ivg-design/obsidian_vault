@@ -211,10 +211,13 @@
   },
   "active": "17e902c30cadffa0",
   "lastOpenFiles": [
-    "bm_player_template/package.md",
-    "bm_player_template",
     "bm_player_template/scripts/build.md",
+    "bm_player_template/lib/minified_bm_player.min.md",
     "bm_player_template/scripts",
+    "bm_player_template/package.md",
+    "bm_player_template/lib",
+    "bm_player_template",
+    "docs/README.md",
     "bm_player_template/docs/TOC.md",
     "bm_player_template/docs",
     "bm_player_template/README.md",
@@ -242,10 +245,7 @@
     "docs/bm_player_template-documentation/subframe-rendering_md.md",
     "docs/bm_player_template-documentation/README_md.md",
     "docs/bm_player_template-documentation/player-controls_md.md",
-    "docs/bm_player_template-documentation/package_json.md",
-    "docs/bm_player_template-documentation/INDEX.md",
     "docs/bm_player_template-documentation",
-    "docs/bm_player_template-documentation.zip",
     "Pasted image 20250829083834.png",
     "Untitled.canvas"
   ]
