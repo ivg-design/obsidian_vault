@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "docuMentor Roadmap"
             }
-          },
-          {
-            "id": "5538dbeba6bd337b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/bm_player_template/lib/minified_bm_player.min.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "minified_bm_player.min"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +194,7 @@
       "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "5538dbeba6bd337b",
+  "active": "17e902c30cadffa0",
   "lastOpenFiles": [
     "docs/bm_player_template/scripts/build.md",
     "docs/bm_player_template/lib/minified_bm_player.min.md",
