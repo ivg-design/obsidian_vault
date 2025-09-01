@@ -32,9 +32,9 @@ const CONFIG = {
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:35.987Z*
+*Documentation generated at 2025-09-01T00:30:13.478Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/scripts/build.js*
-*Date: 2025-08-31T18:39:35.987Z*
+*Date: 2025-09-01T00:30:13.478Z*

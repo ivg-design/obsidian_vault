@@ -26,9 +26,9 @@ When After Effects animations with rounded corner effects are played in the Lott
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:34.137Z*
+*Documentation generated at 2025-09-01T00:30:12.257Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/docs/subframe-rendering.md*
-*Date: 2025-08-31T18:39:34.137Z*
+*Date: 2025-09-01T00:30:12.257Z*

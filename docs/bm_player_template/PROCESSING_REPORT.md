@@ -1,14 +1,14 @@
 # Documentation Processing Report
 
-Generated: 2025-08-31T18:39:35.995Z
+Generated: 2025-09-01T00:30:13.485Z
 
 ## Summary
 
 - **Total Files**: 9
 - **Processed**: 9
 - **Failed**: 0
-- **Duration**: 4s
-- **Rate**: 2.2 files/s
+- **Duration**: 5s
+- **Rate**: 2.0 files/s
 
 ## Errors
 

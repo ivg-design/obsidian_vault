@@ -17,9 +17,9 @@ File Type: javascript
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:34.237Z*
+*Documentation generated at 2025-09-01T00:30:12.282Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/lib/minified_bm_player.min.js*
-*Date: 2025-08-31T18:39:34.238Z*
+*Date: 2025-09-01T00:30:12.282Z*

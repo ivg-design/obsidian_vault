@@ -29,9 +29,9 @@ File Type: markdown
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:31.995Z*
+*Documentation generated at 2025-09-01T00:30:10.643Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/README.md*
-*Date: 2025-08-31T18:39:31.995Z*
+*Date: 2025-09-01T00:30:10.643Z*

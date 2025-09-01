@@ -27,9 +27,9 @@ File Type: markdown
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:31.995Z*
+*Documentation generated at 2025-09-01T00:30:10.723Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/docs/TOC.md*
-*Date: 2025-08-31T18:39:31.995Z*
+*Date: 2025-09-01T00:30:10.723Z*

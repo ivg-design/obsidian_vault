@@ -29,9 +29,9 @@ The system consists of three primary components:
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:31.993Z*
+*Documentation generated at 2025-09-01T00:30:10.656Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/DOCUMENTATION.md*
-*Date: 2025-08-31T18:39:31.993Z*
+*Date: 2025-09-01T00:30:10.656Z*

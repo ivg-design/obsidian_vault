@@ -36,9 +36,9 @@ The advanced Lottie player provides comprehensive playback controls and UI custo
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:34.353Z*
+*Documentation generated at 2025-09-01T00:30:12.217Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/docs/player-controls.md*
-*Date: 2025-08-31T18:39:34.353Z*
+*Date: 2025-09-01T00:30:12.217Z*

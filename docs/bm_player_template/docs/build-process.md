@@ -36,9 +36,9 @@ The script removes external CDN references:
 ```
 
 ---
-*Documentation generated at 2025-08-31T18:39:34.198Z*
+*Documentation generated at 2025-09-01T00:30:12.217Z*
 
 
 ---
 *Generated from: /Users/ivg/github/bm_player_template/docs/build-process.md*
-*Date: 2025-08-31T18:39:34.199Z*
+*Date: 2025-09-01T00:30:12.217Z*
