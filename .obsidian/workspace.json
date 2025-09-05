@@ -1,84 +1,37 @@
 {
   "main": {
-    "id": "36335f1b184a3d6c",
+    "id": "b170031bcaaacaf8",
     "type": "split",
     "children": [
       {
-        "id": "883c719a380b0c75",
+        "id": "dacae673fcd857cc",
         "type": "tabs",
         "children": [
           {
-            "id": "ee94ecc05b896cd0",
+            "id": "08d7b45d0dbd98ff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/jsx/dependency-analysis.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "dependency-analysis"
-            }
-          },
-          {
-            "id": "0a574dfc4181e1b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/docuMentor/USAGE.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "USAGE"
-            }
-          },
-          {
-            "id": "a2b7ca561a40b05a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/jsx/dependency-analysis.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "dependency-analysis"
-            }
-          },
-          {
-            "id": "3f230b3163e34312",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/jsx/overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "overview"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "eeec1555ba82c91a",
+    "id": "1b4d4f41e2f8c849",
     "type": "split",
     "children": [
       {
-        "id": "932aa3ce8695fe42",
+        "id": "c412a16fcf39c39e",
         "type": "tabs",
         "children": [
           {
-            "id": "17e902c30cadffa0",
+            "id": "39c3148b560eb1f7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,14 +44,14 @@
             }
           },
           {
-            "id": "867dc9a0159c99a0",
+            "id": "6fd0e88374c989c6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#typescript",
+                "query": "tag:#afte-effects",
                 "matchingCase": false,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -108,7 +61,7 @@
             }
           },
           {
-            "id": "21a722303faf3e51",
+            "id": "936fca0ef2b58bd1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,57 +74,56 @@
       }
     ],
     "direction": "horizontal",
-    "width": 512.5
+    "width": 300
   },
   "right": {
-    "id": "40c1adf5baee5aae",
+    "id": "026ced8eedf809a3",
     "type": "split",
     "children": [
       {
-        "id": "812e149dd0c4c5ce",
+        "id": "3fc8f6b3fa978dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "932db6307b1ac96b",
+            "id": "f8afd114e46d4839",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/jsx/overview.md",
+                "file": "Untitled.md",
                 "collapseAll": true,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for overview"
+              "title": "Backlinks for Untitled"
             }
           },
           {
-            "id": "85ff8e66970e3f64",
+            "id": "63cb61bc99f4c9b8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/jsx/overview.md",
-                "linksCollapsed": true,
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from overview"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a2f15df847e37598",
+            "id": "ae773df6c6e5b39b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
-                "useHierarchy": false,
+                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -180,39 +132,40 @@
             }
           },
           {
-            "id": "0186312568fd6f40",
+            "id": "6cc835005914c4e9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/jsx/overview.md",
-                "followCursor": true,
+                "file": "Untitled.md",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of overview"
+              "title": "Outline of Untitled"
             }
           },
           {
-            "id": "292bc3eda8d4d9be",
+            "id": "5520807855317421",
             "type": "leaf",
             "state": {
-              "type": "smart-connections-view",
+              "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -220,51 +173,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "github-sync:Sync with Remote": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3f230b3163e34312",
+  "active": "39c3148b560eb1f7",
   "lastOpenFiles": [
-    "docs/jsx/dependency-analysis.md",
-    "docs/docuMentor/USAGE.md",
-    "docs/jsx/TAG-REPORT.md",
-    "docs/docuMentor/tag-index.md",
-    "docs/docuMentor/TAG-REPORT.md",
     "TECHNICAL.md",
-    "docs/docuMentor/README.md",
+    "docs/docuMentor/USAGE.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "docs/docuMentor/GITHUB_SETUP.md",
+    "docs/docuMentor/overview.md",
     "docs/docuMentor/document-map.md",
     "docs/docuMentor/architecture.md",
     "docs/docuMentor/api-reference.md",
-    "docs/docuMentor/overview.md",
-    "docs/jsx/security-analysis.md",
-    "docs/jsx/performance-analysis.md",
-    "docs/jsx/test-analysis.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "docs/jsx/architecture.md",
-    "docs/jsx/api-reference.md",
-    "docs/jsx/overview.md",
-    "docs/jsx/document-map.md",
-    "my_apps/after_effects/fNav+/thoughts on  fnav+.md",
-    "Untitled 4.md",
-    "Untitled 7.md",
     "work/AE_Automation_Bullet_Time/README.md",
-    "work/AE_Automation_Bullet_Time/README 1.md",
+    "Untitled 8.md",
+    "docs/jsx/tag-index.md",
+    "docs/jsx/document-map.md",
+    "docs/jsx/TAG-REPORT.md",
+    "docs/docuMentor/tag-index.md",
+    "docs/docuMentor/TAG-REPORT.md",
+    "Untitled 6.md",
+    "Untitled 7.md",
+    "docs/jsx/metrics.md",
+    "Untitled 5.md",
+    "docs/jsx/test-analysis.md",
+    "docs/jsx/performance-analysis.md",
+    "docs/jsx/dependency-analysis.md",
+    "Untitled 4.md",
+    "docs/jsx/security-analysis.md",
+    "Untitled 3.md",
     "docs/jsx",
-    "docs/docuMentor/README.md.tmp.58592.1756396142833",
     "docs/docuMentor",
     "docs",
+    "Untitled.canvas",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser/symbols.txt",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser",
-    "my_apps/vsc_extensions/DumpStorm",
-    "my_apps/vsc_extensions/untitled folder",
     "work/AE_Automation_Bullet_Time",
     "auto_bullet_time_processing/BulletTimeAutomate.jsx",
-    "Untitled.canvas"
+    "auto_bullet_time_processing/BulletTimeAutomate.json",
+    "auto_bullet_time_processing",
+    "auto_bullet_time_processing.zip"
   ]
 }
