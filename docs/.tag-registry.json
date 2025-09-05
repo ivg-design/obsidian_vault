@@ -7,9 +7,9 @@
         "tag": "documentor",
         "aliases": [],
         "category": "concept",
-        "count": 2,
+        "count": 7,
         "firstSeen": "2025-08-28T17:21:23.721Z",
-        "lastUsed": "2025-08-28T17:21:23.722Z"
+        "lastUsed": "2025-08-29T12:35:19.523Z"
       }
     ],
     [
@@ -62,9 +62,9 @@
         "tag": "architecture",
         "aliases": [],
         "category": "concept",
-        "count": 4,
+        "count": 5,
         "firstSeen": "2025-08-28T17:21:23.724Z",
-        "lastUsed": "2025-08-28T17:21:23.726Z"
+        "lastUsed": "2025-08-29T12:24:22.783Z"
       }
     ],
     [
@@ -141,9 +141,9 @@
         "tag": "api",
         "aliases": [],
         "category": "meta",
-        "count": 3,
+        "count": 4,
         "firstSeen": "2025-08-28T17:21:23.725Z",
-        "lastUsed": "2025-08-28T17:21:23.726Z"
+        "lastUsed": "2025-08-29T12:29:11.483Z"
       }
     ],
     [
@@ -163,9 +163,9 @@
         "tag": "reference",
         "aliases": [],
         "category": "concept",
-        "count": 3,
+        "count": 4,
         "firstSeen": "2025-08-28T17:21:23.725Z",
-        "lastUsed": "2025-08-28T17:21:23.726Z"
+        "lastUsed": "2025-08-29T12:29:11.484Z"
       }
     ],
     [
@@ -243,6 +243,30 @@
         "count": 1,
         "firstSeen": "2025-08-28T17:21:23.725Z",
         "lastUsed": "2025-08-28T17:21:23.725Z"
+      }
+    ],
+    [
+      "readme",
+      {
+        "tag": "readme",
+        "aliases": [],
+        "category": "meta",
+        "count": 1,
+        "firstSeen": "2025-08-29T12:13:39.183Z",
+        "lastUsed": "2025-08-29T12:13:39.183Z",
+        "parent": "jsx"
+      }
+    ],
+    [
+      "guide",
+      {
+        "tag": "guide",
+        "aliases": [],
+        "category": "meta",
+        "count": 1,
+        "firstSeen": "2025-08-29T12:21:14.022Z",
+        "lastUsed": "2025-08-29T12:21:14.022Z",
+        "parent": "jsx"
       }
     ]
   ],
@@ -540,5 +564,5 @@
       "set"
     ]
   ],
-  "lastUpdated": "2025-08-28T17:32:58.312Z"
+  "lastUpdated": "2025-08-29T12:35:19.568Z"
 }
