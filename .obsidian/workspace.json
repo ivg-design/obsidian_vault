@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dacae673fcd857cc",
+        "id": "0308df1cbed2a1f1",
         "type": "tabs",
         "children": [
           {
-            "id": "08d7b45d0dbd98ff",
+            "id": "e02fa913fade18bc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -137,13 +137,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           },
           {
@@ -165,6 +164,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true,
       "github-sync:Sync with Remote": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -176,8 +178,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "39c3148b560eb1f7",
+  "active": "e02fa913fade18bc",
   "lastOpenFiles": [
+    "_daily_notes/2025-09-05.md",
     "TECHNICAL.md",
     "docs/docuMentor/USAGE.md",
     "Untitled 1.md",
@@ -203,7 +206,6 @@
     "docs/jsx/dependency-analysis.md",
     "Untitled 4.md",
     "docs/jsx/security-analysis.md",
-    "Untitled 3.md",
     "docs/jsx",
     "docs/docuMentor",
     "docs",
