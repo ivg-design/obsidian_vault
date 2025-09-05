@@ -626,7 +626,9 @@ if (typeof module !== 'undefined' && module.exports) {
 
 ### Testing Methodology
 
+
 ```javascript
+
 class RiveBenchmarkProtocol {
     constructor(config = {}) {
         this.config = {
@@ -778,6 +780,10 @@ class RiveBenchmarkProtocol {
         return Math.sqrt(this.mean(squareDiffs));
     }
 }
+
+```
+
+
 ```
 
 ### Reproducibility Checklist
@@ -1022,7 +1028,8 @@ Mobile devices present fundamentally different performance characteristics than 
 
 ### Mobile Testing Architecture
 
-```javascript
+```js
+
 class MobilePerformanceTestHarness {
     constructor() {
         this.testConfigurations = {
