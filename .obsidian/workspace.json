@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my_apps/web-apps/rive-preview/rive-preview architecture.md",
+                "file": "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rive-preview architecture"
+              "title": "Rive Preview Platform - Comprehensive Architecture Document"
             }
           }
         ],
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my_apps/web-apps/rive-preview/rive-preview architecture.md",
+                "file": "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of rive-preview architecture"
+              "title": "Outline of Rive Preview Platform - Comprehensive Architecture Document"
             }
           },
           {
@@ -215,7 +215,7 @@
   "active": "de20c095b85ae55e",
   "lastOpenFiles": [
     "_daily_notes/2025-09-05.md",
-    "my_apps/web-apps/rive-preview/rive-preview architecture.md",
+    "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
     "diagram.md",
     "Untitled 2.md",
     "my_apps/web-apps/rive-preview",
