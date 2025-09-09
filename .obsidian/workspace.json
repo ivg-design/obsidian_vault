@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
-                "mode": "preview",
+                "file": "my_apps/copy_full_path finder extension/TODO.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rive Preview Platform - Comprehensive Architecture Document"
+              "title": "TODO"
             }
           }
         ],
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
+                "file": "my_apps/copy_full_path finder extension/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rive Preview Platform - Comprehensive Architecture Document"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -214,8 +214,11 @@
   },
   "active": "de20c095b85ae55e",
   "lastOpenFiles": [
-    "_daily_notes/2025-09-05.md",
+    "work/setup for blend 4 state button animation.md",
+    "my_apps/copy_full_path finder extension/TODO.md",
+    "my_apps/copy_full_path finder extension",
     "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
+    "_daily_notes/2025-09-05.md",
     "diagram.md",
     "Untitled 2.md",
     "my_apps/web-apps/rive-preview",
@@ -241,15 +244,12 @@
     "docs/jsx/tag-index.md",
     "docs/jsx/document-map.md",
     "docs/jsx/TAG-REPORT.md",
-    "docs/docuMentor/tag-index.md",
-    "docs/docuMentor/TAG-REPORT.md",
     "docs/jsx",
     "docs/docuMentor",
     "docs",
     "Untitled.canvas",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser/symbols.txt",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser",
-    "work/AE_Automation_Bullet_Time",
-    "auto_bullet_time_processing/BulletTimeAutomate.jsx"
+    "work/AE_Automation_Bullet_Time"
   ]
 }
