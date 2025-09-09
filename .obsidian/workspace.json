@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "my_apps/copy_full_path finder extension/TODO.md",
+                "file": "my_apps/web-apps/rive-preview/Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Roadmap"
             }
           }
         ],
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "my_apps/copy_full_path finder extension/TODO.md",
+                "file": "my_apps/web-apps/rive-preview/Roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of Roadmap"
             }
           },
           {
@@ -214,10 +214,11 @@
   },
   "active": "de20c095b85ae55e",
   "lastOpenFiles": [
-    "work/setup for blend 4 state button animation.md",
-    "my_apps/copy_full_path finder extension/TODO.md",
-    "my_apps/copy_full_path finder extension",
     "my_apps/web-apps/rive-preview/Rive Preview Platform - Comprehensive Architecture Document.md",
+    "my_apps/web-apps/rive-preview/Roadmap.md",
+    "my_apps/copy_full_path finder extension/TODO.md",
+    "work/setup for blend 4 state button animation.md",
+    "my_apps/copy_full_path finder extension",
     "_daily_notes/2025-09-05.md",
     "diagram.md",
     "Untitled 2.md",
@@ -243,7 +244,6 @@
     "Untitled 8.md",
     "docs/jsx/tag-index.md",
     "docs/jsx/document-map.md",
-    "docs/jsx/TAG-REPORT.md",
     "docs/jsx",
     "docs/docuMentor",
     "docs",
