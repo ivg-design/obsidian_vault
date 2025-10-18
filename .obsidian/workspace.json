@@ -4,24 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "b922eb00f486ebbb",
+        "id": "1cf6de4e5b0bbb8c",
         "type": "tabs",
         "children": [
           {
-            "id": "20aa32bcab535a3b",
+            "id": "b1544eecb9b4558e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "smart-chat",
+              "title": "Smart Chat"
+            }
+          },
+          {
+            "id": "a4ac0a8a44d40dcb",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
               "state": {
-                "file": "_daily_notes/2025-10-18.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "2025-10-18"
+              "icon": "lucide-table",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,17 +151,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily_notes/2025-10-18.md",
+                "file": "Untitled.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-10-18"
+              "title": "Outline of Untitled"
             }
           },
           {
-            "id": "5520807855317421",
+            "id": "a954903dff990a3a",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "13c98b41413a7de7",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -161,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,9 +203,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "20aa32bcab535a3b",
+  "active": "a4ac0a8a44d40dcb",
   "lastOpenFiles": [
     "Untitled.md",
+    "Untitled.base",
     "_daily_notes/2025-10-18.md",
     "_daily_notes/2025-10-03.md",
     "_daily_notes/2025-09-28.md",
@@ -214,13 +235,11 @@
     "docs/docuMentor/USAGE.md",
     "Untitled 1.md",
     "docs/docuMentor/GITHUB_SETUP.md",
-    "docs/docuMentor/overview.md",
     "docs/jsx",
     "docs/docuMentor",
     "docs",
     "Untitled.canvas",
     "my_apps/vsc_extensions/DumpStorm - miniDump parser/symbols.txt",
-    "my_apps/vsc_extensions/DumpStorm - miniDump parser",
-    "work/AE_Automation_Bullet_Time"
+    "my_apps/vsc_extensions/DumpStorm - miniDump parser"
   ]
 }
