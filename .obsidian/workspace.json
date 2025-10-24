@@ -18,16 +18,17 @@
             }
           },
           {
-            "id": "a4ac0a8a44d40dcb",
+            "id": "727ac03c92385cb1",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "Path Length to Text Display - String Manipulation Hack.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "Path Length to Text Display - String Manipulation Hack"
             }
           }
         ],
@@ -203,10 +204,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a4ac0a8a44d40dcb",
+  "active": "727ac03c92385cb1",
   "lastOpenFiles": [
-    "Untitled.md",
     "Untitled.base",
+    "Untitled.md",
+    "Untitled 1.md",
+    "Path Length to Text Display - String Manipulation Hack.md",
+    "_daily_notes/2025-10-24.md",
     "_daily_notes/2025-10-18.md",
     "_daily_notes/2025-10-03.md",
     "_daily_notes/2025-09-28.md",
@@ -221,7 +225,6 @@
     "work/setup for blend 4 state button animation.md",
     "my_apps/copy_full_path finder extension",
     "diagram.md",
-    "Untitled 2.md",
     "my_apps/web-apps/rive-preview",
     "my_apps/web-apps",
     "docs/docuMentor/documentor TUI layout.md",
@@ -233,8 +236,6 @@
     "_daily_notes/2025-08-29.md",
     "TECHNICAL.md",
     "docs/docuMentor/USAGE.md",
-    "Untitled 1.md",
-    "docs/docuMentor/GITHUB_SETUP.md",
     "docs/jsx",
     "docs/docuMentor",
     "docs",
