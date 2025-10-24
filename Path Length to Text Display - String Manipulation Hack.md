@@ -7,13 +7,16 @@ Path Length to Text Display - String Manipulation Hack
   ViewModel Structure
 
   Create a ViewModel with these properties:
-  - pathLength (Number) - stores pixel length of the path (pushed from the path's `Length` property)
+  - path-length (Number) - stores pixel length of the path (pushed from the path's `Length` property)
   [screenshot]
-  - charWidth (Number) - an average width of the character using your font
-  - displayString (String) - leave empty 
+  - character-width (Number) - an average width of the character using your font
+  - string-length (Number) - a number that will hold the number of character to be revealed.
+  - blank-string (String) - leave empty 
+  
   Create the following converters:
   
-
+  Formula - {{vm/path-length}}/{{vm/character-width(px)}} 
+  Pad String - add the string you want to reveal, then data bind 
   [Screenshot: ViewModel with all properties]
 
   The Trick
