@@ -19,62 +19,22 @@ Path Length to Text Display - String Manipulation Hack
 
 **Artboard Setup**
 
-- add a text string - and delete the dummy `text` 
-- add a path - this will be the path your string will follow (its fun to add the bones to vertices so that it is easier to control the path)
+1. add a text string - and delete the dummy `text` 
+
+2. add a path - this will be the path your string will follow (its fun to add the bones to vertices so that it is easier to control the path)
   
-*N.B. this works best with monospace fonts - but will work with any fonts but not as precisely.* 
+%% *N.B. this works best with monospace fonts - but will work with any fonts but not as precisely.*  %%
 
-  Step-by-Step
+  2. Convert path length to character count - Select your path's `Length` property  and bind it to `string-length`, and use the formula converter on it.
 
-  1. Convert path length to character count
+  3. Setup Text Run - Select the run of you text string and databind the empty string from the viewmodel to the text field, add the `Pad String` converter to it
 
-  Select your path's `Length` property  and bind it to `string-length`, and use the formula converter on it.
-
-  2. Setup Text Display
-
-on
-
-  On your Text element:
-  - Bind text to displayString
-  - Add String Pad converter:
-    - Pad Type: Start
-    - Text: bind to fullString
-    - Length: bind to charCount
-
-  [Screenshot: String Pad configuration]
-
-  Calibrating Character Width
-
-  Quick method:
-  1. Type "MMMMMMMMMM" (10 chars)
-  2. Measure width
-  3. Divide by 10
-  4. Update charWidth
-
-  Common values:
-  - Courier 10pt: 6px
-  - Consolas 12pt: 7px
-  - Roboto Mono 14pt: 8px
-
-  Result
-
-  As your path changes length, the text reveals/hides characters proportionally. Path of 240px with 8px/char = 30 characters shown.
-
-  [GIF: Path scaling with text revealing]
-
-  Use Cases
-
-  - Progress bars - reveal percentage text
-  - Data viz - show values as bars grow
-  - Loading effects - typewriter reveals
-  - Creative typography - path-driven text
-
-  Tips
-
-  - Use monospace fonts for consistent spacing
-  - Add min() and max() to constrain output
-  - Animate path with Trim Path for smooth reveals
-  - Store long strings in ViewModel to avoid retyping
+  %% Quick Method For Calibrating Character Width
+		  - Type "MMMMMMMMMM" (10 chars)
+		  - Measure width
+		  - Divide by 10
+		  - Update charWidth
+%%
 
   That's it! A simple hack that opens up creative possibilities for dynamic text in Rive.
 
